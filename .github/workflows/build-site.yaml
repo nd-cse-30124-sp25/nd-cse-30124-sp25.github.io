@@ -29,7 +29,7 @@ jobs:
         git config --local user.name "GitHub Actions"
         git config --local user.email "<>"
         git checkout -f gh-pages
-        git pull --rebase --autostash origin master
+        git pull --rebase --autostash origin main
         make clean && make build
         git add -f docs/
         git commit -m 'GitHub Actions: build sites' || echo 'nothing to commit'
