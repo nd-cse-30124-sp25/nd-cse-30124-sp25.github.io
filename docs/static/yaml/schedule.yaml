@@ -178,7 +178,6 @@
   days:
   - date: Wed 04/16
     topics: Attention and Transformers
-- name: 'Unit 04: Modern Applications of Artificial Intelligence'
 - name: CV
   days:
   - date: Wed 04/23
