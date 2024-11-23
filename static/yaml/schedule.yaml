@@ -179,20 +179,20 @@
   - date: Wed 04/16
     topics: Attention and Transformers
 - name: 'Unit 04: Modern Applications of Artificial Intelligence'
-- name: Computer Vision
+- name: CV
   days:
   - date: Wed 04/23
     topics: Computer Vision
-- name: Natural Language Processing (NLP)
+- name: NLP
   days:
   - date: Mon 04/28
     topics: Natural Language Processing
     assignments:
     - Homework 05
-- name: Looking Foward
+- name: RL
   days:
   - date: Wed 04/30
-    topics: Agents and Reinforcement Learning
+    topics: Reinforcement Learning
 - name: Final
   days:
   - date: Mon 05/05
