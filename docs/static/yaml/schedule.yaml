@@ -189,7 +189,7 @@
 - name: Natural Language Processing (NLP)
   days:
   - date: Mon 04/28
-    topics: Modern Natural Language Processing
+    topics: Natural Language Processing
     assignments:
     - Homework 05
 - name: Looking Foward
