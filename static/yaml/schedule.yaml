@@ -70,6 +70,7 @@
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=407862d1-3463-4035-9387-b1fb015e3749
 - name: 'Unit 02: Machine Learning'
+  days:
   - date: Wed 02/19
     topics: Naive Bayes Classifiers
     items:
