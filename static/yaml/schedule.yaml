@@ -5,13 +5,11 @@
     items:
     - name: Slides
       link: https://docs.google.com/presentation/d/1JgEEvBj9gdo9-e4fNgqDf0LgyXXglzuR/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
-- name: 'Unit 01: History of Artificial Intelligence'
-- name: Good Old Fashioned AI (GOFAI)
+- name: 'Unit 01: Good Old Fashioned AI (GOFAI)'
+- name: Search
   days:
   - date: Wed 01/15
     topics: Agents and Search
-    assignments:
-    - Homework 00
     items:
     - name: Slides
       link: https://docs.google.com/presentation/d/1WNzaM-qazzR9GEC171lJw87qhUaJXsv-/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
@@ -23,8 +21,6 @@
   - date: Mon 01/27
     topics: Adversarial Search
     assignments:
-    - Quiz 01
-    - Quiz 01 Solutions
     - Homework 01
     items:
     - name: Slides
@@ -41,10 +37,6 @@
       link: https://docs.google.com/presentation/d/1PhCUExgcsqIrP1GdOZcsGu11ThncyuGm/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
     - name: Notebook
       link: https://colab.research.google.com/drive/14hMVPCV0SAOln9C2919FLY_L69LaqeRp?usp=sharing
-    assignments:
-    - Quiz 02
-    - Quiz 02 Solutions
-    - Homework 02
   - date: Wed 02/05
     topics: Knowledge Representation
     items:
@@ -55,9 +47,7 @@
   - date: Mon 02/10
     topics: Probabilistic Reasoning
     assignments:
-    - Quiz 03
-    - Quiz 03 Solutions
-    - Homework 03
+    - Homework 02
     items:
     - name: Slides
       link: https://docs.google.com/presentation/d/19gxtaMIzxr0YHx94XZowW8HWESrlclmQ/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
@@ -72,9 +62,6 @@
     assignments:
     - Exam 01
     - Exam 01 Solutions
-- name: 'Unit 02: Machine Learning'
-- name: Supervised Learning
-  days:
   - date: Mon 02/17
     topics: Exam 01
     items:
@@ -82,6 +69,7 @@
       link: https://docs.google.com/presentation/d/1hFxRLRT5YBsKCRRL9p3OoWcBLj6MMXbz/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=407862d1-3463-4035-9387-b1fb015e3749
+- name: 'Unit 02: Machine Learning'
   - date: Wed 02/19
     topics: Naive Bayes Classifiers
     items:
@@ -98,10 +86,6 @@
       link: https://drive.google.com/file/d/1d2oaNzwoCInM3_Q7HYu52ZL-ufLzRAJc/view?usp=drive_link
     - name: Notebook
       link: https://colab.research.google.com/drive/1a5zQ7aXY_NGk8p7sHYLgMEzZ0SMOXkqN?usp=sharing
-    assignments:
-    - Quiz 04
-    - Quiz 04 Solutions
-    - Homework 04
 - name: Unsupervised Learning
   days:
   - date: Wed 02/26
@@ -121,9 +105,7 @@
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=39e62a47-61eb-4067-8128-b2090158787b
     assignments:
-    - Quiz 05
-    - Quiz 05 Solutions
-    - Homework 05
+    - Homework 03
 - name: Using Machine Learning
   days:
   - date: Wed 03/05
@@ -152,12 +134,6 @@
   days:
   - date: Mon 03/24
     topics: Practicum - Evaluation and Validation of ML Systems
-    assignments:
-    - Homework 06
-    - Quiz 06
-    - Quiz 06 Solutions
-    - Exam 02
-    - Exam 02 Solutions
 - name: 'Unit 03: Deep Learning'
 - name: Deep Learning
   days:
@@ -194,17 +170,13 @@
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c71d214d-f48c-45ed-b7d5-b22c0167ea72
     assignments:
-    - Quiz 07
-    - Homework 0708
+    - Homework 04
   - date: Wed 04/09
     topics: Backpropagation
 - name: Midterm 03
   days:
   - date: Mon 04/14
     topics: Sequence Networks
-    assignments:
-    - Exam 03
-    - Quiz 08
 - name: 'Unit 04: Modern Applications of Artificial Intelligence'
 - name: The Revolution
   days:
@@ -219,14 +191,11 @@
   - date: Mon 04/28
     topics: Modern Natural Language Processing
     assignments:
-    - Quiz 09
-    - Homework 0910
+    - Homework 05
 - name: Looking Foward
   days:
   - date: Wed 04/30
     topics: Agents and Reinforcement Learning
-    assignments:
-    - Quiz 10
 - name: Final
   days:
   - date: Mon 05/05
