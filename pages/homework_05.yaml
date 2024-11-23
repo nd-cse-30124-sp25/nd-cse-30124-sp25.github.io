@@ -87,21 +87,6 @@ body:       |
             <img src="static/img/pr_step_2.png" class="img-responsive"/>
             </div>
 
-        - Finally, assign the **pull request** to the **teaching assistant**
-          assigned to you for the given week. 
-
-            <div class="thumbnail">
-            <img src="static/img/pr_step_3.png" class="img-responsive"/>
-            </div>
-
-    <div class="alert alert-info" markdown="1">
-    #### <i class="fa fa-gavel"></i> Graders
-
-    Please refer to the [Homework 05 TA List](reading05_tas.html) to determine
-    who your grader is for this week.
-
-    </div>
-
     Once you have made the **pull request**, the instructor or teaching
     assistant can verify your work and provide feedback via the discussion form
     inside the **pull request**.  If necessary, you can update your submission
