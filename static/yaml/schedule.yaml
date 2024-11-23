@@ -70,6 +70,7 @@
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=407862d1-3463-4035-9387-b1fb015e3749
 - name: 'Unit 02: Machine Learning'
+- name: 'Supervised Learning'
   days:
   - date: Wed 02/19
     topics: Naive Bayes Classifiers
@@ -87,8 +88,6 @@
       link: https://drive.google.com/file/d/1d2oaNzwoCInM3_Q7HYu52ZL-ufLzRAJc/view?usp=drive_link
     - name: Notebook
       link: https://colab.research.google.com/drive/1a5zQ7aXY_NGk8p7sHYLgMEzZ0SMOXkqN?usp=sharing
-- name: Unsupervised Learning
-  days:
   - date: Wed 02/26
     topics: Perceptrons and Learning
     items:
@@ -107,15 +106,13 @@
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=39e62a47-61eb-4067-8128-b2090158787b
     assignments:
     - Homework 03
-- name: Using Machine Learning
-  days:
   - date: Wed 03/05
     topics: SVMs and KNNs
     items:
     - name: Slides
       link: https://drive.google.com/file/d/1C1X6ZNLMkpstpLKMBMoTGeIJ7IkcVDcW/view?usp=sharing
 - name: Midterm Break
-- name: Using Machine Learning
+- name: Unsupervised Learning
   days:
   - date: Mon 03/17
     topics: Clustering
@@ -131,12 +128,11 @@
       link: https://drive.google.com/file/d/1h-tWbt92RWEy8aHkilHw1DMA1M6MRedo/view?usp=sharing
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=46074a7f-3a0b-419b-8b70-b219015caba3
-- name: Midterm 02
+- name: Using Machine Learning
   days:
   - date: Mon 03/24
     topics: Practicum - Evaluation and Validation of ML Systems
-- name: 'Unit 03: Deep Learning'
-- name: Deep Learning
+- name: Midterm 02
   days:
   - date: Wed 03/26
     topics: Review
@@ -152,6 +148,9 @@
       link: https://colab.research.google.com/drive/1IXS4IiZcpOZBtt5XdsTiNlI8J2B-FNa0?usp=sharing
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c03ea6da-b3e8-43f6-90b1-b225016b1613
+- name: 'Unit 03: Deep Learning'
+- name: Deep Learning
+  days:
   - date: Wed 04/02
     topics: Deep Learning and Feed-Forward Networks
     items:
@@ -178,11 +177,11 @@
   days:
   - date: Mon 04/14
     topics: Sequence Networks
-- name: 'Unit 04: Modern Applications of Artificial Intelligence'
 - name: The Revolution
   days:
   - date: Wed 04/16
     topics: Attention and Transformers
+- name: 'Unit 04: Modern Applications of Artificial Intelligence'
 - name: Computer Vision
   days:
   - date: Wed 04/23
