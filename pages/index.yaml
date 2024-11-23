@@ -146,50 +146,6 @@ body:       |
     </div>
     </div>
 
-    <div class="row">
-    <div class="col-md-12">
-        <h3>Office Hours</h3>
-        <table class="table table-condensed table-bordered">
-            <thead>
-                <tr>
-                    <th>Time</th>
-                    <th>Sunday</th>
-                    <th>Monday</th>
-                    <th>Tuesday</th>
-                    <th>Wednesday</th>
-                    <th>Thursday</th>
-                    <th>Friday</th>
-                    <th>Saturday</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for time in times %}
-                <tr>
-                    <td>{{ time }}</td>
-                    {% for day in ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] %}
-                    <td>
-                        {% for entry in page.external.office_hours %}
-                            {% if entry.day == day %}
-                                {% for slot in entry.slots %}
-                                    {% if slot.time == time %}
-                                    <div>
-                                        <strong>{{ slot.name }}</strong><br>
-                                        {{ slot.time }}<br>
-                                        {{ slot.location }}
-                                    </div>
-                                    {% end %}
-                                {% end %}
-                            {% end %}
-                        {% end %}
-                    </td>
-                    {% end %}
-                </tr>
-                {% end %}
-            </tbody>
-        </table>
-    </div>
-    </div>
-
     <div class="row" markdown="1">
       <div class="col-md-12">
         <h3>Office Hours</h3>
