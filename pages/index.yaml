@@ -17,6 +17,7 @@ internal:
 external:
     tas:        'static/yaml/tas.yaml'
     schedule:   'static/yaml/schedule.yaml'
+    office_hours: 'static/yaml/office_hours.yaml'
 body:       |
 
     <div class="row" markdown="1">
@@ -142,6 +143,52 @@ body:       |
                 </ol>
             </div>
         </div>
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="col-md-12">
+        <h3>Office Hours</h3>
+        <table class="table table-condensed table-bordered">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% set times = [
+                    "10:00 - 11:00 AM", "11:00 - 12:00 PM", "12:00 - 1:00 PM",
+                    "1:00 - 2:00 PM", "2:00 - 3:00 PM", "3:00 - 4:00 PM",
+                    "4:00 - 5:00 PM", "5:00 - 6:00 PM", "6:00 - 7:00 PM",
+                    "7:00 - 8:00 PM", "8:00 - 9:00 PM"
+                ] %}
+                {% for time in times %}
+                <tr>
+                    <td>{{ time }}</td>
+                    {% for day in ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] %}
+                    <td>
+                        {% for entry in page.external['office_hours'] if entry['day'] == day %}
+                        {% for slot in entry['slots'] if slot['time'] == time %}
+                        <div>
+                            <strong>{{ slot.name }}</strong><br>
+                            {{ slot.time }}<br>
+                            {{ slot.location }}
+                        </div>
+                        {% endfor %}
+                        {% endfor %}
+                    </td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     </div>
     </div>
 
