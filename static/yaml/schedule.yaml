@@ -1,7 +1,7 @@
 - name: Welcome
   days:
   - date: Mon 01/13
-    topics: Syllabus, ML as Function Approximation
+    topics: Syllabus, History of AI
     items:
     - name: Slides
       link: https://docs.google.com/presentation/d/1JgEEvBj9gdo9-e4fNgqDf0LgyXXglzuR/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
@@ -9,19 +9,19 @@
 - name: Good Old Fashioned AI (GOFAI)
   days:
   - date: Wed 01/15
-    topics: Agents and A*
+    topics: Agents and Search
     assignments:
     - Homework 00
     items:
     - name: Slides
       link: https://docs.google.com/presentation/d/1WNzaM-qazzR9GEC171lJw87qhUaJXsv-/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
   - date: Wed 01/22
-    topics: Adversarial Search
+    topics: A* Search
     items:
     - name: Slides
       link: https://docs.google.com/presentation/d/1r_Om-RWFSosiYqnf7AN9dybTx9uS7dE9/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
   - date: Mon 01/27
-    topics: Constraint Satisfaction
+    topics: Adversarial Search
     assignments:
     - Quiz 01
     - Quiz 01 Solutions
@@ -30,12 +30,12 @@
     - name: Slides
       link: https://docs.google.com/presentation/d/1Y7e_r619tvdiYyqc2zfs4aozUoNOyoHO/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
   - date: Wed 01/29
-    topics: Formal Logic, Symbolic Reasoning, and Knowledge Representation
+    topics: Constraint Satisfaction Problems
     items:
     - name: Slides
       link: https://docs.google.com/presentation/d/1xkB-aw3K2D7dPOX7ALc1gX1uY1fwi_6_/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
   - date: Mon 02/03
-    topics: Bayesian Statistics and Naive Bayes
+    topics: First-Order Logic
     items:
     - name: Slides
       link: https://docs.google.com/presentation/d/1PhCUExgcsqIrP1GdOZcsGu11ThncyuGm/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
@@ -46,14 +46,14 @@
     - Quiz 02 Solutions
     - Homework 02
   - date: Wed 02/05
-    topics: Review
+    topics: Knowledge Representation
     items:
     - name: Notebook
       link: https://colab.research.google.com/drive/1DjFXTEuUV8Y1f3-gCgRvlmAlTxmzZFkf?usp=sharing
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=af7d70b7-452c-4eb5-a0ea-b1ef01599512
   - date: Mon 02/10
-    topics: Perceptrons
+    topics: Probabilistic Reasoning
     assignments:
     - Quiz 03
     - Quiz 03 Solutions
@@ -68,7 +68,7 @@
 - name: Exam 01
   days:
   - date: Wed 02/12
-    topics: Exam 01
+    topics: Review
     assignments:
     - Exam 01
     - Exam 01 Solutions
@@ -76,14 +76,14 @@
 - name: Supervised Learning
   days:
   - date: Mon 02/17
-    topics: Linear Algebra Review and Introduction to Machine Learning
+    topics: Exam 01
     items:
     - name: Slides
       link: https://docs.google.com/presentation/d/1hFxRLRT5YBsKCRRL9p3OoWcBLj6MMXbz/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=407862d1-3463-4035-9387-b1fb015e3749
   - date: Wed 02/19
-    topics: Linear Regressions
+    topics: Naive Bayes Classifiers
     items:
     - name: Slides
       link: https://docs.google.com/presentation/d/1k4GaB_L0I7Exbuwld2lzVRFw1hvcUBB-/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
@@ -92,7 +92,7 @@
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=da35a632-0b51-41a6-90a6-b1fd0156fba2
   - date: Mon 02/24
-    topics: Support Vector Machines
+    topics: Decision Trees
     items:
     - name: Slides
       link: https://drive.google.com/file/d/1d2oaNzwoCInM3_Q7HYu52ZL-ufLzRAJc/view?usp=drive_link
@@ -105,7 +105,7 @@
 - name: Unsupervised Learning
   days:
   - date: Wed 02/26
-    topics: Clustering
+    topics: Perceptrons and Learning
     items:
     - name: Slides
       link: https://drive.google.com/file/d/1XSWTSD8Vwv9Zjszctagr9a4SISvlqeld/view?usp=sharing
@@ -114,7 +114,7 @@
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cdf1728e-5667-4ea6-9a55-b204015a3dc2
   - date: Mon 03/03
-    topics: Dimensionality Reduction
+    topics: Linear and Logistic Regression
     items:
     - name: Slides
       link: https://drive.google.com/file/d/1ON93kq0pGkSAtSwqOg0h8-aL1kPZuskZ/view?usp=sharing
@@ -127,22 +127,22 @@
 - name: Using Machine Learning
   days:
   - date: Wed 03/05
-    topics: Cancelled - Evaluating Machine Learning Models
+    topics: SVMs and KNNs
     items:
     - name: Slides
       link: https://drive.google.com/file/d/1C1X6ZNLMkpstpLKMBMoTGeIJ7IkcVDcW/view?usp=sharing
-- name: Fall Break
+- name: Midterm Break
 - name: Using Machine Learning
   days:
   - date: Mon 03/17
-    topics: Machine Learning Practicum
+    topics: Clustering
     items:
     - name: Slides
       link: https://drive.google.com/file/d/1NRo2lVdNqrfNZybS4Wos8cZikdlZP0LS/view?usp=sharing
     - name: Notebook
       link: https://drive.google.com/file/d/1ZX_CHcD7BzoF-XrIPS3rBCMu94mmJPxq/view?usp=sharing
   - date: Wed 03/19
-    topics: Review
+    topics: Dimensionality Reduction
     items:
     - name: Slides
       link: https://drive.google.com/file/d/1h-tWbt92RWEy8aHkilHw1DMA1M6MRedo/view?usp=sharing
@@ -151,7 +151,7 @@
 - name: Midterm 02
   days:
   - date: Mon 03/24
-    topics: Exam 02
+    topics: Practicum - Evaluation and Validation of ML Systems
     assignments:
     - Homework 06
     - Quiz 06
@@ -162,12 +162,12 @@
 - name: Deep Learning
   days:
   - date: Wed 03/26
-    topics: Introduction to Deep Learning, MLPs and FFNs
+    topics: Review
     items:
     - name: Slides
       link: https://drive.google.com/file/d/1c1q8ZCSgGB7V7_uVmc5bebUZf9XNYJtE/view?usp=sharing
   - date: Mon 03/31
-    topics: Gradient Descent and Optimization
+    topics: Exam 02
     items:
     - name: Slides
       link: https://drive.google.com/file/d/1BrgrojAlcDCWcfki4qwmwFaX0eI0j9WL/view?usp=sharing
@@ -176,7 +176,7 @@
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c03ea6da-b3e8-43f6-90b1-b225016b1613
   - date: Wed 04/02
-    topics: Backpropogation
+    topics: Deep Learning and Feed-Forward Networks
     items:
     - name: Slides
       link: https://drive.google.com/file/d/10KqlXBOXsnSTA-PSm5fzBv4zCtCQOESp/view?usp=sharing
@@ -185,7 +185,7 @@
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cf974faa-5b59-45bf-8852-b2270165cfe9&start=0
   - date: Mon 04/07
-    topics: Sequence Networks
+    topics: Gradient Descent
     items:
     - name: Slides
       link: https://drive.google.com/file/d/1TruIcRk20mKNw9PhcWGxXnXVCziGtscx/view?usp=sharing
@@ -197,11 +197,11 @@
     - Quiz 07
     - Homework 0708
   - date: Wed 04/09
-    topics: Review
+    topics: Backpropagation
 - name: Midterm 03
   days:
   - date: Mon 04/14
-    topics: Exam 03
+    topics: Sequence Networks
     assignments:
     - Exam 03
     - Quiz 08
@@ -209,7 +209,7 @@
 - name: The Revolution
   days:
   - date: Wed 04/16
-    topics: Transformers
+    topics: Attention and Transformers
 - name: Computer Vision
   days:
   - date: Wed 04/23
