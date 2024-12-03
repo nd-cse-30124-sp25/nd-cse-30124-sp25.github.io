@@ -568,16 +568,20 @@ body:       |
         </div>
     </div>
 
-    <div class="alert alert-success" markdown="1">
-        Submit and questions or suggestions to this anonymous google form!
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="alert alert-success" markdown="1">
+                Submit and questions or suggestions to this anonymous google form!
 
-        <a href="https://forms.gle/yrK4mndNDPsSmyD16">Questions and Suggestions</a>
+                <a href="https://forms.gle/yrK4mndNDPsSmyD16">Questions and Suggestions</a>
 
-        **Note:** This form is genuinely anonymous but anonymity is a priviledge. Don't misuse it.
+                **Note:** This form is genuinely anonymous but anonymity is a priviledge. Please don't misuse it.
+            </div>
+
+            One of the benefits of ML/AI being extremely popular is there are many online resources
+            available for learning it. The best teachers of the topics release much of their material
+            avaible for free online. If something in class seemed unclear, you're encouraged
+            to seek out an explanation that makes the most sense to you! If you find one that you really
+            like, please share it with the rest of the class.
+        </div>
     </div>
-
-    One of the benefits of ML/AI being extremely popular is there are many online resources
-    available for learning it. The best teachers of the topics release much of their material
-    avaible for free online. If something in class seemed unclear, you're encouraged
-    to seek out an explanation that makes the most sense to you! If you find one that you really
-    like, please share it with the rest of the class.
