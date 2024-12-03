@@ -29,6 +29,9 @@
     topics: Review
   - date: Mon 02/17
     topics: Exam 01
+    assignments:
+    - Exam 01 Practice Packet
+    - Exam 01
 - name: 'Unit 02: Machine Learning'
 - name: 'Supervised Learning'
   days:
@@ -62,6 +65,9 @@
     topics: Review
   - date: Mon 03/31
     topics: Exam 02
+    assignments:
+    - Exam 02 Practice Packet
+    - Exam 02
 - name: 'Unit 03: Deep Learning'
 - name: Deep Learning
   days:
@@ -93,6 +99,7 @@
     topics: Reinforcement Learning
     assignments:
     - Homework 05
+    - Final Practice Packet
 - name: Final
   days:
   - date: Mon 05/05
