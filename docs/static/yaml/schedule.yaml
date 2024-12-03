@@ -9,6 +9,8 @@
     topics: Agents and Search
   - date: Wed 01/22
     topics: A* Search
+    assignments:
+      - Course Primer
   - date: Mon 01/27
     topics: Constraint Satisfaction Problems
   - date: Wed 01/29
