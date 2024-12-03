@@ -233,7 +233,7 @@ body:       |
                       {% elif assignment_id.startswith('quiz') %}
                         {% set assignment_label = 'primary' %}
                         <a href="static/pdf/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
-                      {% elif 'practice' in assignment_id %}
+                      {% elif 'practice' in assignment_id or 'primer' in assignment_id %}
                         {% set assignment_label = 'success' %}
                         <a href="static/pdf/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
                       {% elif 'exam' in assignment_id %}
