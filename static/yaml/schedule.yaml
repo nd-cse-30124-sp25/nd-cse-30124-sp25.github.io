@@ -10,9 +10,9 @@
   - date: Wed 01/22
     topics: A* Search
   - date: Mon 01/27
-    topics: Adversarial Search
-  - date: Wed 01/29
     topics: Constraint Satisfaction Problems
+  - date: Wed 01/29
+    topics: Adversarial Search
   - date: Mon 02/03
     topics: First-Order Logic
     assignments:
@@ -34,12 +34,12 @@
     topics: Naive Bayes Classifiers
   - date: Mon 02/24
     topics: Decision Trees
+    assignments:
+    - Homework 02
   - date: Wed 02/26
     topics: Perceptrons and Learning
   - date: Mon 03/03
     topics: Linear and Logistic Regression
-    assignments:
-    - Homework 02
   - date: Wed 03/05
     topics: SVMs and KNNs
 - name: Unsupervised Learning
