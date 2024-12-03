@@ -2,178 +2,77 @@
   days:
   - date: Mon 01/13
     topics: Syllabus, History of AI
-    items:
-    - name: Slides
-      link: https://docs.google.com/presentation/d/1JgEEvBj9gdo9-e4fNgqDf0LgyXXglzuR/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
 - name: 'Unit 01: Good Old Fashioned AI (GOFAI)'
 - name: Search
   days:
   - date: Wed 01/15
     topics: Agents and Search
-    items:
-    - name: Slides
-      link: https://docs.google.com/presentation/d/1WNzaM-qazzR9GEC171lJw87qhUaJXsv-/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
   - date: Wed 01/22
     topics: A* Search
-    items:
-    - name: Slides
-      link: https://docs.google.com/presentation/d/1r_Om-RWFSosiYqnf7AN9dybTx9uS7dE9/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
   - date: Mon 01/27
     topics: Adversarial Search
-    assignments:
-    - Homework 01
-    items:
-    - name: Slides
-      link: https://docs.google.com/presentation/d/1Y7e_r619tvdiYyqc2zfs4aozUoNOyoHO/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
   - date: Wed 01/29
     topics: Constraint Satisfaction Problems
-    items:
-    - name: Slides
-      link: https://docs.google.com/presentation/d/1xkB-aw3K2D7dPOX7ALc1gX1uY1fwi_6_/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
   - date: Mon 02/03
     topics: First-Order Logic
-    items:
-    - name: Slides
-      link: https://docs.google.com/presentation/d/1PhCUExgcsqIrP1GdOZcsGu11ThncyuGm/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
-    - name: Notebook
-      link: https://colab.research.google.com/drive/14hMVPCV0SAOln9C2919FLY_L69LaqeRp?usp=sharing
+    assignments:
+    - Homework 01
   - date: Wed 02/05
     topics: Knowledge Representation
-    items:
-    - name: Notebook
-      link: https://colab.research.google.com/drive/1DjFXTEuUV8Y1f3-gCgRvlmAlTxmzZFkf?usp=sharing
-    - name: Panopto
-      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=af7d70b7-452c-4eb5-a0ea-b1ef01599512
   - date: Mon 02/10
     topics: Probabilistic Reasoning
-    assignments:
-    - Homework 02
-    items:
-    - name: Slides
-      link: https://docs.google.com/presentation/d/19gxtaMIzxr0YHx94XZowW8HWESrlclmQ/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
-    - name: Notebook
-      link: https://colab.research.google.com/drive/1j0MaFm1QBY8_l6Z8Fv_iCZMW2aC-CHKx?usp=sharing
-    - name: Panopto
-      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8c8f4183-689e-44f0-8d0a-b1f401553e7c
 - name: Exam 01
   days:
   - date: Wed 02/12
     topics: Review
-    assignments:
-    - Exam 01
-    - Exam 01 Solutions
   - date: Mon 02/17
     topics: Exam 01
-    items:
-    - name: Slides
-      link: https://docs.google.com/presentation/d/1hFxRLRT5YBsKCRRL9p3OoWcBLj6MMXbz/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
-    - name: Panopto
-      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=407862d1-3463-4035-9387-b1fb015e3749
 - name: 'Unit 02: Machine Learning'
 - name: 'Supervised Learning'
   days:
   - date: Wed 02/19
     topics: Naive Bayes Classifiers
-    items:
-    - name: Slides
-      link: https://docs.google.com/presentation/d/1k4GaB_L0I7Exbuwld2lzVRFw1hvcUBB-/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
-    - name: Notebook
-      link: https://colab.research.google.com/drive/1yDDX961aZ2jzZ5Dsfp-WpoEAJgsHb-Tg?usp=sharing
-    - name: Panopto
-      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=da35a632-0b51-41a6-90a6-b1fd0156fba2
   - date: Mon 02/24
     topics: Decision Trees
-    items:
-    - name: Slides
-      link: https://drive.google.com/file/d/1d2oaNzwoCInM3_Q7HYu52ZL-ufLzRAJc/view?usp=drive_link
-    - name: Notebook
-      link: https://colab.research.google.com/drive/1a5zQ7aXY_NGk8p7sHYLgMEzZ0SMOXkqN?usp=sharing
   - date: Wed 02/26
     topics: Perceptrons and Learning
-    items:
-    - name: Slides
-      link: https://drive.google.com/file/d/1XSWTSD8Vwv9Zjszctagr9a4SISvlqeld/view?usp=sharing
-    - name: Notebook
-      link: https://colab.research.google.com/drive/1iDuhlezSbOxsTECyuLfXzaaKw0PsBFEs?usp=sharing
-    - name: Panopto
-      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cdf1728e-5667-4ea6-9a55-b204015a3dc2
   - date: Mon 03/03
     topics: Linear and Logistic Regression
-    items:
-    - name: Slides
-      link: https://drive.google.com/file/d/1ON93kq0pGkSAtSwqOg0h8-aL1kPZuskZ/view?usp=sharing
-    - name: Panopto
-      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=39e62a47-61eb-4067-8128-b2090158787b
     assignments:
-    - Homework 03
+    - Homework 02
   - date: Wed 03/05
     topics: SVMs and KNNs
-    items:
-    - name: Slides
-      link: https://drive.google.com/file/d/1C1X6ZNLMkpstpLKMBMoTGeIJ7IkcVDcW/view?usp=sharing
 - name: Unsupervised Learning
   days:
   - date: Mon 03/17
     topics: Clustering
-    items:
-    - name: Slides
-      link: https://drive.google.com/file/d/1NRo2lVdNqrfNZybS4Wos8cZikdlZP0LS/view?usp=sharing
-    - name: Notebook
-      link: https://drive.google.com/file/d/1ZX_CHcD7BzoF-XrIPS3rBCMu94mmJPxq/view?usp=sharing
   - date: Wed 03/19
     topics: Dimensionality Reduction
-    items:
-    - name: Slides
-      link: https://drive.google.com/file/d/1h-tWbt92RWEy8aHkilHw1DMA1M6MRedo/view?usp=sharing
-    - name: Panopto
-      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=46074a7f-3a0b-419b-8b70-b219015caba3
 - name: Using Machine Learning
   days:
   - date: Mon 03/24
     topics: Practicum - Evaluation and Validation of ML Systems
+    assignments:
+    - Homework 03
 - name: Midterm 02
   days:
   - date: Wed 03/26
     topics: Review
-    items:
-    - name: Slides
-      link: https://drive.google.com/file/d/1c1q8ZCSgGB7V7_uVmc5bebUZf9XNYJtE/view?usp=sharing
   - date: Mon 03/31
     topics: Exam 02
-    items:
-    - name: Slides
-      link: https://drive.google.com/file/d/1BrgrojAlcDCWcfki4qwmwFaX0eI0j9WL/view?usp=sharing
-    - name: Notebook
-      link: https://colab.research.google.com/drive/1IXS4IiZcpOZBtt5XdsTiNlI8J2B-FNa0?usp=sharing
-    - name: Panopto
-      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c03ea6da-b3e8-43f6-90b1-b225016b1613
 - name: 'Unit 03: Deep Learning'
 - name: Deep Learning
   days:
   - date: Wed 04/02
     topics: Deep Learning and Feed-Forward Networks
-    items:
-    - name: Slides
-      link: https://drive.google.com/file/d/10KqlXBOXsnSTA-PSm5fzBv4zCtCQOESp/view?usp=sharing
-    - name: Notebook
-      link: https://colab.research.google.com/drive/16sWNLONLbTXwSEJZ6F-jD1df32H6sWzQ?usp=sharing
-    - name: Panopto
-      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cf974faa-5b59-45bf-8852-b2270165cfe9&start=0
   - date: Mon 04/07
     topics: Gradient Descent
-    items:
-    - name: Slides
-      link: https://drive.google.com/file/d/1TruIcRk20mKNw9PhcWGxXnXVCziGtscx/view?usp=sharing
-    - name: Notebook
-      link: https://colab.research.google.com/drive/1nssRI6XUCfjkm21ZlOf2iisBuipo0gGn?usp=sharing
-    - name: Panopto
-      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c71d214d-f48c-45ed-b7d5-b22c0167ea72
-    assignments:
-    - Homework 04
   - date: Wed 04/09
     topics: Backpropagation
   - date: Mon 04/14
     topics: Sequence Networks
+    assignments:
+    - Homework 04
 - name: The Revolution
   days:
   - date: Wed 04/16
@@ -186,12 +85,12 @@
   days:
   - date: Mon 04/28
     topics: Natural Language Processing
-    assignments:
-    - Homework 05
 - name: RL
   days:
   - date: Wed 04/30
     topics: Reinforcement Learning
+    assignments:
+    - Homework 05
 - name: Final
   days:
   - date: Mon 05/05
