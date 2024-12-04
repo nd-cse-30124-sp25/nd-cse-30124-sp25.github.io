@@ -539,7 +539,7 @@ body:       |
                 <p><b>Note:</b> This form is genuinely anonymous but anonymity is a priviledge. Please don't misuse it.</p>
             </div>
 
-            <div class="alert alert-caution" markdown="1">
+            <div class="alert alert-warning" markdown="1">
                 <p>If you're interested in being a TA please apply via this google form: <a href="https://docs.google.com/forms/d/e/1FAIpQLScFuwaSylcUzV1HgVMVzfVd_xMlpHu9w_x4cJtEKoJVl1d7nA/viewform?usp=sharing">TA Applications</a></p>
                 <br>
                 <p><b>Note:</b> TAing for CSE30124 is quite competitive and usually there are only 1 or 2 open slots a semester, so it may be worth having a backup plan.</p>
