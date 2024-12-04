@@ -78,25 +78,21 @@
   - date: Wed 04/09
     topics: Backpropagation
   - date: Mon 04/14
-    topics: Sequence Networks
+    topics: Convolutional Networks
     assignments:
     - Homework 04
+  - date: Wed 04/16
+    topics: Sequence Networks
 - name: The Revolution
   days:
-  - date: Wed 04/16
-    topics: Attention and Transformers
-- name: CV
-  days:
   - date: Wed 04/23
-    topics: Computer Vision
-- name: NLP
-  days:
+    topics: Attention 
   - date: Mon 04/28
-    topics: Natural Language Processing
+    topics: Transformers
 - name: RL
   days:
   - date: Wed 04/30
-    topics: Reinforcement Learning
+    topics: Agents and Reinforcement Learning
     assignments:
     - Final Practice Packet
     - Homework 05
