@@ -89,7 +89,7 @@
     topics: Attention 
   - date: Mon 04/28
     topics: Transformers
-- name: RL
+- name: The Future?
   days:
   - date: Wed 04/30
     topics: Agents and Reinforcement Learning
