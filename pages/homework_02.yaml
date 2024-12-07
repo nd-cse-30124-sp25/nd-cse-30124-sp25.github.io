@@ -1,4 +1,4 @@
-title:      "Homework 02: CSPs and Symbolic Reasoning"
+title:      "Homework 02: Everything has changed"
 icon:       fa-book
 navigation:
   - name: "Home"
@@ -8,7 +8,7 @@ internal:
 external:
 body:       |
 
-    ## Task 1: Notebook
+    ## Task 1: Naive Bayes
 
     Run the following notebook and answer the included questions using the method of your choosing:
 
