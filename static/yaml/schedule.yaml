@@ -12,11 +12,11 @@
     assignments:
       - Course Primer
   - date: Mon 01/27
-    topics: A* Search
+    topics: Adversarial Search
   - date: Wed 01/29
     topics: Constraint Satisfaction Problems
   - date: Mon 02/03
-    topics: Adversarial Search
+    topics:  A* Search
     assignments:
     - Homework 01
   - date: Wed 02/05
