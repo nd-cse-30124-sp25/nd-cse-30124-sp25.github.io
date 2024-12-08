@@ -8,19 +8,19 @@
   - date: Wed 01/15
     topics: Agents and Search
   - date: Wed 01/22
-    topics: A* Search
+    topics: Knowledge Representation and Feature Engineering
     assignments:
       - Course Primer
   - date: Mon 01/27
-    topics: Constraint Satisfaction Problems
+    topics: A* Search
   - date: Wed 01/29
-    topics: Adversarial Search
+    topics: Constraint Satisfaction Problems
   - date: Mon 02/03
-    topics: First-Order Logic
+    topics: Adversarial Search
     assignments:
     - Homework 01
   - date: Wed 02/05
-    topics: Knowledge Representation
+    topics: First-Order Logic
   - date: Mon 02/10
     topics: Probabilistic Reasoning
 - name: Exam 01
