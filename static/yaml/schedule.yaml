@@ -74,23 +74,19 @@
   - date: Wed 04/02
     topics: Deep Learning and Feed-Forward Networks
   - date: Mon 04/07
-    topics: Gradient Descent
+    topics: Gradient Descent and Backpropagation
   - date: Wed 04/09
-    topics: Backpropagation
-  - date: Mon 04/14
     topics: Convolutional Networks
+  - date: Mon 04/14
+    topics: Sequence Networks
     assignments:
     - Homework 04
   - date: Wed 04/16
-    topics: Sequence Networks
-- name: The Revolution
-  days:
-  - date: Wed 04/23
     topics: Attention 
-  - date: Mon 04/28
+  - date: Wed 04/23
     topics: Transformers
-- name: The Future?
-  days:
+  - date: Mon 04/28
+    topics: Diffusion Models
   - date: Wed 04/30
     topics: Agents and Reinforcement Learning
     assignments:
