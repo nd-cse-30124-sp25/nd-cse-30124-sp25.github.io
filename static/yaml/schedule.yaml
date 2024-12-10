@@ -6,7 +6,7 @@
 - name: Search
   days:
   - date: Wed 01/15
-    topics: Agents and Search
+    topics: First-Order Logic
   - date: Wed 01/22
     topics: Knowledge Representation and Feature Engineering
     assignments:
@@ -20,9 +20,9 @@
     assignments:
     - Homework 01
   - date: Wed 02/05
-    topics: First-Order Logic
+    topics: Bayesian Reasoning
   - date: Mon 02/10
-    topics: Probabilistic Reasoning
+    topics: Hidden Markov Models
 - name: Exam 01
   days:
   - date: Wed 02/12
@@ -36,17 +36,17 @@
 - name: 'Supervised Learning'
   days:
   - date: Wed 02/19
-    topics: Naive Bayes Classifiers
-  - date: Mon 02/24
     topics: Decision Trees
+  - date: Mon 02/24
+    topics: Perceptrons and Learning
     assignments:
     - Homework 02
   - date: Wed 02/26
-    topics: Perceptrons and Learning
-  - date: Mon 03/03
     topics: Linear and Logistic Regression
+  - date: Mon 03/03
+    topics: SVMs
   - date: Wed 03/05
-    topics: SVMs and KNNs
+    topics: KNNs
 - name: Unsupervised Learning
   days:
   - date: Mon 03/17
