@@ -6,7 +6,7 @@
 - name: Search
   days:
   - date: Wed 01/15
-    topics: First-Order Logic
+    topics: Agents and Search
   - date: Wed 01/22
     topics: Knowledge Representation and Feature Engineering
     assignments:
