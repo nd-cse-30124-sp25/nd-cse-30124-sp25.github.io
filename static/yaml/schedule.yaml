@@ -38,15 +38,15 @@
   - date: Wed 02/19
     topics: Decision Trees
   - date: Mon 02/24
-    topics: Perceptrons and Learning
+    topics: Linear Regression
     assignments:
     - Homework 02
   - date: Wed 02/26
-    topics: Linear and Logistic Regression
+    topics: Perceptrons and Learning
   - date: Mon 03/03
-    topics: SVMs
+    topics: Logistic Regression
   - date: Wed 03/05
-    topics: KNNs
+    topics: SVMs and KNNs
 - name: Unsupervised Learning
   days:
   - date: Mon 03/17
