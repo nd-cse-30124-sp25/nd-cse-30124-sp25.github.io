@@ -72,7 +72,7 @@
 - name: Deep Learning
   days:
   - date: Wed 04/02
-    topics: Deep Learning and Feed-Forward Networks
+    topics: Feed-Forward Networks
   - date: Mon 04/07
     topics: Gradient Descent and Backpropagation
   - date: Wed 04/09
