@@ -125,24 +125,6 @@ body:       |
             {% end %}
             {% end %}
         </div>
-        <div class="row">
-            <div class="alert alert-info">
-                <h4><i class="fa fa-question"></i> Help Protocol</h4>
-                <ol class="list-inline">
-                    <li><em><i class="fa fa-lightbulb-o"></i> Think</em></li>
-                    <li><small><i class="fa fa-arrow-right"></i></small></li>
-                    <li><strong><i class="fa fa-slack"></i> Slack</strong></li>
-                    <li><small><i class="fa fa-arrow-right"></i></small></li>
-                    <li><em><i class="fa fa-lightbulb-o"></i> Think</em></li>
-                    <li><small><i class="fa fa-arrow-right"></i></small></li>
-                    <li><strong><i class="fa fa-envelope"></i> Email</strong></li>
-                    <li><small><i class="fa fa-arrow-right"></i></small></li>
-                    <li><em><i class="fa fa-lightbulb-o"></i> Think</em></li>
-                    <li><small><i class="fa fa-arrow-right"></i></small></li>
-                    <li><strong><i class="fa fa-briefcase"></i> Office</strong></li>
-                </ol>
-            </div>
-        </div>
     </div>
     </div>
 
