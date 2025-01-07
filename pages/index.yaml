@@ -75,13 +75,13 @@ body:       |
             <dd><a href="mailto:sp25-cse-30124-01-group@nd.edu">sp25-cse-30124-01-group@nd.edu</a></dd>
 
             <dt><i class="fa fa-envelope"></i> Mailing List (Staff)</dt>
-            <dd><a href="mailto:fa24-cse-30124-01-staff-list@nd.edu">fa24-cse-30124-01-staff-list@nd.edu</a></dd>
+            <dd><a href="mailto:sp25-cse-30124-01-staff-list@nd.edu">sp25-cse-30124-01-staff-list@nd.edu</a></dd>
 
             <dt><i class="fa fa-slack"></i> Slack</dt>
             <dd><a href="https://nd-cse.slack.com/messages/cse-30124-sp25/">#cse-30124-sp25</a></dd>
 
             <dt><i class="fa fa-github"></i> GitHub</dt>
-            <dd><a href="https://www.github.com/nd-cse-30124-sp25/">nd-cse-30124-fa24</a></dd>
+            <dd><a href="https://www.github.com/nd-cse-30124-sp25/">nd-cse-30124-sp25</a></dd>
         </dl>
     </div>
 
@@ -254,15 +254,15 @@ body:       |
             <tbody>
                 <tr>
                     <td><span class="label label-primary">Homeworks</span> Homework Assignments.</td>
-                    <td class="text-center">5 &times; 25</td>
+                    <td class="text-center">5 &times; 20</td>
                 </tr>
                 <tr>
-                    <td><span class="label label-info">Midterms</span> Midterm Exams (5 points for turning in practice packet)</td>
-                    <td class="text-center">2 &times; 50</td>
+                    <td><span class="label label-info">Midterms</span> Midterm Exams (10 points for turning in practice packet)</td>
+                    <td class="text-center">2 &times; 60</td>
                 </tr>
                 <tr>
                     <td><span class="label label-danger">Exams</span> Final Exam (10 points for turning in practice packet)</td>
-                    <td class="text-center">1 &times; 75</td>
+                    <td class="text-center">1 &times; 80</td>
                 </tr>
                 <tr>
                     <td class="text-strong text-right">Total</td>
