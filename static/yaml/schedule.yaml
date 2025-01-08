@@ -8,15 +8,15 @@
   - date: Wed 01/15
     topics: Agents and Search
   - date: Wed 01/22
-    topics: Knowledge Representation and Feature Engineering
+    topics: A* Search
     assignments:
       - Course Primer
   - date: Mon 01/27
-    topics: Adversarial Search
+    topics: Knowledge Representation and Feature Engineering
   - date: Wed 01/29
     topics: Constraint Satisfaction Problems
   - date: Mon 02/03
-    topics:  A* Search
+    topics: Adversarial Search
     assignments:
     - Homework 01
   - date: Wed 02/05
