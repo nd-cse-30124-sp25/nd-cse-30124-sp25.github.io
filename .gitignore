@@ -3,3 +3,4 @@ pages/*.html
 *.swp
 *_solutions.ipynb
 *_solutions.pdf
+.DS_Store
