@@ -1,0 +1,5 @@
+pages/*.html
+*.pyc
+*.swp
+*_solutions.ipynb
+*_solutions.pdf
