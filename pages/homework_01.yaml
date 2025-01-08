@@ -8,30 +8,7 @@ internal:
 external:
 body:       |
 
-    ## Task 0: A Tap on your Shoulder
-
-    "Quack Quack Quack"
-
-    You toss another piece of bread to the ducks, beginning to gather around you, in Central Park.
-    Suddenly, you feel a tap on your shoulder. You turn around, and there is a man standing there.
-
-    "Detective Student?" he asks, "We have a slight problem, there's been a murder."
-    "No time for questions, we need to you get to the William Floyd Estate as soon as possible."
-
-    He pushes you off and you quicky check your pockets. You have just enough money for a car to the estate!
-    But wait, the congestion charges will be too expensive!
-
-    Luckily you recall an algorithm that may be able to help you get to the estate while staying in budget!
-
-    ## Task 1: Getting to the William Floyd Estate
-
-    Using the A* search algorithm and the map below, find the shortest path from your current location (Central Park) to the William Floyd Estate, out on Long Island.
-
-    ![Map](static/img/map.png)
-
-    ## Task 2: Solving the Murder
-
-    ## Task 3: Catching the murderer
+    ## Task 1: Notebook
 
     Run the following notebook and answer the included questions using the method of your choosing:
 
@@ -69,7 +46,6 @@ body:       |
             :::bash
             $ git branch
               main
-              homework00
             * homework01
 
         The `*` indicates that we are currently on the `homework01` branch.
@@ -120,25 +96,10 @@ body:       |
     more difficult for the graders to keep track of what needs to be graded.
     </div>
 
-    <div class="alert alert-success" markdown="1">
-
-    #### <i class="fa fa-thumbs-up"></i> Qualitative Feedback
-
-    The purpose of this workflow is to provide you with better feedback.
-    Instead of simply determining if your work is correct, the instructor will
-    attempt to provide you with more **qualitative feedback** such as whether
-    or not you used good programming practices or if your code could be
-    improved or organized better.
-
-    The hope is that this will help you grow as programmers and develop some
-    **taste** :).
-
-    </div>
-
     [CSE 30124 Introduction to Artificial Intelligence]:     index.html
     [GitHub]:                               https://github.com
     [Zoom]:                                 https://notredame.zoom.us/
     [Slack]:                                https://nd-cse.slack.com/
     [SSH Keys]:                             https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
-    [nd-cse-30124-fa24]:                    https://github.com/nd-cse-30124-fa24
+    [nd-cse-30124-sp25]:                    https://github.com/nd-cse-30124-sp25
     [git-branch]:                           https://git-scm.com/docs/git-branch
