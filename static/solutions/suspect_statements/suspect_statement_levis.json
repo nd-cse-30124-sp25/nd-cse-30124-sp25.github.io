@@ -1,0 +1,162 @@
+{
+    "suspect_statements": [
+        {
+            "name": "Dr. Levis",
+            "prior_truthfulness": 0.70,
+            "statement": [
+                {
+                    "time": "7:30 PM",
+                    "location": "Study",
+                    "activity": "Working on computer"
+                },
+                {
+                    "time": "7:45 PM",
+                    "location": "Study",
+                    "activity": "Meeting with Bui"
+                },
+                {
+                    "time": "8:00 PM",
+                    "location": "Dining Room",
+                    "activity": "Having dinner with colleagues"
+                },
+                {
+                    "time": "8:15 PM",
+                    "location": "Dining Room",
+                    "activity": "Discussing project deadlines"
+                },
+                {
+                    "time": "8:30 PM",
+                    "location": "Library",
+                    "activity": "Checking reference materials"
+                },
+                {
+                    "time": "8:45 PM",
+                    "location": "Library",
+                    "activity": "Making copies"
+                },
+                {
+                    "time": "9:00 PM",
+                    "location": "Study",
+                    "activity": "Reviewing files"
+                },
+                {
+                    "time": "9:15 PM",
+                    "location": "Study",
+                    "activity": "Organizing documents"
+                }
+            ]
+        }
+    ],
+    "witness_statements": [
+        {
+            "name": "Dr. Sarah Chen",
+            "reliability": 0.95,
+            "relationship": "Colleague",
+            "observations": [
+                {
+                    "time": "7:40 PM",
+                    "location": "Study",
+                    "activity": "Saw Levis and Bui arguing over papers"
+                },
+                {
+                    "time": "8:10 PM",
+                    "location": "Dining Room",
+                    "activity": "Noticed Levis texting under table"
+                }
+            ]
+        },
+        {
+            "name": "James Wilson",
+            "reliability": 0.88,
+            "relationship": "Security Guard",
+            "observations": [
+                {
+                    "time": "8:35 PM",
+                    "location": "Library",
+                    "activity": "Found Levis accessing restricted files"
+                },
+                {
+                    "time": "9:05 PM",
+                    "location": "Study",
+                    "activity": "Saw Levis meeting with Dingler"
+                }
+            ]
+        },
+        {
+            "name": "Maria Rodriguez",
+            "reliability": 0.92,
+            "relationship": "Cleaning Staff",
+            "observations": [
+                {
+                    "time": "8:40 PM",
+                    "location": "Library",
+                    "activity": "Noticed Levis hiding something in book"
+                },
+                {
+                    "time": "9:10 PM",
+                    "location": "Study",
+                    "activity": "Found shredded documents"
+                }
+            ]
+        },
+        {
+            "name": "Dr. Michael Wong",
+            "reliability": 0.85,
+            "relationship": "Colleague",
+            "observations": [
+                {
+                    "time": "8:15 PM",
+                    "location": "Dining Room",
+                    "activity": "Overheard Levis discussing chemical formulas with Morrison"
+                },
+                {
+                    "time": "8:25 PM",
+                    "location": "Hallway",
+                    "activity": "Saw Levis exchanging envelope with Dingler"
+                }
+            ]
+        }
+    ],
+    "gps_data": [
+        {
+            "time": "7:30 PM",
+            "location": "Study",
+            "signal_strength": 0.94
+        },
+        {
+            "time": "7:45 PM",
+            "location": "Study",
+            "signal_strength": 0.93
+        },
+        {
+            "time": "8:00 PM",
+            "location": "Dining Room",
+            "signal_strength": 0.91
+        },
+        {
+            "time": "8:15 PM",
+            "location": "Dining Room",
+            "signal_strength": 0.92
+        },
+        {
+            "time": "8:30 PM",
+            "location": "Library",
+            "signal_strength": 0.88
+        },
+        {
+            "time": "8:45 PM",
+            "location": "Library",
+            "signal_strength": 0.87
+        },
+        {
+            "time": "9:00 PM",
+            "location": "Study",
+            "signal_strength": 0.90
+        },
+        {
+            "time": "9:15 PM",
+            "location": "Study",
+            "signal_strength": 0.91
+        }
+    ]
+}

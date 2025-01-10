@@ -1,0 +1,70 @@
+{
+    "locations": [
+        {
+            "name": "Study",
+            "adjacent_to": ["Library", "Hallway"]
+        },
+        {
+            "name": "Library",
+            "adjacent_to": ["Study", "Hallway"]
+        },
+        {
+            "name": "Dining Room",
+            "adjacent_to": ["Hallway", "Kitchen"]
+        },
+        {
+            "name": "Kitchen",
+            "adjacent_to": ["Dining Room", "Pantry", "Hallway"]
+        },
+        {
+            "name": "Pantry",
+            "adjacent_to": ["Kitchen"]
+        },
+        {
+            "name": "Living Room",
+            "adjacent_to": ["Hallway"]
+        },
+        {
+            "name": "Hallway",
+            "adjacent_to": ["Study", "Library", "Dining Room", "Kitchen", "Living Room"]
+        }
+    ],
+    "transition_probabilities": {
+        "Study": {
+            "Library": 0.4,
+            "Hallway": 0.4,
+            "Study": 0.2
+        },
+        "Library": {
+            "Study": 0.4,
+            "Hallway": 0.4,
+            "Library": 0.2
+        },
+        "Dining Room": {
+            "Hallway": 0.3,
+            "Kitchen": 0.4,
+            "Dining Room": 0.3
+        },
+        "Kitchen": {
+            "Dining Room": 0.3,
+            "Pantry": 0.3,
+            "Hallway": 0.3,
+            "Kitchen": 0.1
+        },
+        "Pantry": {
+            "Kitchen": 0.8,
+            "Pantry": 0.2
+        },
+        "Living Room": {
+            "Hallway": 0.7,
+            "Living Room": 0.3
+        },
+        "Hallway": {
+            "Study": 0.2,
+            "Library": 0.2,
+            "Dining Room": 0.2,
+            "Kitchen": 0.2,
+            "Living Room": 0.2
+        }
+    }
+}

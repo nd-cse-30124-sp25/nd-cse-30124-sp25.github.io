@@ -1,0 +1,219 @@
+{
+    "suspect_statements": [
+        {
+            "name": "Dr. Bui",
+            "prior_truthfulness": 0.5,
+            "statement": [
+                {
+                    "time": "7:30 PM",
+                    "location": "Study",
+                    "activity": "Reading research papers"
+                },
+                {
+                    "time": "7:45 PM",
+                    "location": "Study",
+                    "activity": "Organizing notes"
+                },
+                {
+                    "time": "8:00 PM",
+                    "location": "Dining Room",
+                    "activity": "Having dinner with colleagues"
+                },
+                {
+                    "time": "8:15 PM",
+                    "location": "Dining Room",
+                    "activity": "Continuing dinner discussion"
+                },
+                {
+                    "time": "8:30 PM",
+                    "location": "Dining Room",
+                    "activity": "Finishing dinner"
+                },
+                {
+                    "time": "8:45 PM",
+                    "location": "Kitchen",
+                    "activity": "Getting a drink"
+                },
+                {
+                    "time": "9:00 PM",
+                    "location": "Living Room",
+                    "activity": "Relaxing"
+                },
+                {
+                    "time": "9:15 PM",
+                    "location": "Living Room",
+                    "activity": "Watching TV"
+                }
+            ]
+        }
+    ],
+    "witness_statements": [
+        {
+            "name": "Dr. Sarah Chen",
+            "reliability": 0.95,
+            "observations": [
+                {
+                    "time": "7:35 PM",
+                    "location": "Study",
+                    "activity": "Saw Peter Bui looking agitated while reading something"
+                },
+                {
+                    "time": "8:00 PM",
+                    "location": "Dining Room",
+                    "activity": "Noticed Peter was distracted during dinner"
+                }
+            ]
+        },
+        {
+            "name": "James Wilson",
+            "reliability": 0.88,
+            "observations": [
+                {
+                    "time": "7:50 PM",
+                    "location": "Library",
+                    "activity": "Saw Peter Bui entering, looking nervous"
+                },
+                {
+                    "time": "8:25 PM",
+                    "location": "Hallway",
+                    "activity": "Observed Peter walking quickly towards the Pantry"
+                }
+            ]
+        },
+        {
+            "name": "Maria Rodriguez",
+            "reliability": 0.92,
+            "observations": [
+                {
+                    "time": "8:35 PM",
+                    "location": "Pantry",
+                    "activity": "Saw Peter Bui examining the rope storage"
+                },
+                {
+                    "time": "9:10 PM",
+                    "location": "Pantry",
+                    "activity": "Noticed rope was missing from storage"
+                }
+            ]
+        },
+        {
+            "name": "Dr. Michael Wong",
+            "reliability": 0.85,
+            "observations": [
+                {
+                    "time": "8:05 PM",
+                    "location": "Dining Room",
+                    "activity": "Confirms Peter was at dinner briefly"
+                },
+                {
+                    "time": "8:20 PM",
+                    "location": "Dining Room",
+                    "activity": "Noticed Peter left dinner early"
+                }
+            ]
+        },
+        {
+            "name": "Emma Thompson",
+            "reliability": 0.78,
+            "observations": [
+                {
+                    "time": "9:05 PM",
+                    "location": "Kitchen",
+                    "activity": "Thought she saw Peter mixing something at the counter"
+                }
+            ]
+        }
+    ],
+    "gps_data": [
+        {
+            "time": "7:30 PM",
+            "location": "Study",
+            "signal_strength": 0.95
+        },
+        {
+            "time": "7:40 PM",
+            "location": "Study",
+            "signal_strength": 0.92
+        },
+        {
+            "time": "7:45 PM",
+            "location": "Study Doorway",
+            "signal_strength": 0.88
+        },
+        {
+            "time": "7:50 PM",
+            "location": "Library",
+            "signal_strength": 0.90
+        },
+        {
+            "time": "7:55 PM",
+            "location": "Library",
+            "signal_strength": 0.85
+        },
+        {
+            "time": "8:00 PM",
+            "location": "Dining Room",
+            "signal_strength": 0.93
+        },
+        {
+            "time": "8:10 PM",
+            "location": "Dining Room",
+            "signal_strength": 0.91
+        },
+        {
+            "time": "8:20 PM",
+            "location": "Hallway",
+            "signal_strength": 0.82
+        },
+        {
+            "time": "8:25 PM",
+            "location": "Hallway",
+            "signal_strength": 0.80
+        },
+        {
+            "time": "8:30 PM",
+            "location": "Pantry",
+            "signal_strength": 0.75
+        },
+        {
+            "time": "8:35 PM",
+            "location": "Pantry",
+            "signal_strength": 0.78
+        },
+        {
+            "time": "8:40 PM",
+            "location": "Kitchen",
+            "signal_strength": 0.85
+        },
+        {
+            "time": "8:45 PM",
+            "location": "Kitchen",
+            "signal_strength": 0.88
+        },
+        {
+            "time": "8:50 PM",
+            "location": "Kitchen",
+            "signal_strength": 0.86
+        },
+        {
+            "time": "9:00 PM",
+            "location": "Kitchen",
+            "signal_strength": 0.89
+        },
+        {
+            "time": "9:05 PM",
+            "location": "Kitchen",
+            "signal_strength": 0.92
+        },
+        {
+            "time": "9:10 PM",
+            "location": "Pantry",
+            "signal_strength": 0.94
+        },
+        {
+            "time": "9:15 PM",
+            "location": "Pantry",
+            "signal_strength": 0.93
+        }
+    ]
+}

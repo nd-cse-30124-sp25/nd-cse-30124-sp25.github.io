@@ -1,0 +1,162 @@
+{
+    "suspect_statements": [
+        {
+            "name": "Dr. Chambers",
+            "prior_truthfulness": 0.45,
+            "statement": [
+                {
+                    "time": "7:30 PM",
+                    "location": "Living Room",
+                    "activity": "Setting up presentation"
+                },
+                {
+                    "time": "7:45 PM",
+                    "location": "Living Room",
+                    "activity": "Meeting with colleagues"
+                },
+                {
+                    "time": "8:00 PM",
+                    "location": "Dining Room",
+                    "activity": "Having dinner with colleagues"
+                },
+                {
+                    "time": "8:15 PM",
+                    "location": "Pantry",
+                    "activity": "Getting extra supplies"
+                },
+                {
+                    "time": "8:30 PM",
+                    "location": "Kitchen",
+                    "activity": "Making coffee"
+                },
+                {
+                    "time": "8:45 PM",
+                    "location": "Study",
+                    "activity": "Reviewing project files"
+                },
+                {
+                    "time": "9:00 PM",
+                    "location": "Library",
+                    "activity": "Checking references"
+                },
+                {
+                    "time": "9:15 PM",
+                    "location": "Study",
+                    "activity": "Finishing work"
+                }
+            ]
+        }
+    ],
+    "witness_statements": [
+        {
+            "name": "Dr. Sarah Chen",
+            "reliability": 0.95,
+            "relationship": "Colleague",
+            "observations": [
+                {
+                    "time": "7:35 PM",
+                    "location": "Living Room",
+                    "activity": "Saw Chambers deleting files from laptop"
+                },
+                {
+                    "time": "8:05 PM",
+                    "location": "Dining Room",
+                    "activity": "Noticed Chambers signaling to Bui"
+                }
+            ]
+        },
+        {
+            "name": "James Wilson",
+            "reliability": 0.88,
+            "relationship": "Security Guard",
+            "observations": [
+                {
+                    "time": "8:20 PM",
+                    "location": "Pantry",
+                    "activity": "Found Chambers near chemical storage"
+                },
+                {
+                    "time": "8:50 PM",
+                    "location": "Study",
+                    "activity": "Observed Chambers and Levis exchanging documents"
+                }
+            ]
+        },
+        {
+            "name": "Maria Rodriguez",
+            "reliability": 0.92,
+            "relationship": "Cleaning Staff",
+            "observations": [
+                {
+                    "time": "8:35 PM",
+                    "location": "Kitchen",
+                    "activity": "Saw Chambers talking with Morrison privately"
+                },
+                {
+                    "time": "9:10 PM",
+                    "location": "Library",
+                    "activity": "Found modified security logs"
+                }
+            ]
+        },
+        {
+            "name": "Dr. Michael Wong",
+            "reliability": 0.85,
+            "relationship": "Colleague",
+            "observations": [
+                {
+                    "time": "8:10 PM",
+                    "location": "Dining Room",
+                    "activity": "Heard Chambers discussing formulas with Dingler"
+                },
+                {
+                    "time": "8:40 PM",
+                    "location": "Kitchen",
+                    "activity": "Saw Chambers accessing restricted cabinet"
+                }
+            ]
+        }
+    ],
+    "gps_data": [
+        {
+            "time": "7:30 PM",
+            "location": "Living Room",
+            "signal_strength": 0.93
+        },
+        {
+            "time": "7:45 PM",
+            "location": "Living Room",
+            "signal_strength": 0.92
+        },
+        {
+            "time": "8:00 PM",
+            "location": "Dining Room",
+            "signal_strength": 0.94
+        },
+        {
+            "time": "8:15 PM",
+            "location": "Pantry",
+            "signal_strength": 0.76
+        },
+        {
+            "time": "8:30 PM",
+            "location": "Kitchen",
+            "signal_strength": 0.85
+        },
+        {
+            "time": "8:45 PM",
+            "location": "Study",
+            "signal_strength": 0.89
+        },
+        {
+            "time": "9:00 PM",
+            "location": "Library",
+            "signal_strength": 0.90
+        },
+        {
+            "time": "9:15 PM",
+            "location": "Study",
+            "signal_strength": 0.91
+        }
+    ]
+}
