@@ -71,26 +71,28 @@
     - Exam 02 Practice Packet
     - Exam 02
 - name: 'Unit 03: Deep Learning'
-- name: Deep Learning
+- name: Basics
   days:
   - date: Wed 04/02
-    topics: Feed-Forward Networks
+    topics: Multi-Layer Perceptrons (FFNs)
   - date: Mon 04/07
     topics: Gradient Descent and Backpropagation
   - date: Wed 04/09
-    topics: Convolutional Networks
+    topics: Convolutional Neural Networks
   - date: Mon 04/14
-    topics: Sequence Networks
+    topics: Recurrent Neural Networks
     assignments:
     - Homework 04
+- name: Modern Deep Learning
+  days:
   - date: Wed 04/16
     topics: Attention 
   - date: Wed 04/23
-    topics: Transformers
+    topics: Transformers and Agentic LLMs
   - date: Mon 04/28
     topics: Diffusion Models
   - date: Wed 04/30
-    topics: Agents and Reinforcement Learning
+    topics: Reinforcement Learning
     assignments:
     - Final Practice Packet
     - Homework 05
