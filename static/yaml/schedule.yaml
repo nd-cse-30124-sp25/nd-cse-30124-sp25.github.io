@@ -19,6 +19,8 @@
     topics: Adversarial Search
     assignments:
     - Homework 01
+- name: Probabilistic Models*
+  days:
   - date: Wed 02/05
     topics: Bayesian Reasoning
   - date: Mon 02/10
