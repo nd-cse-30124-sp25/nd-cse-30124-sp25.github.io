@@ -9,7 +9,7 @@ external:
 body:       |
 
     <div class="thumbnail">
-    <img src="static/img/bribe.jpg" class="img-responsive"/>
+    <img src="static/img/bribe.png" class="img-responsive"/>
     </div>
 
     ## Task 1: Fill out your CIFs
