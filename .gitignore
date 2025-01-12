@@ -4,3 +4,6 @@ pages/*.html
 *_solutions.ipynb
 *_solutions.pdf
 .DS_Store
+alphabet
+MNIST
+*/solutions/*.png
