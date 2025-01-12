@@ -1,4 +1,4 @@
-title:      "Homework 01: Detective Work (20 pts.)"
+title:      "Homework 02: The Lying Game (20 pts.)"
 icon:       fa-book
 navigation:
   - name: "Home"
@@ -13,18 +13,18 @@ body:       |
     Run the following notebook and answer the included questions using the method of your choosing:
 
     <div class="alert alert-success" markdown="1">
-    [DOWNLOAD NOTEBOOK](static/homeworks/homework01.ipynb)
+    [DOWNLOAD NOTEBOOK](static/homeworks/homework02.ipynb)
     </div>
 
     For your convenience the notebook is displayed below as HTML but you will likely
     find it easier to download the raw notebook file given above.
 
-    <iframe src="static/homework_htmls/homework01.html" width="100%" height="800px"></iframe>
+    <iframe src="static/homework_htmls/homework02.html" width="100%" height="800px"></iframe>
 
     <pre style="display: none;" id="dr-container" class="codehilite"><code id="dredd-response"></code></pre>
 
-    To submit your answers, you will need add your `homework01.ipynb` file
-    in the `homework01` folder of your **assignments** repository:
+    To submit your answers, you will need add your `homework02.ipynb` file
+    in the `homework02` folder of your **assignments** repository:
 
     Answer the questions in your notebook file using the method of your choice and
     once you are finished, submit your notebook using the workflow outlined in the
