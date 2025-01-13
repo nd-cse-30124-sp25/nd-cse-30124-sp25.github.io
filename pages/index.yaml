@@ -17,8 +17,10 @@ internal:
 external:
     tas:        'static/yaml/tas.yaml'
     schedule:   'static/yaml/schedule.yaml'
-    office_hours: 'static/yaml/semester_info.yaml'
+    semester_info: 'static/yaml/semester_info.yaml'
 body:       |
+
+    {% set term_code = page.external['semester_info']['Term'][:2].lower() + page.external['semester_info']['Year'][-2:] %}
 
     <div class="row" markdown="1">
 
@@ -69,10 +71,10 @@ body:       |
             <dd>Fitz 356</dd>
 
             <dt><i class="fa fa-slack"></i> Slack</dt>
-            <dd><a href="https://nd-cse.slack.com/messages/cse-30124-sp25/">#cse-30124-sp25</a></dd>
+            <dd><a href="https://nd-cse.slack.com/messages/cse-30124-{{ term_code }}/">#cse-30124-{{ term_code }}</a></dd>
 
             <dt><i class="fa fa-github"></i> GitHub</dt>
-            <dd><a href="https://www.github.com/nd-cse-30124-sp25/">nd-cse-30124-sp25</a></dd>
+            <dd><a href="https://www.github.com/nd-cse-30124-{{ term_code }}/">nd-cse-30124-{{ term_code }}</a></dd>
         </dl>
     </div>
 
@@ -97,16 +99,16 @@ body:       |
         <h3>Teaching Assistants</h3>
 
         <div class="row">
-            {% for index, ta in enumerate(sorted(page.external['tas'], key=lambda ta: ta['name'].split()[-1])) %}
+            {% for index, ta in enumerate(sorted(page.external['semester_info']['TAs'], key=lambda ta: ta['name'].split()[-1])) %}
             <div class="col-md-4">
                 <dl>
                   <dt><i class="fa fa-user"></i> {{ ta['level'] }} Teaching Assistant</dt>
                   <dd>{{ ta['name'] }} (<a href="mailto:{{ ta['netid'] }}@nd.edu">{{ ta['netid'] }}@nd.edu</a>)</dd>
                   <!--
                   <dt><i class="fa fa-life-ring"></i> Office Hours</dt>
-                  <dd>{{ ta.get('hours', 'TBD') }}</dd>
+                  <dd>{{ ta.get('office_hours', 'TBD') }}</dd>
                   <dt><i class="fa fa-briefcase"></i> Office Location</dt>
-                  <dd>{{ ta.get('location', 'TBD') }}</dd>
+                  <dd>{{ ta.get('oh_location', 'TBD') }}</dd>
                   //-->
                 </dl>
             </div>
@@ -139,14 +141,14 @@ body:       |
             <td>{{ time_slot }}</td>
             {% for day in ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] %}
               <td>
-                {% if day in page.external['office_hours']['Instructor']['office_hours'] and page.external['office_hours']['Instructor']['office_hours'][day] in time_slot %}
+                {% if day in page.external['semester_info']['Instructor']['office_hours'] and page.external['semester_info']['Instructor']['office_hours'][day] in time_slot %}
                   <div style="background-color: #cce5ff;">
-                    {{ page.external['office_hours']['Instructor']['name'] }}<br>
+                    {{ page.external['semester_info']['Instructor']['name'] }}<br>
                     {{ time_slot }}<br>
-                    {{ page.external['office_hours']['Instructor']['oh_location'] }}
+                    {{ page.external['semester_info']['Instructor']['oh_location'] }}
                   </div>
                 {% end %}
-                {% for ta_key, ta in page.external['office_hours']['TAs'].items() %}
+                {% for ta_key, ta in page.external['semester_info']['TAs'].items() %}
                   {% if day in ta['office_hours'] and ta['office_hours'][day] in time_slot %}
                     <div style="background-color: #e6f7ff;">
                       {{ ta['name'] }}<br>
