@@ -192,7 +192,6 @@ body:       |
                 </tr>
             </thead>
             <tbody>
-
                 {% for theme in page.external['schedule'] %}
                     {% if not theme.get('days') %}
                         <tr>
@@ -262,9 +261,9 @@ body:       |
                             {% end %}
                         {% end %}
                         </td>
-                    </tr>
+                        </tr>
+                    {% end %}
                 {% end %}
-
             </tbody>
         </table>
     </div>
