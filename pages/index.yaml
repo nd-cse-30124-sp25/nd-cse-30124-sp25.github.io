@@ -120,6 +120,55 @@ body:       |
     </div>
 
     <div class="row" markdown="1">
+    <div class="col-md-12">
+        <h3>Office Hours</h3>
+        <table border="1" cellpadding="5" cellspacing="0" class="table table-bordered">
+        <tr>
+            <th></th>
+            {% for day in ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] %}
+            <th>{{ day }}</th>
+            {% end %}
+        </tr>
+        {% for time_slot in [
+            "10:00 - 11:00 AM", "11:00 - 12:00 PM", "12:00 - 1:00 PM",
+            "1:00 - 2:00 PM", "2:00 - 3:00 PM", "3:00 - 4:00 PM",
+            "4:00 - 5:00 PM", "5:00 - 6:00 PM", "6:00 - 7:00 PM",
+            "7:00 - 8:00 PM", "8:00 - 9:00 PM"
+        ] %}
+            <tr>
+            <td>{{ time_slot }}</td>
+            {% for day in ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] %}
+                <td>
+                {% set instructor_hours = page.external['semester_info']['Instructor']['office_hours'].get(day, '') %}
+                {% if instructor_hours and instructor_hours.split(' - ')[0] <= time_slot.split(' - ')[0] <= instructor_hours.split(' - ')[1] %}
+                    <div style="background-color: #cce5ff;">
+                    {{ page.external['semester_info']['Instructor']['name'] }}<br>
+                    {{ instructor_hours }}<br>
+                    {{ page.external['semester_info']['Instructor']['oh_location'] }}
+                    </div>
+                {% end %}
+                
+                {% for ta_id, ta in page.external['semester_info']['TAs'].items() %}
+                    {% if 'office_hours' in ta and day in ta['office_hours'] %}
+                    {% set ta_hours = ta['office_hours'][day] %}
+                    {% if ta_hours.split(' - ')[0] <= time_slot.split(' - ')[0] <= ta_hours.split(' - ')[1] %}
+                        <div style="background-color: #e6f7ff;">
+                        {{ ta['name'] }}<br>
+                        {{ ta_hours }}<br>
+                        {{ ta['oh_location'] }}
+                        </div>
+                    {% end %}
+                    {% end %}
+                {% end %}
+                </td>
+            {% end %}
+            </tr>
+        {% end %}
+        </table>
+    </div>
+    </div>
+
+    <div class="row" markdown="1">
       <div class="col-md-12">
         <h3>Office Hours</h3>
         <table border="1" cellpadding="5" cellspacing="0" class="table table-bordered">
