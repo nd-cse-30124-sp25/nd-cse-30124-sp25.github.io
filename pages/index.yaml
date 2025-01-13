@@ -194,69 +194,75 @@ body:       |
             <tbody>
 
                 {% for theme in page.external['schedule'] %}
-                {% if not theme.get('days') %}
-                  <tr>
-                  <td colspan="4" class="text-center text-strong" style="border-top: 2px solid #ddd; border-bottom: 2px solid #ddd; padding: 4px;">{{ theme['name'] }}</td>
-                  </tr>
-                  {% continue %}
-                {% end %}
+                    {% if not theme.get('days') %}
+                        <tr>
+                        <td colspan="4" class="text-center text-strong" style="border-top: 2px solid #ddd; border-bottom: 2px solid #ddd; padding: 4px;">{{ theme['name'] }}</td>
+                        </tr>
+                        {% continue %}
+                    {% end %}
 
-                {% for index, day in enumerate(theme['days']) %}
-                <tr>
-                {% if index == 0 %}
-                    <td rowspan="{{ len(theme['days']) }}" class="text-strong text-primary text-center unit">{{ theme['name'] }}</td>
-                {% end %}
-                    <td class="text-center text-strong"><tt>{{ day['date'] }}</tt></td>
-                    <td class="text-strong">
-                    {% if 'topics' in day %}
-                      {% if day['topics'] == 'Office Hours' or day['topics'].startswith('Cancelled') %}
-                      <i class="text-muted">{{ day.get('topics', '') }}</i>
-                      {% elif 'exam' in day['topics'].lower() %}
-                      <i class="text-danger">{{ day.get('topics', '') }}</i>
-                      {% else %}
-                      {{ day.get('topics', '') }}
-                      {% end %}
-                    {% else %}
-                      <i class="text-muted">Intro to AI</i>
-                    {% end %}
-                    {% for item in day.get('items', []) %}
-                    {% if 'exam' in item['name'].lower() %}
-                      {% set item['label'] = 'danger' %}
-                    {% elif item['name'].lower().startswith('panopto') %}
-                      {% set item['label'] = 'success' %}
-                    {% else %}
-                      {% set item['label'] = 'default' %}
-                    {% end %}
-                    {% if 'link' in item %}
-                      <a class="label label-{{ item['label'] }}" href="{{ item['link'] }}">{{ item['name'] }}</a>
-                    {% else %}
-                      <span class="label label-{{ item['label'] }}">{{ item['name'] }}</span>
-                    {% end %}
-                    {% end %}
-                    </td>
-                    <td class="text-strong text-center">
-                    {% for assignment in day.get('assignments', []) %}
-                      {% set assignment_id = '_'.join(assignment.lower().split()) %}
-                      {% if 'solutions' in assignment_id %}
-                        {% set assignment_label = 'success' %}
-                        <a href="static/solutions/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
-                      {% elif assignment_id.startswith('quiz') %}
-                        {% set assignment_label = 'primary' %}
-                        <a href="static/pdf/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
-                      {% elif 'practice' in assignment_id or 'primer' in assignment_id %}
-                        {% set assignment_label = 'success' %}
-                        <a href="static/pdf/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
-                      {% elif 'exam' in assignment_id %}
-                        {% set assignment_label = 'danger' %}
-                        <a href="static/pdf/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
-                      {% else %}
-                        {% set assignment_label = 'caution' %}
-                        <a href="{{ assignment_id }}.html" class="label label-{{ assignment_label }}">{{ assignment }}</a>
-                      {% end %}
-                    {% end %}
-                    </td>
-                </tr>
-                {% end %}
+                    {% for index, day in enumerate(theme['days']) %}
+                        <tr>
+                        {% if index == 0 %}
+                            <td rowspan="{{ len(theme['days']) }}" class="text-strong text-primary text-center unit">{{ theme['name'] }}</td>
+                        {% end %}
+
+                        <td class="text-center text-strong"><tt>{{ day['date'] }}</tt></td>
+                        <td class="text-strong">
+
+                        {% if 'topics' in day %}
+                            {% if day['topics'] == 'Office Hours' or day['topics'].startswith('Cancelled') %}
+                                <i class="text-muted">{{ day.get('topics', '') }}</i>
+                            {% elif 'exam' in day['topics'].lower() %}
+                                <i class="text-danger">{{ day.get('topics', '') }}</i>
+                            {% else %}
+                                {{ day.get('topics', '') }}
+                            {% end %}
+                        {% else %}
+                            <i class="text-muted">Intro to AI</i>
+                        {% end %}
+
+                        {% for item in day.get('items', []) %}
+                            {% if 'exam' in item['name'].lower() %}
+                                {% set item['label'] = 'danger' %}
+                            {% elif item['name'].lower().startswith('panopto') %}
+                                {% set item['label'] = 'success' %}
+                            {% else %}
+                                {% set item['label'] = 'default' %}
+                            {% end %}
+
+                            {% if 'link' in item %}
+                                <a class="label label-{{ item['label'] }}" href="{{ item['link'] }}">{{ item['name'] }}</a>
+                            {% else %}
+                                <span class="label label-{{ item['label'] }}">{{ item['name'] }}</span>
+                            {% end %}
+                        {% end %}
+
+                        </td>
+                        <td class="text-strong text-center">
+
+                        {% for assignment in day.get('assignments', []) %}
+                            {% set assignment_id = '_'.join(assignment.lower().split()) %}
+
+                            {% if 'solutions' in assignment_id %}
+                                {% set assignment_label = 'success' %}
+                                <a href="static/solutions/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
+                            {% elif assignment_id.startswith('quiz') %}
+                                {% set assignment_label = 'primary' %}
+                                <a href="static/pdf/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
+                            {% elif 'practice' in assignment_id or 'primer' in assignment_id %}
+                                {% set assignment_label = 'success' %}
+                                <a href="static/pdf/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
+                            {% elif 'exam' in assignment_id %}
+                                {% set assignment_label = 'danger' %}
+                                <a href="static/pdf/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
+                            {% else %}
+                                {% set assignment_label = 'caution' %}
+                                <a href="{{ assignment_id }}.html" class="label label-{{ assignment_label }}">{{ assignment }}</a>
+                            {% end %}
+                        {% end %}
+                        </td>
+                    </tr>
                 {% end %}
 
             </tbody>
