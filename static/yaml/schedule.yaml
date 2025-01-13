@@ -2,6 +2,9 @@
   days:
   - date: Mon 01/13
     topics: Syllabus, History of AI
+    items:
+    - name: Slides
+      link: https://docs.google.com/presentation/d/1LenH8QuKs4P6uaatrLiVfQZ7bvjkVkmy/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
 - name: 'Unit 01: Good Old Fashioned AI (GOFAI)'
 - name: Search
   days:
