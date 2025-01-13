@@ -120,99 +120,118 @@ body:       |
     </div>
 
     <div class="row" markdown="1">
-    <div class="col-md-12">
-        <h3>Office Hours</h3>
-        <table border="1" cellpadding="5" cellspacing="0" class="table table-bordered">
-        <tr>
-            <th></th>
-            {% for day in ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] %}
-            <th>{{ day }}</th>
-            {% end %}
-        </tr>
-        {% for time_slot in [
-            "10:00 - 11:00 AM", "11:00 - 12:00 PM", "12:00 - 1:00 PM",
-            "1:00 - 2:00 PM", "2:00 - 3:00 PM", "3:00 - 4:00 PM",
-            "4:00 - 5:00 PM", "5:00 - 6:00 PM", "6:00 - 7:00 PM",
-            "7:00 - 8:00 PM", "8:00 - 9:00 PM"
-        ] %}
+        <div class="col-md-12">
+            <h3>Office Hours</h3>
+            <table border="1" cellpadding="5" cellspacing="0" class="table table-bordered">
             <tr>
-            <td>{{ time_slot }}</td>
-            {% for day in ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] %}
-                <td>
-                {% set instructor_hours = page.external['semester_info']['Instructor']['office_hours'].get(day, '') %}
-                {% if instructor_hours and instructor_hours.split(' - ')[0] <= time_slot.split(' - ')[0] <= instructor_hours.split(' - ')[1] %}
-                    <div style="background-color: #cce5ff;">
-                    {{ page.external['semester_info']['Instructor']['name'] }}<br>
-                    {{ instructor_hours }}<br>
-                    {{ page.external['semester_info']['Instructor']['oh_location'] }}
-                    </div>
+                <th></th>
+                {% for day in ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] %}
+                <th>{{ day }}</th>
                 {% end %}
-                
-                {% for ta_id, ta in page.external['semester_info']['TAs'].items() %}
-                    {% if 'office_hours' in ta and day in ta['office_hours'] %}
-                    {% set ta_hours = ta['office_hours'][day] %}
-                    {% if ta_hours.split(' - ')[0] <= time_slot.split(' - ')[0] <= ta_hours.split(' - ')[1] %}
-                        <div style="background-color: #e6f7ff;">
-                        {{ ta['name'] }}<br>
-                        {{ ta_hours }}<br>
-                        {{ ta['oh_location'] }}
-                        </div>
-                    {% end %}
-                    {% end %}
-                {% end %}
-                </td>
-            {% end %}
             </tr>
-        {% end %}
-        </table>
-    </div>
-    </div>
-
-    <div class="row" markdown="1">
-      <div class="col-md-12">
-        <h3>Office Hours</h3>
-        <table border="1" cellpadding="5" cellspacing="0" class="table table-bordered">
-          <tr>
-            <th></th>
-            {% for day in ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] %}
-              <th>{{ day }}</th>
-            {% end %}
-          </tr>
-
-          {% for time_slot in [
-              "10:00 - 11:00 AM", "11:00 - 12:00 AM", "12:00 - 1:00 PM",
-              "1:00 - 2:00 PM", "2:00 - 3:00 PM", "3:00 - 4:00 PM",
-              "4:00 - 5:00 PM", "6:00 - 7:00 PM", "7:00 - 8:00 PM",
-              "8:00 - 9:00 PM"
-          ] %}
-            <tr>
+            {% for time_slot in [
+                "10:00 - 11:00 AM", "11:00 - 12:00 PM", "12:00 - 1:00 PM",
+                "1:00 - 2:00 PM", "2:00 - 3:00 PM", "3:00 - 4:00 PM",
+                "4:00 - 5:00 PM", "5:00 - 6:00 PM", "6:00 - 7:00 PM",
+                "7:00 - 8:00 PM", "8:00 - 9:00 PM"
+            ] %}
+                <tr>
                 <td>{{ time_slot }}</td>
                 {% for day in ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] %}
                     <td>
-                        {% if day in page.external['semester_info']['Instructor']['office_hours'] and page.external['semester_info']['Instructor']['office_hours'][day] in time_slot %}
-                            <div style="background-color: red">
-                                {{ page.external['semester_info']['Instructor']['name'] }}<br>
-                                {{ time_slot }}<br>
-                                {{ page.external['semester_info']['Instructor']['oh_location'] }}
+                    {% set instructor_hours = page.external['semester_info']['Instructor']['office_hours'].get(day, '') %}
+                    {% if instructor_hours and instructor_hours.split(' - ')[0] <= time_slot.split(' - ')[0] <= instructor_hours.split(' - ')[1] %}
+                        <div style="background-color: #cce5ff;">
+                        {{ page.external['semester_info']['Instructor']['name'] }}<br>
+                        {{ instructor_hours }}<br>
+                        {{ page.external['semester_info']['Instructor']['oh_location'] }}
+                        </div>
+                    {% end %}
+                    
+                    {% for ta_id, ta in page.external['semester_info']['TAs'].items() %}
+                        {% if 'office_hours' in ta and day in ta['office_hours'] %}
+                        {% set ta_hours = ta['office_hours'][day] %}
+                        {% if ta_hours.split(' - ')[0] <= time_slot.split(' - ')[0] <= ta_hours.split(' - ')[1] %}
+                            <div style="background-color: #e6f7ff;">
+                            {{ ta['name'] }}<br>
+                            {{ ta_hours }}<br>
+                            {{ ta['oh_location'] }}
                             </div>
                         {% end %}
-
-                        {% for ta_key, ta in page.external['semester_info']['TAs'].items() %}
-                            {% if day in ta['office_hours'] and ta['office_hours'][day] in time_slot %}
-                                <div style="background-color: blue">
-                                {{ ta['name'] }}<br>
-                                {{ time_slot }}<br>
-                                {{ ta['oh_location'] }}
-                                </div>
-                            {% end %}
                         {% end %}
+                    {% end %}
                     </td>
                 {% end %}
-            </tr>
-          {% end %}
-        </table>
-      </div>
+                </tr>
+            {% end %}
+            </table>
+        </div>
     </div>
+
+<div class="row" markdown="1">
+  <div class="col-md-12">
+    <h3>Office Hours</h3>
+    <table border="1" cellpadding="5" cellspacing="0" class="table table-bordered" style="table-layout: fixed;">
+      <tr>
+        <th style="width: 150px;"></th>
+        {% for day in ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] %}
+          <th style="width: calc((100% - 150px) / 7); text-align: center;">{{ day }}</th>
+        {% end %}
+      </tr>
+
+      {% set last_instructor_block = None %}
+      {% set last_ta_block = {} %}
+      
+      {% for time_slot in [
+          "10:00 - 11:00 AM", "11:00 - 12:00 PM", "12:00 - 1:00 PM",
+          "1:00 - 2:00 PM", "2:00 - 3:00 PM", "3:00 - 4:00 PM",
+          "4:00 - 5:00 PM", "5:00 - 6:00 PM", "6:00 - 7:00 PM",
+          "7:00 - 8:00 PM", "8:00 - 9:00 PM"
+      ] %}
+        <tr>
+          <td style="text-align: center;">{{ time_slot }}</td>
+          {% for day in ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] %}
+            {% if last_instructor_block == day or day in last_ta_block %}
+              {% continue %}
+            {% end %}
+            
+            <td style="text-align: center; vertical-align: middle;">
+              {% set instructor_hours = page.external['semester_info']['Instructor']['office_hours'].get(day, '') %}
+              {% if instructor_hours %}
+                {% set start_time = instructor_hours.split(' - ')[0] %}
+                {% set slot_start = time_slot.split(' - ')[0] %}
+                {% if dateutil.parser.parse(start_time).time() == dateutil.parser.parse(slot_start).time() %}
+                  {% set last_instructor_block = day %}
+                  <div style="background-color: #cce5ff; padding: 10px; height: 100%;">
+                    {{ page.external['semester_info']['Instructor']['name'] }}<br>
+                    {{ instructor_hours }}<br>
+                    {{ page.external['semester_info']['Instructor']['oh_location'] }}
+                  </div>
+                {% end %}
+              {% end %}
+              
+              {% for ta_id, ta in page.external['semester_info']['TAs'].items() %}
+                {% if 'office_hours' in ta and day in ta['office_hours'] %}
+                  {% set ta_hours = ta['office_hours'][day] %}
+                  {% set start_time = ta_hours.split(' - ')[0] %}
+                  {% set slot_start = time_slot.split(' - ')[0] %}
+                  {% if dateutil.parser.parse(start_time).time() == dateutil.parser.parse(slot_start).time() %}
+                    {% set _ = last_ta_block.update({day: True}) %}
+                    <div style="background-color: #e6f7ff; padding: 10px; height: 100%;">
+                      {{ ta['name'] }}<br>
+                      {{ ta_hours }}<br>
+                      {{ ta['oh_location'] }}
+                    </div>
+                  {% end %}
+                {% end %}
+              {% end %}
+            </td>
+          {% end %}
+        </tr>
+      {% end %}
+    </table>
+  </div>
+</div>
 
     <div class="row">
         <div class="page-header">
