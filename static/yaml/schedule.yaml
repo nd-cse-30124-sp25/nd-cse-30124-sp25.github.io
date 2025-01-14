@@ -8,7 +8,7 @@
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=58dc4069-548c-4168-9dfe-b2640163d0da
 - name: 'Unit 01: Good Old Fashioned AI (GOFAI)'
-- name: Search
+- name: Search and Representations
   days:
   - date: Wed 01/15
     topics: Agents and Search
@@ -79,7 +79,7 @@
     - Exam 02 Practice Packet
     - Exam 02
 - name: 'Unit 03: Deep Learning'
-- name: Basics
+- name: Foundations of Deep Learning
   days:
   - date: Wed 04/02
     topics: Multi-Layer Perceptrons (FFNs)
