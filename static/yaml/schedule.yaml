@@ -56,6 +56,7 @@
     topics: Logistic Regression
   - date: Wed 03/05
     topics: SVMs and KNNs
+- name: Spring Break
 - name: Unsupervised Learning
   days:
   - date: Mon 03/17
@@ -94,6 +95,8 @@
   days:
   - date: Wed 04/16
     topics: Attention 
+  - date: Mon 04/21
+    topics: Cancelled (Easter Monday)
   - date: Wed 04/23
     topics: Transformers and Agentic LLMs
   - date: Mon 04/28
