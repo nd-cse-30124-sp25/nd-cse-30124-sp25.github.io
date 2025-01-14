@@ -602,11 +602,22 @@ body:       |
                 <p><b>Note:</b> Applications are due by the day of the second exam and will be evaluated shortly after.</p>
                 <p><b>Note:</b> TAing for CSE 30124 is quite competitive and usually there are only 1 or 2 open slots a semester (if any), so it may be worth having a backup plan.</p>
             </div>
-
+        </div>
+    </div>
+            
+    <div class="row">
+        <div class="col-md-6" markdown="1">
+            
             One of the benefits of ML/AI being extremely popular is there are many online resources
             available for learning it. The best teachers of the topics release much of their material
             avaible for free online. If something in class seemed unclear, you're encouraged
             to seek out an explanation that makes the most sense to you! If you find one that you really
-            like, please share it with the rest of the class.
+            like, please share it with the rest of the class. Below are links to some books and blogposts
+            that I personally find very useful.
+
+            <h3>Books</h3>
+            <ul>
+                <li><a href="https://github.com/rasbt/machine-learning-book">Machine Learning with PyTorch and Scikit-Learn</a>
+            </ul>
         </div>
     </div>
