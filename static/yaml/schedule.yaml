@@ -5,6 +5,8 @@
     items:
     - name: Slides
       link: https://docs.google.com/presentation/d/1LenH8QuKs4P6uaatrLiVfQZ7bvjkVkmy/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
+    - name: Panopto
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=58dc4069-548c-4168-9dfe-b2640163d0da
 - name: 'Unit 01: Good Old Fashioned AI (GOFAI)'
 - name: Search
   days:
