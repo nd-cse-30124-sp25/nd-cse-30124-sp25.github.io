@@ -3,7 +3,6 @@ pages/*.html
 *.swp
 *_solutions.pdf
 *_solutions.ipynb
-homework01_solutions.ipynb
 .DS_Store
 alphabet
 MNIST
