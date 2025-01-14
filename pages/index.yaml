@@ -606,7 +606,7 @@ body:       |
     </div>
             
     <div class="row">
-        <div class="col-md-6" markdown="1">
+        <div class="col-md-10 col-md-offset-1">
             
             One of the benefits of ML/AI being extremely popular is there are many online resources
             available for learning it. The best teachers of the topics release much of their material
