@@ -304,6 +304,8 @@ body:       |
                 {% end %}
             </tbody>
         </table>
+        <br>
+        * Probabilistic models aren't really GOFAI but I didn't want the first midterm to be right after JPW
     </div>
 
     <div class="row">
