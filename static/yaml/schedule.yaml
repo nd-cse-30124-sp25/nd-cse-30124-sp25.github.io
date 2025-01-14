@@ -12,6 +12,8 @@
   days:
   - date: Wed 01/15
     topics: Agents and Search
+  - date: Mon 01/20
+    topics: Cancelled in Observance of the National Championship Game (MLK Day)
   - date: Wed 01/22
     topics: A* Search
     assignments:
