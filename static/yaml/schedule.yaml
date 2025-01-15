@@ -11,7 +11,10 @@
 - name: Search and Representations
   days:
   - date: Wed 01/15
-    topics: Agents and Search
+    topics: Search and Agents
+    items:
+    - name: Slides
+      link: https://docs.google.com/presentation/d/1lDduN0ukx0sBk9OKXoj34_Bp3YZ1QUed/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
   - date: Mon 01/20
     topics: Cancelled in Observance of the National Championship Game (MLK Day)
   - date: Wed 01/22
