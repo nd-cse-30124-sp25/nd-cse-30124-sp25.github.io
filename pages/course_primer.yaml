@@ -69,8 +69,8 @@ body:       |
 
     ## Task 2: GitHub
 
-    All of your work will be submitted to [GitHub] using [git]. Your third task
-    is to setup your [GitHub] repository by doing the following:
+    All of your work, other than the notebook for the Course Primer, will be submitted to [GitHub] using [git]. 
+    Your third task is to setup your [GitHub] repository by doing the following:
 
     1. **Sign-in** or **create** a [GitHub] account if you do not already have one.
 
@@ -189,7 +189,6 @@ body:       |
     recommend and use. If you have other methods, please feel free to reach out to 
     your me to discuss them.
 
-
     ## Task 4: Notebooks
 
     Once you have done the readings, run the following notebook using
@@ -206,7 +205,10 @@ body:       |
 
     <pre style="display: none;" id="dr-container" class="codehilite"><code id="dredd-response"></code></pre>
 
-    After you finish the notebook, upload a copy of it to canvas.
+    <div class="alert alert-danger" markdown="1">
+        **Note** After you finish the notebook, upload a copy of it to canvas, this is the one canvas submission this semester.
+    </div>
+
 
     ## Task 5: Homework Submission Instructions
 
