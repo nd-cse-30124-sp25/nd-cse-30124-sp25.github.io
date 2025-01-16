@@ -7,3 +7,4 @@ pages/*.html
 alphabet
 MNIST
 */solutions/*.png
+static/solutions
