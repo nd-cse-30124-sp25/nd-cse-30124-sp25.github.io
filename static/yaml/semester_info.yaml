@@ -7,6 +7,14 @@ Instructor:
     Thursday: 1:00 - 4:00
   oh_location: 356B Fitz
 TAs:
+  tberg3:
+    github: ty-berg
+    level: Graduate
+    name: Tyler Berg
+    netid: tberg3
+    office_hours:
+      Monday: 10:30 - 12:30
+    oh_location: CSE Commons
   tlohman:
     github: Thomas-Lohman
     level: Undergraduate
