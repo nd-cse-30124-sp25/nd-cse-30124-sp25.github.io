@@ -27,14 +27,12 @@ body:       |
     in the `homework01` folder of your **assignments** repository:
 
     Answer the questions in your notebook file using the method of your choice and
-    once you are finished, submit your notebook using the workflow outlined in the
-    course primer.
-
+    once you are finished, submit your notebook using the workflow outlined below.
 
     ## Task 2: Homework Submission Instructions
 
-    To submit your homework answers, you will need add your `homework00.ipynb` file
-    in the `homework00` folder of your **assignments** repository:
+    To submit your homework answers, you will need add your `homework01.ipynb` file
+    in the `homework01` folder of your **assignments** repository:
 
     Answer the questions in your notebook file using the method of your choice and
     once you are finished, follow the instructions below to submit your notebook.
@@ -85,7 +83,7 @@ body:       |
             <img src="static/img/pr_step_1.png" class="img-responsive"/>
             </div>
 
-        - Next, edit the **pull request** title to "Homework 00", write a
+        - Next, edit the **pull request** title to "Homework 01", write a
           comment if necessary and then press the "Create pull request" button.
 
             <div class="thumbnail">
