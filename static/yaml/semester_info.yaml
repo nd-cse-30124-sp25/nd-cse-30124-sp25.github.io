@@ -7,6 +7,14 @@ Instructor:
     Thursday: 1:00 PM - 4:00 PM
   oh_location: 356B Fitz
 TAs:
+  swebster:
+    github: samjwebster
+    level: Graduate
+    name: Sam Webster
+    netid: swebster
+    office_hours:
+      Tuesday: 1:00 PM - 3:00 PM
+    oh_location: CSE Commons
   tberg3:
     github: ty-berg
     level: Graduate
