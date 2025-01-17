@@ -4,8 +4,7 @@ Instructor:
   name: Bill Theisen
   netid: wtheisen
   office_hours:
-    Thursday: 1:00 PM - 4:00 PM
-  oh_location: 356B Fitz
+    Thursday: 1:00 PM - 4:00 PM | 356B Fitz
 TAs:
   swebster:
     github: samjwebster
@@ -13,42 +12,45 @@ TAs:
     name: Sam Webster
     netid: swebster
     office_hours:
-      Tuesday: 1:00 PM - 3:00 PM
-    oh_location: CSE Commons
+      Tuesday: 1:00 PM - 3:00 PM | CSE Commons
   tberg3:
     github: ty-berg
     level: Graduate
     name: Tyler Berg
     netid: tberg3
     office_hours:
-      Monday: 10:30 AM - 12:30 PM
-    oh_location: CSE Commons
+      Monday: 10:30 AM - 12:30 PM | CSE Commons
   tlohman:
     github: Thomas-Lohman
     level: Undergraduate
     name: Thomas Lohman
     netid: tlohman
     office_hours:
-      Friday: 1:00 PM - 2:30 PM
-      Thursday: 5:00 PM - 6:45 PM
-    oh_location: CSE Commons
+      Friday: 1:00 PM - 2:30 PM | CSE Commons
+      Thursday: 5:00 PM - 6:45 PM | CSE Commons
   ozino:
     github: oliviazino
     level: Undergraduate
     name: Olivia Zino
     netid: ozino
     office_hours:
-      Sunday: 2:00 PM - 4:00 PM
-      Wednesday: 2:00 PM - 4:00 PM
-    oh_location: CSE Commons
+      Sunday: 2:00 PM - 4:00 PM | CSE Commons
+      Wednesday: 2:00 PM - 4:00 PM | CSE Commons
   snoonan2:
     github: snoonan2
     level: Undergraduate
     name: Sophia Noonan
     netid: snoonan2
     office_hours:
-      Sunday: 4:00 PM - 5:30 PM
-      Monday: 3:30 PM - 5:30 PM
-    oh_location: CSE Commons
+      Sunday: 4:00 PM - 5:30 PM | CSE Commons
+      Monday: 3:30 PM - 5:30 PM | CSE Commons
+  fseptien:
+    github: panchosepq19
+    level: Undergraduate
+    name: Francisco Septien
+    netid: fseptien
+    office_hours:
+      Tuesday: 3:00 PM - 5:00 PM | Inno Lounge
+      Thursday: 10:00 AM - 12:00 PM | Zoom
 Term: Spring
 Year: '2025'
