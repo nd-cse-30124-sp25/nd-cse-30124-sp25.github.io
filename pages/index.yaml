@@ -148,6 +148,8 @@ body:       |
                     {% set show_cell = True %}
                     
                     {% if instructor_hours %}
+                        {% set instructor_hours = page.external['semester_info']['Instructor']['office_hours'].get(day, '').split('|')[0] %}
+                        {% set instructor_loc = page.external['semester_info']['Instructor']['office_hours'].get(day, '').split('|')[1] %}
                         {% set start_time = instructor_hours.split(' - ')[0] %}
                         {% set end_time = instructor_hours.split(' - ')[1] %}
                         {% if dateutil.parser.parse(start_time).strftime("%I:%M:%S %p") == dateutil.parser.parse(time_slot.split(' - ')[0]).strftime("%I:%M:%S %p") %}
@@ -165,7 +167,7 @@ body:       |
                                 <div style="background-color: rgba(204, 229, 255, 0.5); height: 100%; padding: 8px;">
                                 {{ page.external['semester_info']['Instructor']['name'] }}<br>
                                 {{ instructor_hours }}<br>
-                                {{ page.external['semester_info']['Instructor']['oh_location'] }}
+                                {{ instructor_loc }}
                                 </div>
                             </td>
                             {% set show_cell = False %}
@@ -174,7 +176,8 @@ body:       |
 
                     {% for ta_id, ta in page.external['semester_info']['TAs'].items() %}
                         {% if 'office_hours' in ta and day in ta['office_hours'] %}
-                            {% set ta_hours = ta['office_hours'][day] %}
+                            {% set ta_hours = ta['office_hours'][day].split('|')[0] %}
+                            {% set ta_loc = ta['office_hours'][day].split('|')[1] %}
                             {% set start_time = ta_hours.split(' - ')[0].split(':')[0] + ":00 " + ta_hours.split(' - ')[0].split(':')[1].split(' ')[1] %}
                             {% if dateutil.parser.parse(start_time).strftime("%I:%M:%S %p") == dateutil.parser.parse(time_slot.split(' - ')[0]).strftime("%I:%M:%S %p") %}
                                 {% set end_time = ta_hours.split(' - ')[1] %}
@@ -193,7 +196,7 @@ body:       |
                                     <div style="background-color: rgba(204, 229, 255, 0.5); height: 100%; padding: 8px;">
                                         {{ ta['name'] }}<br>
                                         {{ ta_hours }}<br>
-                                        {{ ta['oh_location'] }}
+                                        {{ ta_loc }}
                                     </div>
                                 </td>
                                 {% set show_cell = False %}
