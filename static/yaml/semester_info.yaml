@@ -41,5 +41,14 @@ TAs:
       Sunday: 2:00 PM - 4:00 PM
       Wednesday: 2:00 PM - 4:00 PM
     oh_location: CSE Commons
+  snoonan2:
+    github: snoonan2
+    level: Undergraduate
+    name: Sophia Noonan
+    netid: snoonan2
+    office_hours:
+      Sunday: 4:00 PM - 5:30 PM
+      Monday: 3:30 PM - 5:30 PM
+    oh_location: CSE Commons
 Term: Spring
 Year: '2025'
