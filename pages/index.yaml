@@ -114,7 +114,7 @@ body:       |
                     </dl>
                 </div>
                 {% if (index + 1) % 3 == 0 %}
-                    </div><div class="row">
+                    <div class="row"></div>
                 {% end %}
             {% end %} 
         </div>
