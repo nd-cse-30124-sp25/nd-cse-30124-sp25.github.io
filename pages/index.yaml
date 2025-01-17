@@ -132,7 +132,7 @@ body:       |
 
         {% set processed_slots = {} %}
         
-       {% for time_slot in ["10:00 - 11:00 AM", "11:00 - 12:00 PM", "12:00 - 1:00 PM", "1:00 - 2:00 PM", "2:00 - 3:00 PM", "3:00 - 4:00 PM", "4:00 - 5:00 PM", "5:00 - 6:00 PM", "6:00 - 7:00 PM", "7:00 - 8:00 PM", "8:00 - 9:00 PM"] %}
+       {% for time_slot in ["10:00 AM - 11:00 AM", "11:00 AM - 12:00 PM", "12:00 PM - 1:00 PM", "1:00 PM - 2:00 PM", "2:00 PM - 3:00 PM", "3:00 PM - 4:00 PM", "4:00 PM - 5:00 PM", "5:00 PM - 6:00 PM", "6:00 PM - 7:00 PM", "7:00 PM - 8:00 PM", "8:00 PM - 9:00 PM"] %}
             <tr>
             <td style="text-align: left; padding: 8px;">{{ time_slot }}</td>
             {% for day in ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] %}
@@ -143,13 +143,15 @@ body:       |
                     {% if instructor_hours %}
                         {% set start_time = instructor_hours.split(' - ')[0] %}
                         {% set end_time = instructor_hours.split(' - ')[1] %}
-                        {% if dateutil.parser.parse(start_time).time() == dateutil.parser.parse(time_slot.split(' - ')[0]).time() %}
-                            {% set end_slot = dateutil.parser.parse(end_time) %}
+                        {% if dateutil.parser.parse(start_time).strftime("%I:%M:%S %p") == dateutil.parser.parse(time_slot.split(' - ')[0]).strftime("%I:%M:%S %p") %}
                             {% set start_slot = dateutil.parser.parse(start_time) %}
+                            {% set end_slot = dateutil.parser.parse(end_time) %}
+
                             {% set rowspan = int(((end_slot - start_slot).seconds / 3600) + 0.5) %}
+
                             {% for i in range(rowspan) %}
-                                {% set hour_offset = dateutil.relativedelta.relativedelta(hours=(i + 12)) %}
-                                {% set curr_slot = (start_slot + hour_offset).strftime("%-I:%M") %}
+                                {% set hour_offset = dateutil.relativedelta.relativedelta(hours=i) %}
+                                {% set curr_slot = (start_slot + hour_offset).strftime("%-I:%M %p") %}
                                 {% set _ = processed_slots.update({f"{day}_{curr_slot} - {(start_slot + hour_offset + dateutil.relativedelta.relativedelta(hours=1)).strftime('%-I:%M %p')}": True}) %}
                             {% end %}
                             <td rowspan="{{ rowspan }}" style="text-align: center; vertical-align: middle; padding: 0;">
@@ -166,16 +168,17 @@ body:       |
                     {% for ta_id, ta in page.external['semester_info']['TAs'].items() %}
                         {% if 'office_hours' in ta and day in ta['office_hours'] %}
                             {% set ta_hours = ta['office_hours'][day] %}
-                            {% set start_time = ta_hours.split(' - ')[0] %}
-                            {% if dateutil.parser.parse(start_time).time() == dateutil.parser.parse(time_slot.split(' - ')[0]).time() %}
+                            {% set start_time = ta_hours.split(' - ')[0].split(':')[0] + ":00 " + ta_hours.split(' - ')[0].split(':')[1].split(' ')[1] %}
+                            {% if dateutil.parser.parse(start_time).strftime("%I:%M:%S %p") == dateutil.parser.parse(time_slot.split(' - ')[0]).strftime("%I:%M:%S %p") %}
                                 {% set end_time = ta_hours.split(' - ')[1] %}
-                                {% set end_slot = dateutil.parser.parse(end_time) %}
                                 {% set start_slot = dateutil.parser.parse(start_time) %}
+                                {% set end_slot = dateutil.parser.parse(end_time) %}
+
                                 {% set rowspan = int(((end_slot - start_slot).seconds / 3600) + 0.5) %}
 
                                 {% for i in range(rowspan) %}
-                                    {% set hour_offset = dateutil.relativedelta.relativedelta(hours=(i + 12)) %}
-                                    {% set curr_slot = (start_slot + hour_offset).strftime("%-I:%M") %}
+                                    {% set hour_offset = dateutil.relativedelta.relativedelta(hours=i) %}
+                                    {% set curr_slot = (start_slot + hour_offset).strftime("%-I:%M %p") %}
                                     {% set _ = processed_slots.update({f"{day}_{curr_slot} - {(start_slot + hour_offset + dateutil.relativedelta.relativedelta(hours=1)).strftime('%-I:%M %p')}": True}) %}
                                 {% end %}
 

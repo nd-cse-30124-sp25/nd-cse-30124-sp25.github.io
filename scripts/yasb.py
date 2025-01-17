@@ -27,8 +27,6 @@ import markdown.extensions.codehilite
 import markdown.extensions.toc
 import yaml
 
-from datetime import datetime, timedelta
-
 # Page
 
 PageFields = 'title prefix icon navigation internal external body'.split()
