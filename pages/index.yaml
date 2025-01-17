@@ -59,64 +59,66 @@ body:       |
     </div>
 
     <div class="row">
-    <div class="col-md-6">
-    <div class="row">
-    <div class="col-md-6">
-        <h3>Class Information</h3>
-        <dl>
-            <dt><i class="fa fa-clock-o"></i> Lecture</dt>
-            <dd><strong>M / W</strong> 3:30 PM - 4:45 PM</dd>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Class Information</h3>
 
-            <dt><i class="fa fa-home"></i> Location</dt>
-            <dd>Fitz 356</dd>
-
-            <dt><i class="fa fa-slack"></i> Slack</dt>
-            <dd><a href="https://nd-cse.slack.com/messages/cse-30124-{{ term_code }}/">#cse-30124-{{ term_code }}</a></dd>
-
-            <dt><i class="fa fa-github"></i> GitHub</dt>
-            <dd><a href="https://www.github.com/nd-cse-30124-{{ term_code }}/">nd-cse-30124-{{ term_code }}</a></dd>
-        </dl>
-    </div>
-
-    <div class="col-md-6">
-        <h3>Instructor</h3>
-
-        <dl>
-            <dt><i class="fa fa-user"></i> Instructor</dt>
-            <dd><a href="http://www.williamtheisen.com">Bill Theisen</a> (<a href="mailto:wtheisen@nd.edu">wtheisen@nd.edu</a>)</dd>
-            <dd>Please use Dr./Professor Bill or Dr./Professor Theisen</dd>
-
-            <dt><i class="fa fa-life-ring"></i> Office Hours</dt>
-            <dd><strong>Thursdays</strong> 1:00 PM - 4:00 PM, and by <strong>appointment</strong></dd>
-
-            <dt><i class="fa fa-briefcase"></i> Office Location</dt>
-            <dd>356B Fitz</dd>
-        </dl>
-    </div>
-    </div>
-    </div>
-
-    <div class="col-md-6">
-        <h3>Teaching Assistants</h3>
-
-        <div class="row">
-           {% for index, (ta_id, ta_data) in enumerate(sorted(page.external['semester_info']['TAs'].items(), key=lambda x: x[1]['name'].split()[-1])) %}
-                <div class="col-md-4">
                     <dl>
-                        <dt><i class="fa fa-user"></i> {{ ta_data['level'] }} Teaching Assistant</dt>
-                        <dd>{{ ta_data['name'] }} (<a href="mailto:{{ ta_data['netid'] }}@nd.edu">{{ ta_data['netid'] }}@nd.edu</a>)</dd>
-                        <!--
-                        <dt><i class="fa fa-life-ring"></i> Office Hours</dt>
-                        <dd>{{ ta_data.get('office_hours', 'TBD') }}</dd>
-                        <dt><i class="fa fa-briefcase"></i> Office Location</dt>
-                        <dd>{{ ta_data.get('oh_location', 'TBD') }}</dd>
-                        //-->
+                        <dt><i class="fa fa-clock-o"></i> Lecture</dt>
+                        <dd><strong>M / W</strong> 3:30 PM - 4:45 PM</dd>
+
+                        <dt><i class="fa fa-home"></i> Location</dt>
+                        <dd>Fitz 356</dd>
+
+                        <dt><i class="fa fa-slack"></i> Slack</dt>
+                        <dd><a href="https://nd-cse.slack.com/messages/cse-30124-{{ term_code }}/">#cse-30124-{{ term_code }}</a></dd>
+
+                        <dt><i class="fa fa-github"></i> GitHub</dt>
+                        <dd><a href="https://www.github.com/nd-cse-30124-{{ term_code }}/">nd-cse-30124-{{ term_code }}</a></dd>
                     </dl>
                 </div>
-                {% if (index + 1) % 3 == 0 %}
-                    <div class="row"></div>
-                {% end %}
-            {% end %} 
+
+                <div class="col-md-6">
+                    <h3>Instructor</h3>
+
+                    <dl>
+                        <dt><i class="fa fa-user"></i> Instructor</dt>
+                        <dd><a href="http://www.williamtheisen.com">Bill Theisen</a> (<a href="mailto:wtheisen@nd.edu">wtheisen@nd.edu</a>)</dd>
+                        <dd>Please use Dr./Professor Bill or Dr./Professor Theisen</dd>
+
+                        <dt><i class="fa fa-life-ring"></i> Office Hours</dt>
+                        <dd><strong>Thursdays</strong> 1:00 PM - 4:00 PM, and by <strong>appointment</strong></dd>
+
+                        <dt><i class="fa fa-briefcase"></i> Office Location</dt>
+                        <dd>356B Fitz</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <h3>Teaching Assistants</h3>
+
+            <div class="row">
+            {% for index, (ta_id, ta_data) in enumerate(sorted(page.external['semester_info']['TAs'].items(), key=lambda x: x[1]['name'].split()[-1])) %}
+                    <div class="col-md-4">
+                        <dl>
+                            <dt><i class="fa fa-user"></i> {{ ta_data['level'] }} Teaching Assistant</dt>
+                            <dd>{{ ta_data['name'] }} (<a href="mailto:{{ ta_data['netid'] }}@nd.edu">{{ ta_data['netid'] }}@nd.edu</a>)</dd>
+                            <!--
+                            <dt><i class="fa fa-life-ring"></i> Office Hours</dt>
+                            <dd>{{ ta_data.get('office_hours', 'TBD') }}</dd>
+                            <dt><i class="fa fa-briefcase"></i> Office Location</dt>
+                            <dd>{{ ta_data.get('oh_location', 'TBD') }}</dd>
+                            //-->
+                        </dl>
+                    </div>
+                    {% if (index + 1) % 3 == 0 %}
+                        <div class="row"></div>
+                    {% end %}
+                {% end %} 
+            </div>
         </div>
     </div>
 
