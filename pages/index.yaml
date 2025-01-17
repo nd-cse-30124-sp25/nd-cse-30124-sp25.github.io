@@ -206,6 +206,7 @@ body:       |
             {% end %}
             </tr>
         {% end %}
+        </table>
     </div>
 
     <div class="row">
