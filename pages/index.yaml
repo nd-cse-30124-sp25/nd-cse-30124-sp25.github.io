@@ -273,7 +273,7 @@ body:       |
                         {% for item in day.get('items', []) %}
                             {% if 'exam' in item['name'].lower() %}
                                 {% set item['label'] = 'danger' %}
-                            {% elif item['name'].lower().startswith('panopto') or elif item['name'].lower().startswith('blog') %}
+                            {% elif item['name'].lower().startswith('panopto') or item['name'].lower().startswith('blog') %}
                                 {% set item['label'] = 'success' %}
                             {% else %}
                                 {% set item['label'] = 'default' %}
