@@ -22,11 +22,11 @@
     assignments:
       - Course Primer
   - date: Mon 01/27
-    topics: Knowledge Representation and Feature Engineering
-  - date: Wed 01/29
     topics: Constraint Satisfaction Problems
-  - date: Mon 02/03
+  - date: Wed 01/29
     topics: Adversarial Search
+  - date: Mon 02/03
+    topics: Knowledge Representation and Feature Engineering
     assignments:
     - Homework 01
 - name: Probabilistic Models*
