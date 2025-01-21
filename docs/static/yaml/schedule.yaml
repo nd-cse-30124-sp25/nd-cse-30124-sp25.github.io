@@ -19,6 +19,13 @@
     topics: Cancelled in Observance of the National Championship Game (MLK Day)
   - date: Wed 01/22
     topics: A* Search
+    items:
+    - name: Slides
+      link: https://docs.google.com/presentation/d/1pax2sELBNNFAobzTrWmFe6rx53MfcHYr/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
+    - name: Blogpost
+      link: https://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
+    - name: Blogpost
+      link: https://courses.grainger.illinois.edu/cs440/fa2024/lectures/astar.html
     assignments:
       - Course Primer
   - date: Mon 01/27
