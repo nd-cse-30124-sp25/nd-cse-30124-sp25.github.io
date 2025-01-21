@@ -39,11 +39,11 @@
 - name: Probabilistic Models *
   days:
   - date: Wed 02/05
-    topics: Decision Trees
-  - date: Mon 02/10
-    topics: Hidden Markov Models
-  - date: Wed 02/12
     topics: Bayesian Reasoning
+  - date: Mon 02/10
+    topics: Decision Trees
+  - date: Wed 02/12
+    topics: Hidden Markov Models
 - name: Exam 01
   days:
   - date: Mon 02/17
