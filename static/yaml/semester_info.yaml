@@ -34,8 +34,9 @@ TAs:
     name: Olivia Zino
     netid: ozino
     office_hours:
-      Sunday: 2:00 PM - 4:00 PM | Cushing 217
-      Wednesday: 2:00 PM - 4:00 PM | CSE Commons
+      Sunday: 2:00 PM - 4:00 PM | CSE Commons
+      Monday: 2:00 PM - 3:00 PM | CSE Commons
+      Wednesday: 2:00 PM - 3:00 PM | CSE Commons
   snoonan2:
     github: snoonan2
     level: Undergraduate
@@ -43,7 +44,7 @@ TAs:
     netid: snoonan2
     office_hours:
       Sunday: 4:00 PM - 5:30 PM | CSE Commons
-      Monday: 3:30 PM - 5:30 PM | CSE Commons
+      Monday: 4:45 PM - 6:45 PM | CSE Commons
   fseptien:
     github: panchosepq19
     level: Undergraduate
