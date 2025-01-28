@@ -15,6 +15,8 @@
     items:
     - name: Slides
       link: https://drive.google.com/file/d/1Rc5V0QSkbObr1hWjcuLyDZ0dnPDhd538/view?usp=sharing
+    - name: Panopto
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3a8b5e18-458c-4f02-a5b1-b27301359d86
   - date: Mon 01/20
     topics: Cancelled in Observance of the National Championship Game (MLK Day)
   - date: Wed 01/22
@@ -28,6 +30,8 @@
       link: https://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
     - name: Blogpost
       link: https://theory.stanford.edu/~amitp/GameProgramming/Heuristics.html
+    - name: Panopto
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d5fecb7f-fd0b-4103-b41e-b2730130443e
     assignments:
       - Course Primer
   - date: Mon 01/27
@@ -37,6 +41,8 @@
       link: https://docs.google.com/presentation/d/1DFRVj2o3TD1zIgoGI0QqVL47jok7Yu2L/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
     - name: Blogpost
       link: https://medium.com/my-udacity-ai-nanodegree-notes/solving-sudoku-think-constraint-satisfaction-problem-75763f0742c9
+    - name: Panopto
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=950c91e2-7057-47b7-8b53-b272016b79a9
   - date: Wed 01/29
     topics: Adversarial Search
   - date: Mon 02/03
