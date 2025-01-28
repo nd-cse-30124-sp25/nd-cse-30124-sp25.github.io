@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>0e0b38dd380340009ffabaa2ad18388a</title>
+  <title>7d82138b5d994320961799606df22b7e</title>
   <style>
     html {
       line-height: 1.5;
@@ -598,18 +598,17 @@ was found in each room (Bag, Firearm, Gas, Knife, Poison, Rope).</p>
 methodically exploring the house. As you explore, you slowly piece
 together a series of clues:</p>
 <ol>
-<li><p>The woman in the kitchen was not found with the rope, knife, or
-bag.</p></li>
+<li><p>The person in the kitchen was not found with the rope, knife, or
+firearm.</p></li>
 <li><p>Miss Scarlet was either in the study or the bathroom; Professor
 Plum was in the other.</p></li>
 <li><p>The person with the bag, who was not Miss Scarlet nor Professor
 Plum, was not in the bathroom nor the dining room.</p></li>
-<li><p>The man with the rope was found in the study.</p></li>
+<li><p>The person with the rope was found in the study.</p></li>
 <li><p>The weapon in the living room was found with either Miss Scarlet
 or Mrs. White.</p></li>
 <li><p>The knife was not in the dining room.</p></li>
-<li><p>Mr. Green was not with the weapon found in the study nor the
-pantry.</p></li>
+<li><p>Mrs. Peacock was not in the study nor the pantry.</p></li>
 <li><p>The firearm was in the room with Mrs. White.</p></li>
 <li><p>Mr. Theisen-Floyd was gassed in the pantry, and the suspect found
 in that room is the murderer.</p></li>
@@ -654,7 +653,7 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a hr
 <span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>    person_to_weapon <span class="op">=</span> {person: weapon <span class="cf">for</span> person, room, weapon <span class="kw">in</span> assignment}</span>
 <span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>    room_to_weapon <span class="op">=</span> {room: weapon <span class="cf">for</span> person, room, weapon <span class="kw">in</span> assignment}</span>
 <span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>    <span class="co"># </span><span class="al">TODO</span><span class="co">: Clue 1: The woman in the kitchen was not found with the rope, knife, or bag.</span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>    <span class="co"># </span><span class="al">TODO</span><span class="co">: Clue 1: The person in the kitchen was not found with the rope, knife, or firearm.</span></span>
 <span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>    </span>
 <span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>    </span>
 <span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>    <span class="co"># </span><span class="al">TODO</span><span class="co">: Clue 2: Miss Scarlet was either in the study or the bathroom; Professor Plum was in the other.</span></span>
@@ -663,7 +662,7 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a hr
 <span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>    <span class="co"># </span><span class="al">TODO</span><span class="co">: Clue 3: The person with the bag, who was not Miss Scarlet nor Professor Plum, was not in the bathroom nor the dining room.</span></span>
 <span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>    </span>
 <span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a>    <span class="co"># </span><span class="al">TODO</span><span class="co">: Clue 4: The man with the rope was found in the study.</span></span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a>    <span class="co"># </span><span class="al">TODO</span><span class="co">: Clue 4: The person with the rope was found in the study.</span></span>
 <span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>    <span class="co"># </span><span class="al">TODO</span><span class="co">: Clue 5: The weapon in the living room was found with either Miss Scarlet or Mrs. White.</span></span>
@@ -672,7 +671,7 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a hr
 <span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a>    <span class="co"># </span><span class="al">TODO</span><span class="co">: Clue 6: The knife was not in the dining room.</span></span>
 <span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a>    <span class="co"># </span><span class="al">TODO</span><span class="co">: Clue 7: Mr. Green was not with the weapon found in the study nor the pantry.</span></span>
+<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a>    <span class="co"># </span><span class="al">TODO</span><span class="co">: Clue 7: Mrs. Peacock was not in the study nor the pantry.</span></span>
 <span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a>    </span>
 <span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a>    <span class="co"># </span><span class="al">TODO</span><span class="co">: Clue 8: The firearm was in the room with Mrs. White.</span></span>
@@ -713,13 +712,13 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a hr
 <h5 id="expected-output">Expected Output:</h5>
 <blockquote>
 <p>Solution found:</p>
-<p>Colonel Mustard was in the Kitchen with the Bag</p>
+<p>Colonel Mustard was in the Dining Room with the Poison</p>
 <p>Professor Plum was in the Bathroom with the Knife</p>
 <p>Mr. Green was in the Pantry with the Gas</p>
 <p>Miss Scarlet was in the Study with the Rope</p>
-<p>Mrs. Peacock was in the Dining Room with the Poison</p>
+<p>Mrs. Peacock was in the Kitchen with the Bag</p>
 <p>Mrs. White was in the Living Room with the Firearm</p>
-<p>Num Checks 128561</p>
+<p>Num Checks 111023</p>
 </blockquote>
 </div>
 <div id="JKV6kjDolJMt" class="cell markdown" id="JKV6kjDolJMt">
