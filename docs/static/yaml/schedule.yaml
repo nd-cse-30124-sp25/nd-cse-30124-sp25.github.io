@@ -45,6 +45,9 @@
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=950c91e2-7057-47b7-8b53-b272016b79a9
   - date: Wed 01/29
     topics: Adversarial Search
+    items:
+    - name: Slides
+      link: https://docs.google.com/presentation/d/1O9kgRzac9UmEe-Vy34aJNu_2JJOWnVJs/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
   - date: Mon 02/03
     topics: Knowledge Representation and Feature Engineering
     assignments:
