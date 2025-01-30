@@ -62,11 +62,13 @@
     topics: Decision Trees
   - date: Wed 02/12
     topics: Hidden Markov Models
+  - date: Mon 02/17
+    topics: Linear Regression
+  - date: Wed 02/19
+    topics: Review
 - name: Exam 01
   days:
-  - date: Mon 02/17
-    topics: Review
-  - date: Wed 02/19
+  - date: Mon 02/24
     topics: Exam 01
     assignments:
     - Exam 01 Practice Packet
@@ -74,14 +76,12 @@
 - name: 'Unit 02: Machine Learning'
 - name: 'Supervised Learning'
   days:
-  - date: Mon 02/24
-    topics: Linear Regression
-    assignments:
-    - Homework 02
   - date: Wed 02/26
     topics: Perceptrons
   - date: Mon 03/03
     topics: Logistic Regression
+    assignments:
+    - Homework 02
   - date: Wed 03/05
     topics: SVMs and KNNs
 - name: Spring Break
@@ -97,11 +97,13 @@
     topics: Practicum - Evaluation and Validation of ML Systems
     assignments:
     - Homework 03
+  - date: Wed 03/26
+    topics: Multi-Layer Perceptrons (FFNs)
 - name: Midterm 02
   days:
-  - date: Wed 03/26
-    topics: Review
   - date: Mon 03/31
+    topics: Review
+  - date: Wed 04/02
     topics: Exam 02
     assignments:
     - Exam 02 Practice Packet
@@ -109,8 +111,6 @@
 - name: 'Unit 03: Deep Learning'
 - name: Foundations of Deep Learning
   days:
-  - date: Wed 04/02
-    topics: Multi-Layer Perceptrons (FFNs)
   - date: Mon 04/07
     topics: Gradient Descent and Backpropagation
   - date: Wed 04/09
