@@ -22,6 +22,21 @@ body:       |
 
     {% set term_code = page.external['semester_info']['Term'][:2].lower() + page.external['semester_info']['Year'][-2:] %}
 
+    {% set color_pool = [
+        'rgba(255, 204, 204, 0.5)',  # Light red
+        'rgba(204, 255, 204, 0.5)',  # Light green
+        'rgba(204, 204, 255, 0.5)',  # Light blue
+        'rgba(255, 255, 204, 0.5)',  # Light yellow
+        'rgba(255, 204, 255, 0.5)',  # Light pink
+        'rgba(204, 255, 255, 0.5)'   # Light cyan
+    ] %}
+
+    {% set ta_ids = page.external['semester_info']['TAs'].keys() | list %}
+    {% set ta_colors = {} %}
+    {% for index, ta_id in enumerate(ta_ids) %}
+        {% set _ = ta_colors.update({ta_id: color_pool[index % color_pool|length]}) %}
+    {% endfor %}
+
     <div class="row" markdown="1">
 
     **CSE 30124** is an elective course in the [Computer Science and
@@ -193,7 +208,7 @@ body:       |
                                 {% end %}
 
                                 <td rowspan="{{ rowspan }}" style="text-align: center; vertical-align: middle; padding: 0;">
-                                    <div style="background-color: rgba(204, 229, 255, 0.5); height: 100%; padding: 8px;">
+                                    <div style="background-color: {{ ta_colors[ta_id] }}; height: 100%; padding: 8px;">
                                         {{ ta['name'] }}<br>
                                         {{ ta_hours }}<br>
                                         {{ ta_loc }}
