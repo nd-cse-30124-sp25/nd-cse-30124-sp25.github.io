@@ -35,7 +35,7 @@ body:       |
     {% set ta_colors = {} %}
     {% for index, ta_id in enumerate(ta_ids) %}
         {% set _ = ta_colors.update({ta_id: color_pool[index % color_pool|length]}) %}
-    {% endfor %}
+    {% end %}
 
     <div class="row" markdown="1">
 
