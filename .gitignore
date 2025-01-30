@@ -8,3 +8,5 @@ alphabet
 MNIST
 */solutions/*.png
 static/solutions
+scripts/yasb.py
+Makefile

@@ -22,20 +22,7 @@ body:       |
 
     {% set term_code = page.external['semester_info']['Term'][:2].lower() + page.external['semester_info']['Year'][-2:] %}
 
-    {% set color_pool = [
-        'rgba(255, 204, 204, 0.5)',  # Light red
-        'rgba(204, 255, 204, 0.5)',  # Light green
-        'rgba(204, 204, 255, 0.5)',  # Light blue
-        'rgba(255, 255, 204, 0.5)',  # Light yellow
-        'rgba(255, 204, 255, 0.5)',  # Light pink
-        'rgba(204, 255, 255, 0.5)'   # Light cyan
-    ] %}
-
-    {% set ta_ids = page.external['semester_info']['TAs'].keys() | list %}
-    {% set ta_colors = {} %}
-    {% for index, ta_id in enumerate(ta_ids) %}
-        {% set _ = ta_colors.update({ta_id: color_pool[index % color_pool|length]}) %}
-    {% end %}
+    {% set ta_colors = { 'swebster': 'rgba(255, 204, 204, 0.5)', 'tberg3': 'rgba(204, 255, 204, 0.5)', 'tlohman': 'rgba(204, 204, 255, 0.5)', 'ozino': 'rgba(255, 255, 204, 0.5)', 'snoonan2': 'rgba(255, 204, 255, 0.5)', 'fseptien': 'rgba(204, 255, 255, 0.5)' } %}
 
     <div class="row" markdown="1">
 
@@ -116,7 +103,7 @@ body:       |
             <h3>Teaching Assistants</h3>
 
             <div class="row">
-            {% for index, (ta_id, ta_data) in enumerate(sorted(page.external['semester_info']['TAs'].items(), key=lambda x: x[1]['name'].split()[-1])) %}
+                {% for index, (ta_id, ta_data) in enumerate(sorted(page.external['semester_info']['TAs'].items(), key=lambda x: x[1]['name'].split()[-1])) %}
                     <div class="col-md-4">
                         <dl>
                             <dt><i class="fa fa-user"></i> {{ ta_data['level'] }} Teaching Assistant</dt>
@@ -153,8 +140,8 @@ body:       |
         </tr>
 
         {% set processed_slots = {} %}
-        
-       {% for time_slot in ["10:00 AM - 11:00 AM", "11:00 AM - 12:00 PM", "12:00 PM - 1:00 PM", "1:00 PM - 2:00 PM", "2:00 PM - 3:00 PM", "3:00 PM - 4:00 PM", "4:00 PM - 5:00 PM", "5:00 PM - 6:00 PM", "6:00 PM - 7:00 PM", "7:00 PM - 8:00 PM", "8:00 PM - 9:00 PM"] %}
+       
+        {% for time_slot in ["10:00 AM - 11:00 AM", "11:00 AM - 12:00 PM", "12:00 PM - 1:00 PM", "1:00 PM - 2:00 PM", "2:00 PM - 3:00 PM", "3:00 PM - 4:00 PM", "4:00 PM - 5:00 PM", "5:00 PM - 6:00 PM", "6:00 PM - 7:00 PM", "7:00 PM - 8:00 PM", "8:00 PM - 9:00 PM"] %}
             <tr>
             <td style="text-align: left; padding: 8px;">{{ time_slot }}</td>
             {% for day in ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] %}
@@ -166,7 +153,7 @@ body:       |
                         {% set instructor_hours = page.external['semester_info']['Instructor']['office_hours'].get(day, '').split('|')[0] %}
                         {% set instructor_loc = page.external['semester_info']['Instructor']['office_hours'].get(day, '').split('|')[1] %}
                         {% set start_time = instructor_hours.split(' - ')[0] %}
-                        {% set end_time = instructor_hours.split(' - ')[1] %}
+
                         {% if dateutil.parser.parse(start_time).strftime("%I:%M:%S %p") == dateutil.parser.parse(time_slot.split(' - ')[0]).strftime("%I:%M:%S %p") %}
                             {% set start_slot = dateutil.parser.parse(start_time) %}
                             {% set end_slot = dateutil.parser.parse(end_time) %}
@@ -194,6 +181,7 @@ body:       |
                             {% set ta_hours = ta['office_hours'][day].split('|')[0] %}
                             {% set ta_loc = ta['office_hours'][day].split('|')[1] %}
                             {% set start_time = ta_hours.split(' - ')[0].split(':')[0] + ":00 " + ta_hours.split(' - ')[0].split(':')[1].split(' ')[1] %}
+
                             {% if dateutil.parser.parse(start_time).strftime("%I:%M:%S %p") == dateutil.parser.parse(time_slot.split(' - ')[0]).strftime("%I:%M:%S %p") %}
                                 {% set end_time = ta_hours.split(' - ')[1] %}
                                 {% set start_slot = dateutil.parser.parse(start_time) %}
