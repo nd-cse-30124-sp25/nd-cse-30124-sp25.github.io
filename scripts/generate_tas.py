@@ -35,6 +35,6 @@ for i in range(0, 12):
                     HAS_CONFLICTS = True
 
     # Write each mapping to a separate file
-    filename = f'../static/yaml/homework{i:02}_tas.yaml'
+    filename = f'../static/yaml/homework{i:02}.yaml'
     with open(filename, 'w') as file:
         yaml.dump(MAPPING, file, default_flow_style=False)
