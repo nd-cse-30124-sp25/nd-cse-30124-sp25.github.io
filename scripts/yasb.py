@@ -25,6 +25,7 @@ import tornado.template
 import markdown
 import markdown.extensions.codehilite
 import markdown.extensions.toc
+import markdown.extensions.footnotes
 import yaml
 
 # Page
@@ -47,14 +48,15 @@ def load_page_from_yaml(path):
 def render_page(page):
     hilite = markdown.extensions.codehilite.CodeHiliteExtension(noclasses=True)
     toc    = markdown.extensions.toc.TocExtension(permalink=True)
+    footnotes = markdown.extensions.footnotes.FootnoteExtension()
     loader = tornado.template.Loader('templates')
     layout = u'''
-{{% extends "base.tmpl %}}
+{{% extends "base.tmpl" %}}
 
 {{% block body %}}
 {}
 {{% end %}}
-'''.format(markdown.markdown(page.body, extensions=['extra', toc, hilite]))
+'''.format(markdown.markdown(page.body, extensions=['extra', toc, hilite, footnotes], output_format='html5'))
 
     template = tornado.template.Template(layout, loader=loader)
     settings = {
