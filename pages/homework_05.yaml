@@ -104,7 +104,7 @@ body:       |
     <div class="alert alert-info" markdown="1">
     #### <i class="fa fa-gavel"></i> Graders
 
-    Please refer to the Homework TA List to determine
+    Please refer to the [Homework 05 TA List](homework05_tas.html) to determine
     who your grader is for the assignment is.
 
     </div>
@@ -130,3 +130,4 @@ body:       |
     [SSH Keys]:                             https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
     [nd-cse-30124-sp25]:                    https://github.com/nd-cse-30124-sp25
     [git-branch]:                           https://git-scm.com/docs/git-branch
+    [Homework 05 TA List]:                   homework05_tas.html
