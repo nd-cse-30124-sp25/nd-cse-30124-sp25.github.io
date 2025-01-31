@@ -167,12 +167,10 @@ body:       |
                                 {% set curr_slot = (start_slot + hour_offset).strftime("%-I:%M %p") %}
                                 {% set _ = processed_slots.update({f"{day}_{curr_slot} - {(start_slot + hour_offset + dateutil.relativedelta.relativedelta(hours=1)).strftime('%-I:%M %p')}": True}) %}
                             {% end %}
-                            <td rowspan="{{ rowspan }}" style="text-align: center; vertical-align: middle; padding: 0;">
-                                <div style="background-color: rgba(204, 229, 255, 0.5); height: 100%; padding: 8px;">
+                            <td rowspan="{{ rowspan }}" style="text-align: center; vertical-align: middle; padding: 0; background-color: rgba(204, 229, 255, 0.5);">
                                 Lecture<br>
                                 {{ class_hours }}<br>
                                 {{ page.external['semester_info']['Class']['location'] }}
-                                </div>
                             </td>
                             {% set show_cell = False %}
                         {% end %}
@@ -195,12 +193,10 @@ body:       |
                                 {% set curr_slot = (start_slot + hour_offset).strftime("%-I:%M %p") %}
                                 {% set _ = processed_slots.update({f"{day}_{curr_slot} - {(start_slot + hour_offset + dateutil.relativedelta.relativedelta(hours=1)).strftime('%-I:%M %p')}": True}) %}
                             {% end %}
-                            <td rowspan="{{ rowspan }}" style="text-align: center; vertical-align: middle; padding: 0;">
-                                <div style="background-color: rgba(204, 229, 255, 0.5); height: 100%; padding: 8px;">
+                            <td rowspan="{{ rowspan }}" style="text-align: center; vertical-align: middle; padding: 0; background-color: rgba(204, 229, 255, 0.5);">
                                 {{ page.external['semester_info']['Instructor']['name'] }}<br>
                                 {{ instructor_hours }}<br>
                                 {{ instructor_loc }}
-                                </div>
                             </td>
                             {% set show_cell = False %}
                         {% end %}
@@ -225,12 +221,10 @@ body:       |
                                     {% set _ = processed_slots.update({f"{day}_{curr_slot} - {(start_slot + hour_offset + dateutil.relativedelta.relativedelta(hours=1)).strftime('%-I:%M %p')}": True}) %}
                                 {% end %}
 
-                                <td rowspan="{{ rowspan }}" style="text-align: center; vertical-align: middle; padding: 0;">
-                                    <div style="background-color: {{ ta_colors[ta_id] }}; height: 100%; padding: 8px;">
-                                        {{ ta['name'] }}<br>
-                                        {{ ta_hours }}<br>
-                                        {{ ta_loc }}
-                                    </div>
+                                <td rowspan="{{ rowspan }}" style="text-align: center; vertical-align: middle; padding: 0; background-color: rgba(204, 229, 255, 0.5);">
+                                    {{ ta['name'] }}<br>
+                                    {{ ta_hours }}<br>
+                                    {{ ta_loc }}
                                 </td>
                                 {% set show_cell = False %}
                             {% end %}
