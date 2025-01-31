@@ -221,7 +221,7 @@ body:       |
                                     {% set _ = processed_slots.update({f"{day}_{curr_slot} - {(start_slot + hour_offset + dateutil.relativedelta.relativedelta(hours=1)).strftime('%-I:%M %p')}": True}) %}
                                 {% end %}
 
-                                <td rowspan="{{ rowspan }}" style="text-align: center; vertical-align: middle; padding: 0; background-color: rgba(204, 229, 255, 0.5);">
+                                <td rowspan="{{ rowspan }}" style="text-align: center; vertical-align: middle; padding: 0; background-color: {{ ta_colors[ta_id] }};">
                                     {{ ta['name'] }}<br>
                                     {{ ta_hours }}<br>
                                     {{ ta_loc }}
