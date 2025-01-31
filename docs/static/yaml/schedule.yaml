@@ -62,6 +62,8 @@
     topics: Decision Trees
   - date: Wed 02/12
     topics: Hidden Markov Models
+- name: Introduction to Machine Learning *
+  days:
   - date: Mon 02/17
     topics: Linear Regression
   - date: Wed 02/19
@@ -97,6 +99,8 @@
     topics: Practicum - Evaluation and Validation of ML Systems
     assignments:
     - Homework 03
+- name: Introduction to Deep Learning *
+  days:
   - date: Wed 03/26
     topics: Multi-Layer Perceptrons (FFNs)
 - name: Midterm 02
