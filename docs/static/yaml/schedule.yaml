@@ -52,6 +52,9 @@
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
   - date: Mon 02/03
     topics: Knowledge Representation and Feature Engineering
+    items:
+    - name: Slides
+      link: https://docs.google.com/presentation/d/1VQz0T2fAiMr4JsmNcqmepJAykpn6FgCv/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
     assignments:
     - Homework 01
 - name: Probabilistic Models *
