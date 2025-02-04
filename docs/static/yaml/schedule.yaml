@@ -54,7 +54,9 @@
     topics: Knowledge Representation and Feature Engineering
     items:
     - name: Slides
-      link: https://docs.google.com/presentation/d/1VQz0T2fAiMr4JsmNcqmepJAykpn6FgCv/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
+      link: https://drive.google.com/file/d/1PZTiiiTxianayPFHaLom8LYglS-ZSm0W/view?usp=sharing
+    - name: Panopto
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d450ea46-dd55-498e-9af6-b2790167db7c
     assignments:
     - Homework 01
 - name: Probabilistic Models *
