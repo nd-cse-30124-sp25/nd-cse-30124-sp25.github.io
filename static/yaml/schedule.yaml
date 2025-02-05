@@ -63,6 +63,11 @@
   days:
   - date: Wed 02/05
     topics: Decision Trees
+    items:
+    - name: Slides
+      link: 
+    - name: Notebook
+      link: https://colab.research.google.com/drive/1C8MwpktYioRquWU_tz98funLSbe8nM5x?usp=sharing
   - date: Mon 02/10
     topics: Hidden Markov Models
   - date: Wed 02/12
