@@ -59,7 +59,8 @@
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d450ea46-dd55-498e-9af6-b2790167db7c
     assignments:
     - Homework 01
-- name: Probabilistic Models *
+- name: 'Unit 02: Machine Learning'
+- name: Statistical Models
   days:
   - date: Wed 02/05
     topics: Decision Trees
@@ -87,7 +88,6 @@
     assignments:
     - Exam 01 Practice Packet
     - Exam 01
-- name: 'Unit 02: Machine Learning'
 - name: 'Supervised Learning'
   days:
   - date: Wed 02/26
