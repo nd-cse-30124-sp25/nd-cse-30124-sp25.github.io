@@ -123,7 +123,7 @@
     topics: Practicum - Evaluation and Validation of ML Systems
     assignments:
     - Homework 03
-- name: Introduction to Deep Learning
+- name: ML to DL
   days:
   - date: Wed 03/26
     topics: Multi-Layer Perceptrons (FFNs)
@@ -154,7 +154,7 @@
   - date: Mon 04/21
     topics: Cancelled (Easter Monday)
   - date: Wed 04/23
-    topics: Transformers and Agentic LLMs
+    topics: Transformers and LLMs
   - date: Mon 04/28
     topics: Diffusion Models
   - date: Wed 04/30
