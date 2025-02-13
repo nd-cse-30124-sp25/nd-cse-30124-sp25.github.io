@@ -60,7 +60,7 @@
     assignments:
     - Homework 01
 - name: 'Unit 02: Machine Learning'
-- name: Statistical Models
+- name: Direct Fit Models
   days:
   - date: Wed 02/05
     topics: Decision Trees
@@ -89,20 +89,18 @@
       link: https://drive.google.com/file/d/1ucLp9MQWaBnmBXlaCNBuba8WYWLwl0pH/view?usp=sharing
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=23a718e2-6f4b-45a8-bca0-b282016be13b
-- name: Introduction to Machine Learning *
-  days:
   - date: Mon 02/17
     topics: Linear Regression
-  - date: Wed 02/19
-    topics: Review
 - name: Exam 01
   days:
+  - date: Wed 02/19
+    topics: Review
   - date: Mon 02/24
     topics: Exam 01
     assignments:
     - Exam 01 Practice Packet
     - Exam 01
-- name: 'Supervised Learning'
+- name: Supervised Learning
   days:
   - date: Wed 02/26
     topics: Perceptrons
@@ -119,13 +117,13 @@
     topics: Clustering
   - date: Wed 03/19
     topics: Dimensionality Reduction
-- name: Using Machine Learning
+- name: Applied Machine Learning
   days:
   - date: Mon 03/24
     topics: Practicum - Evaluation and Validation of ML Systems
     assignments:
     - Homework 03
-- name: Introduction to Deep Learning *
+- name: Introduction to Deep Learning
   days:
   - date: Wed 03/26
     topics: Multi-Layer Perceptrons (FFNs)
