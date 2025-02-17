@@ -91,6 +91,9 @@
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=23a718e2-6f4b-45a8-bca0-b282016be13b
   - date: Mon 02/17
     topics: Linear Regression
+    items:
+    - name: Slides
+      link: https://docs.google.com/presentation/d/1Jyl3itbq32Lxtj1owBtZ5GLq6syQ54BY/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
 - name: Exam 01
   days:
   - date: Wed 02/19
