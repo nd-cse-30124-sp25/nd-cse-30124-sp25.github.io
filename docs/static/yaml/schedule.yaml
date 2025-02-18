@@ -145,10 +145,11 @@
     topics: Markov Models
     resources:
     - name: Slides
+      type: reading
       link: https://drive.google.com/file/d/15wSXZcU4LRnjD-6wUeIek4Ev6Bp9XS2h/view?usp=sharing
-    - name: Notebook
+    - name: Markov Babbler
+      type: notebook
       link: https://colab.research.google.com/drive/1dthRebtlLdXYt9ZSYuCsC11896ovNkCV?usp=sharing
-    resources:
     - name: PML - Sections 3.6.1.2
       type: reading
       link: https://probml.github.io/pml-book/book1.html
@@ -191,6 +192,9 @@
     - name: Naive Bayes for Iris Classification
       type: notebook
       link: https://drive.google.com/file/d/1ucLp9MQWaBnmBXlaCNBuba8WYWLwl0pH/view?usp=sharing
+    - name: Naive Bayes Visualizer
+      type: notebook
+      link: https://colab.research.google.com/drive/1irskT_qQ0EQOZIvf35u7RNbKZu3Sea3w?usp=sharing
   - date: Mon 02/17
     topics: Linear Regression
     resources:
