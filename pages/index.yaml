@@ -350,48 +350,52 @@ body:       |
                             </td>
                         </tr>
                         {% if day.get('resources') %}
-                            <tr id="resources-{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}" style="display: none;">
-                                <td>
-                                    <h4><i class="fa fa-book"></i> Readings:</h4>
-                                    <ul>
-                                        {% for resource in day.get('resources', []) %}
-                                            {% if resource['type'] == 'reading' %}
-                                                <li><a href="{{ resource['link'] }}" class="label label-caution">{{ resource['name'] }}</a></li>
-                                            {% end %}
-                                        {% end %}
-                                    </ul>
+                            <tr id="resources-{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}" class="collapse collapse-row">
+                                <td colspan="3">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <h4><i class="fa fa-book"></i> Readings:</h4>
+                                            <ul>
+                                                {% for resource in day.get('resources', []) %}
+                                                    {% if resource['type'] == 'reading' %}
+                                                        <li><a href="{{ resource['link'] }}" class="label label-caution">{{ resource['name'] }}</a></li>
+                                                    {% end %}
+                                                {% end %}
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <h4><i class="fa fa-video-camera"></i> Lectures:</h4>
+                                            <ul>
+                                                {% for resource in day.get('resources', []) %}
+                                                    {% if resource['type'] == 'lecture' %}
+                                                        <li><a href="{{ resource['link'] }}" class="label label-success">{{ resource['name'] }}</a></li>
+                                                    {% end %}
+                                                {% end %}
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <h4><i class="fa fa-pencil"></i> Blogposts:</h4>
+                                            <ul>
+                                                {% for resource in day.get('resources', []) %}
+                                                    {% if resource['type'] == 'blogpost' %}
+                                                        <li><a href="{{ resource['link'] }}" class="label label-danger">{{ resource['name'] }}</a></li>
+                                                    {% end %}
+                                                {% end %}
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <h4><i class="fa fa-file-text-o"></i> Notebooks:</h4>
+                                            <ul>
+                                                {% for resource in day.get('resources', []) %}
+                                                    {% if resource['type'] == 'notebook' %}
+                                                        <li><a href="{{ resource['link'] }}" class="label label-primary">{{ resource['name'] }}</a></li>
+                                                    {% end %}
+                                                {% end %}
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </td>
-                                <td>
-                                    <h4><i class="fa fa-video-camera"></i> Lectures:</h4>
-                                    <ul>
-                                        {% for resource in day.get('resources', []) %}
-                                            {% if resource['type'] == 'lecture' %}
-                                                <li><a href="{{ resource['link'] }}" class="label label-success">{{ resource['name'] }}</a></li>
-                                            {% end %}
-                                        {% end %}
-                                    </ul>
-                                </td>
-                                <td>
-                                    <h4><i class="fa fa-pencil"></i> Blogposts:</h4>
-                                    <ul>
-                                        {% for resource in day.get('resources', []) %}
-                                            {% if resource['type'] == 'blogpost' %}
-                                                <li><a href="{{ resource['link'] }}" class="label label-danger">{{ resource['name'] }}</a></li>
-                                            {% end %}
-                                        {% end %}
-                                    </ul>
-                                </td>
-                                <td>
-                                    <h4><i class="fa fa-file-text-o"></i> Notebooks:</h4>
-                                    <ul>
-                                        {% for resource in day.get('resources', []) %}
-                                            {% if resource['type'] == 'notebook' %}
-                                                <li><a href="{{ resource['link'] }}" class="label label-primary">{{ resource['name'] }}</a></li>
-                                            {% end %}
-                                        {% end %}
-                                    </ul>
-                                </td>
-                            </tr>
+                            </tr> 
                         {% end %}
                     {% end %}
                 {% end %}
