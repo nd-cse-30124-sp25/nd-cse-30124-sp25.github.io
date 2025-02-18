@@ -252,17 +252,86 @@
       link: https://youtu.be/-g0iJjnO2_w?si=rsqf3IhYQV_PKjkc&t=751
   - date: Mon 03/03
     topics: Logistic Regression
+    resources:
+    - name: Slides
+      type: reading
+      link: 
+    - name: PML - Chapter 10
+      type: reading
+      link: https://probml.github.io/pml-book/book1.html
+    - name: ISLP - Chapter 4.3
+      type: reading
+      link: https://www.statlearning.com/
+    - name: UML - Section 9.3
+      type: reading
+      link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
+    - name: Panopto
+      type: lecture
+      link: 
     assignments:
     - Homework 02
   - date: Wed 03/05
     topics: SVMs and KNNs
+    resources:
+    - name: Slides
+      type: reading
+      link: 
+    - name: PML - Sections 16.1, 17.3
+      type: reading
+      link: https://probml.github.io/pml-book/book1.html
+    - name: ISLP - Sections 3.5, 4.7.6 and Chapter 9
+      type: reading
+      link: https://www.statlearning.com/
+    - name: UML - Chapters 15, 19
+      type: reading
+      link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
+    - name: Panopto
+      type: lecture
+      link: 
+    - name: Harvard CS50 (0:00 - 12:30 and 33:29 - 39:41)
+      type: lecture
+      link: https://www.youtube.com/watch?v=-g0iJjnO2_w
+    - name: MIT 6.034 SVMs
+      type: lecture
+      link: https://www.youtube.com/watch?v=_PwhiWxHK8o 
+    - name: MIT 6.034 KNNs
+      type: lecture
+      link: https://www.youtube.com/watch?v=09mb78oiPkA 
+    assignments:
+    - Homework 03
 - name: Spring Break
 - name: Unsupervised Learning
   days:
   - date: Mon 03/17
     topics: Clustering
+    resources:
+    - name: Slides
+      type: reading
+      link: 
+    - name: PML - Chapter 21
+      type: reading
+      link: https://probml.github.io/pml-book/book1.html
+    - name: ISLP - Section 12.4
+      type: reading
+      link: https://www.statlearning.com/
+    - name: UML - Chapter 22
+      type: reading
+      link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
   - date: Wed 03/19
     topics: Dimensionality Reduction
+    resources:
+    - name: Slides
+      type: reading
+      link: 
+    - name: PML - Section 20.1
+      type: reading
+      link: https://probml.github.io/pml-book/book1.html
+    - name: ISLP - Section 12.2
+      type: reading
+      link: https://www.statlearning.com/
+    - name: UML - Chapter 23.1
+      type: reading
+      link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
 - name: Applied Machine Learning
   days:
   - date: Mon 03/24
@@ -273,6 +342,34 @@
   days:
   - date: Wed 03/26
     topics: Multi-Layer Perceptrons (FFNs)
+    resources:
+    - name: Slides
+      type: reading
+      link: 
+    - name: PML - Section 13.2
+      type: reading
+      link: https://probml.github.io/pml-book/book1.html
+    - name: ISLP - Sections 10.1, 10.2
+      type: reading
+      link: https://www.statlearning.com/
+    - name: D2L - Sections 5.1 and 5.2
+      type: reading
+      link: https://d2l.ai/chapter_multilayer-perceptrons/index.html
+    - name: UML - Sections 20.1 - 20.5
+      type: reading
+      link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
+    - name: Panopto
+      type: lecture
+      link: 
+    - name: Harvard CS50 (0:00 - 16:00)
+      type: lecture
+      link: https://www.youtube.com/watch?v=J1QD9hLDEDY
+    - name: Stanford CS221
+      type: lecture
+      link: https://www.youtube.com/watch?v=pnKXgBHuN58&list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2&index=11
+    - name: MIT 6.034 
+      type: lecture
+      link: https://www.youtube.com/watch?v=uXt8qF2Zzfo
 - name: Midterm 02
   days:
   - date: Mon 03/31
@@ -287,24 +384,151 @@
   days:
   - date: Mon 04/07
     topics: Gradient Descent and Backpropagation
+    resources:
+    - name: Slides
+      type: reading
+      link: 
+    - name: PML - Section 13.3
+      type: reading
+      link: https://probml.github.io/pml-book/book1.html
+    - name: ISLP - Section 10.7
+      type: reading
+      link: https://www.statlearning.com/
+    - name: D2L - Section 5.3
+      type: reading
+      link: https://d2l.ai/chapter_multilayer-perceptrons/backprop.html
+    - name: UML - Section 20.6
+      type: reading
+      link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
+    - name: Panopto
+      type: lecture
+      link: 
+    - name: Harvard CS50 (16:00 - 39:00)
+      type: lecture
+      link: https://www.youtube.com/watch?v=J1QD9hLDEDY
+    - name: Stanford CS221 - SGD
+      type: lecture
+      link: https://www.youtube.com/watch?v=bl2WgBLH0tI&list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2&index=7
+    - name: Stanford CS221 - Backprop
+      type: lecture
+      link: https://www.youtube.com/watch?v=OcAF-l2xB9Y&list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2&index=12
+    - name: MIT 6.034
+      type: lecture
+      link: https://www.youtube.com/watch?v=uXt8qF2Zzfo
   - date: Wed 04/09
     topics: Convolutional Neural Networks
+    resources:
+    - name: Slides
+      type: reading
+      link: 
+    - name: PML - Chapter 14
+      type: reading
+      link: https://probml.github.io/pml-book/book1.html
+    - name: ISLP - Section 10.3
+      type: reading
+      link: https://www.statlearning.com/
+    - name: D2L - Chapters 7 and 8
+      type: reading
+      link: https://d2l.ai/chapter_convolutional-neural-networks/index.html
+    - name: Panopto
+      type: lecture
+      link: 
+    - name: Harvard CS50 (53:00 - 1:27:12)
+      type: lecture
+      link: https://www.youtube.com/watch?v=J1QD9hLDEDY
   - date: Mon 04/14
     topics: Recurrent Neural Networks
+    resources:
+    - name: Slides
+      type: reading
+      link: 
+    - name: PML - Section 15.2
+      type: reading
+      link: https://probml.github.io/pml-book/book1.html
+    - name: ISLP - Section 10.5
+      type: reading
+      link: https://www.statlearning.com/
+    - name: D2L - Chapters 9 and 10
+      type: reading
+      link: https://d2l.ai/chapter_recurrent-neural-networks/index.html
+    - name: Harvard CS50 (1:27:00 - end)
+      type: lecture
+      link: https://www.youtube.com/watch?v=J1QD9hLDEDY
     assignments:
     - Homework 04
 - name: Modern Deep Learning
   days:
   - date: Wed 04/16
     topics: Attention 
+    resources:
+    - name: Slides
+      type: reading
+      link: 
+    - name: PML - Section 15.4
+      type: reading
+      link: https://probml.github.io/pml-book/book1.html
+    - name: D2L - Sections 11.1 through 11.6
+      type: reading
+      link: https://d2l.ai/chapter_attention-mechanisms-and-transformers/index.html
+    - name: Panopto
+      type: lecture
+      link: 
+    - name: Harvard CS50 (35:40 - 54:15)
+      type: lecture
+      link: https://www.youtube.com/watch?v=QAZc9xsQNjQ
+    - name: 3b1b
+      type: lecture
+      link: https://www.youtube.com/watch?v=eMlx5fFNoYc
   - date: Mon 04/21
     topics: Cancelled (Easter Monday)
   - date: Wed 04/23
     topics: Transformers and LLMs
+    resources:
+    - name: Slides
+      type: reading
+      link: 
+    - name: PML - Section 15.5
+      type: reading
+      link: https://probml.github.io/pml-book/book1.html
+    - name: D2L - Section 11.7
+      type: reading
+      link: https://d2l.ai/chapter_attention-mechanisms-and-transformers/transformer.html
+    - name: Panopto
+      type: lecture
+      link: 
+    - name: Harvard CS50 (54:15 - end)
+      type: lecture
+      link: https://www.youtube.com/watch?v=QAZc9xsQNjQ
+    - name: 3b1b
+      type: lecture
+      link: https://www.youtube.com/watch?v=wjZofJX0v4M
   - date: Mon 04/28
     topics: Diffusion Models
+    resources:
+    - name: Slides
+      type: reading
+      link: 
+    - name: This is literally too new for any of the usual sources to have something yet
+      type: reading
+      link: 
   - date: Wed 04/30
     topics: Reinforcement Learning
+    resources:
+    - name: Slides
+      type: reading
+      link: 
+    - name: D2L - Chapter 17
+      type: reading
+      link: https://d2l.ai/chapter_reinforcement-learning/index.html
+    - name: Panopto
+      type: lecture
+      link: 
+    - name: Harvard CS50 (1:09:57 - 1:38:24)
+      type: lecture
+      link: https://www.youtube.com/watch?v=-g0iJjnO2_w&t=4197s
+    - name: Stanford CS221
+      type: lecture
+      link: https://www.youtube.com/watch?v=HpaHTfY52RQ&list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2&index=20
     assignments:
     - Final Practice Packet
     - Homework 05
