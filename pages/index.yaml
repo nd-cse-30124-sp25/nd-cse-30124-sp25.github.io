@@ -285,7 +285,7 @@ body:       |
                     {% end %}
 
                     {% for index, day in enumerate(theme['days']) %}
-                        {% set unique_id = theme['name'].replace(' ', '_') ~ '_' ~ day['date'].replace(' ', '_').replace('/', '-') %}
+                        {% set unique_id = theme['name'].replace(' ', '_') + '_' + day['date'].replace(' ', '_').replace('/', '-') %}
 
                         <tr>
                             {% if index == 0 %}
