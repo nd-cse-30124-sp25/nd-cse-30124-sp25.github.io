@@ -255,15 +255,6 @@ body:       |
             width: 175px;
             vertical-align: middle;
         }
-        .collapse-row {
-            width: 100%;
-            background-color: #f9f9f9;
-            padding: 10px;
-        }
-        .caret-icon {
-            cursor: pointer;
-            margin-right: 5px;
-        }
     </style>
 
     <div class="row">
@@ -304,7 +295,7 @@ body:       |
                                     <i class="text-danger">{{ day.get('topics', '') }}</i>
                                 {% else %}
                                     {% if day.get('resources') %}
-                                        <i class="fa fa-caret-right caret-icon" onclick="toggleResources('{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}')"></i>
+                                        <i class="fa fa-caret-right" onclick="toggleResources('{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}')"></i>
                                     {% end %}
                                     {{ day.get('topics', '') }}
                                 {% end %}
@@ -359,7 +350,7 @@ body:       |
                             </td>
                         </tr>
                         {% if day.get('resources') %}
-                            <tr id="resources-{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}" class="collapse collapse-row">
+                            <tr id="resources-{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}">
                                 <td>
                                     <h4><i class="fa fa-book"></i> Readings:</h4>
                                     <ul>
