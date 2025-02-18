@@ -17,11 +17,6 @@
       link: https://drive.google.com/file/d/1Rc5V0QSkbObr1hWjcuLyDZ0dnPDhd538/view?usp=sharing
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2e7e50b5-88a1-44ff-86a4-b2730136eb53
-    resources:
-    - name: Research Paper
-      link: https://example.com/research-paper
-    - name: Tutorial
-      link: https://example.com/tutorial
   - date: Mon 01/20
     topics: Cancelled in Observance of the National Championship Game (MLK Day)
   - date: Wed 01/22
@@ -99,13 +94,32 @@
     items:
     - name: Slides
       link: https://drive.google.com/file/d/1CC4BIzS1dAEGTmRB6aRQhe9QL2iab7yq/view?usp=sharing
-    - name: Notebook
-      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
-    - name: Notebook
-      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
-    - name: Notebook
-      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
     - name: Panopto
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
+    resources:
+    - name: ISLP - Chapter 3
+      type: Reading
+      link: https://www.statlearning.com/
+    - name: D2L - Chapter 3.1
+      type: Reading
+      link: https://d2l.ai/chapter_linear-regression/linear-regression.html
+    - name: UML - Chapter 9.2
+      type: Reading
+      link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
+    - name: Stanford CS221
+      type: Lecture
+      link: https://www.youtube.com/watch?v=nEWNNt2KmfQ&list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2&index=5
+    - name: Harvard CS50
+      type: Lecture
+      link: https://youtu.be/-g0iJjnO2_w?si=jNuQG0o83uKw0qbR&t=2371
+    - name: Singular Value Decomposition
+      type: Notebook
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
+    - name: Linear Regression and Regularization
+      type: Notebook
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
+    - name: Polynomial Regression
+      type: Notebook
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
 - name: Exam 01
   days:
