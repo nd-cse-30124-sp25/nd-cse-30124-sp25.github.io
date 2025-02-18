@@ -291,6 +291,7 @@ body:       |
                                 {% elif 'exam' in day['topics'].lower() %}
                                     <i class="text-danger">{{ day.get('topics', '') }}</i>
                                 {% else %}
+                                    <i class="fas fa-caret-right" data-toggle="collapse" data-target="#resources-{{ index }}" style="cursor: pointer;"></i>
                                     {{ day.get('topics', '') }}
                                 {% end %}
                             {% else %}
@@ -341,11 +342,6 @@ body:       |
                                     <a href="{{ assignment_id }}.html" class="label label-{{ assignment_label }}">{{ assignment }}</a>
                                 {% end %}
                             {% end %}
-                            </td>
-                            <td>
-                                {% if day.get('resources') %}
-                                    <button class="btn btn-info" data-toggle="collapse" data-target="#resources-{{ index }}">Resources</button>
-                                {% end %}
                             </td>
                         </tr>
                         {% if day.get('resources') %}
