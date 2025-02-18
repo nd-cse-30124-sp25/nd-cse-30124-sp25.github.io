@@ -752,15 +752,17 @@ body:       |
             const unitCell = document.getElementById(`unit-cell-${id.split('-')[0]}`);
             
             if (resourcesRow.style.display === 'table-row') {
-                unitCell.rowSpan = unitCell.rowSpan - 1;
-                resourcesRow.style.display = 'none';
-                button.classList.remove('fa-caret-right');
-                button.classList.add('fa-caret-down');
-            } else {
-                unitCell.rowSpan = unitCell.rowSpan + 1;
-                resourcesRow.style.display = 'table-row';
                 button.classList.remove('fa-caret-down');
                 button.classList.add('fa-caret-right');
+
+                unitCell.rowSpan = unitCell.rowSpan - 1;
+                resourcesRow.style.display = 'none';
+            } else {
+                button.classList.remove('fa-caret-right');
+                button.classList.add('fa-caret-down');
+
+                unitCell.rowSpan = unitCell.rowSpan + 1;
+                resourcesRow.style.display = 'table-row';
             }
         }
     </script>
