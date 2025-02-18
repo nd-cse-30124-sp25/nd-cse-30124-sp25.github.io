@@ -359,7 +359,6 @@ body:       |
                         </tr>
                         {% if day.get('resources') %}
                             <tr id="resources-{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}" class="collapse collapse-row">
-                                <td></td>
                                 <td>
                                     <h4><i class="fa fa-book"></i> Readings:</h4>
                                     <ul>
@@ -380,16 +379,7 @@ body:       |
                                         {% end %}
                                     </ul>
                                 </td>
-                                <td>
-                                    <h4><i class="fa fa-pencil"></i> Blogposts:</h4>
-                                    <ul>
-                                        {% for resource in day.get('resources', []) %}
-                                            {% if resource['type'] == 'blogpost' %}
-                                                <li><a href="{{ resource['link'] }}" class="label label-danger">{{ resource['name'] }}</a></li>
-                                            {% end %}
-                                        {% end %}
-                                    </ul>
-                                </td>
+                                
                                 <td>
                                     <h4><i class="fa fa-file-text-o"></i> Notebooks:</h4>
                                     <ul>
