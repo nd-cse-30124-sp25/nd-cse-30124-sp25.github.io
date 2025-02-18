@@ -31,12 +31,6 @@
     items:
     - name: Slides
       link: https://drive.google.com/file/d/1TXsuZZx0iFe7HXixaGD_vB6a8mMBZLIF/view?usp=sharing
-    - name: Blogpost
-      link: https://courses.grainger.illinois.edu/cs440/fa2024/lectures/astar.html
-    - name: Blogpost
-      link: https://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
-    - name: Blogpost
-      link: https://theory.stanford.edu/~amitp/GameProgramming/Heuristics.html
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d5fecb7f-fd0b-4103-b41e-b2730130443e
     resources:
@@ -49,6 +43,15 @@
     - name: MIT 6.034
       type: lecture
       link: https://www.youtube.com/watch?v=gGQ-vAmdAOI
+    - name: A* Search
+      type: blogpost
+      link: https://courses.grainger.illinois.edu/cs440/fa2024/lectures/astar.html
+    - name: Introduction to A*
+      type: blogpost
+      link: https://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
+    - name: Heuristics
+      type: blogpost
+      link: https://theory.stanford.edu/~amitp/GameProgramming/Heuristics.html
     assignments:
       - Course Primer
   - date: Mon 01/27
@@ -56,8 +59,6 @@
     items:
     - name: Slides
       link: https://drive.google.com/file/d/1_KrWnjqZbQ5bnjV9M9R-zGRizqLuJHu2/view?usp=sharing
-    - name: Blogpost
-      link: https://medium.com/my-udacity-ai-nanodegree-notes/solving-sudoku-think-constraint-satisfaction-problem-75763f0742c9
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=950c91e2-7057-47b7-8b53-b272016b79a9
     resources:
@@ -70,6 +71,9 @@
     - name: MIT 6.034
       type: lecture
       link: https://www.youtube.com/watch?v=dARl_gGrS4o
+    - name: CSPs for Sudoku
+      type: blogpost
+      link: https://medium.com/my-udacity-ai-nanodegree-notes/solving-sudoku-think-constraint-satisfaction-problem-75763f0742c9
   - date: Wed 01/29
     topics: Adversarial Search
     items:
@@ -133,8 +137,6 @@
       link: https://drive.google.com/file/d/15wSXZcU4LRnjD-6wUeIek4Ev6Bp9XS2h/view?usp=sharing
     - name: Notebook
       link: https://colab.research.google.com/drive/1dthRebtlLdXYt9ZSYuCsC11896ovNkCV?usp=sharing
-    - name: Blogpost
-      link: https://web.stanford.edu/~jurafsky/slp3/3.pdf
     resources:
     - name: Harvard CS50
       type: lecture
@@ -142,6 +144,9 @@
     - name: Stanford CS221
       type: lecture
       link: https://www.youtube.com/watch?v=neeaJb3wCYw&list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2&index=30
+    - name: N-Gram Language Models
+      type: blogpost
+      link: https://web.stanford.edu/~jurafsky/slp3/3.pdf
   - date: Wed 02/12
     topics: Bayesian Reasoning
     items:
