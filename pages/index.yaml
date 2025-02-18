@@ -357,16 +357,31 @@ body:       |
                         {% if day.get('resources') %}
                             <tr id="resources-{{ index }}" class="collapse collapse-row">
                                 <td colspan="4">
+                                    <h4>Readings:</h4>
                                     <ul>
                                         {% for resource in day.get('resources', []) %}
                                             {% if resource['type'] == 'Reading' %}
-                                                {% set assignment_label = 'caution' %}
-                                            {% elif resource['type'] == 'Lecture' %}
-                                                {% set assignment_label = 'success' %}
-                                            {% elif resource['type'] == 'Notebook' %}
-                                                {% set assignment_label = 'primary' %}
+                                            <li><a href="{{ resource['link'] }}" class="label label-caution">{{ resource['name'] }}</a></li>
+                                        {% end %}
+                                    </ul>
+                                </td>
+                                <td colspan="4">
+                                    <h4>Lectures:</h4>
+                                    <ul>
+                                        {% for resource in day.get('resources', []) %}
+                                            {% if resource['type'] == 'Lecture' %}
+                                                <li><a href="{{ resource['link'] }}" class="label label-success">{{ resource['name'] }}</a></li>
                                             {% end %}
-                                            <li><a href="{{ resource['link'] }}" class="label label-{{ assignment_label }}">{{ resource['type'] }}:</a>{{ resource['name'] }}</li>
+                                        {% end %}
+                                    </ul>
+                                </td>
+                                <td colspan="4">
+                                    <h4>Notebooks:</h4>
+                                    <ul>
+                                        {% for resource in day.get('resources', []) %}
+                                            {% if resource['type'] == 'Notebook' %}
+                                                <li><a href="{{ resource['link'] }}" class="label label-primary">{{ resource['name'] }}</a></li>
+                                            {% end %}
                                         {% end %}
                                     </ul>
                                 </td>
