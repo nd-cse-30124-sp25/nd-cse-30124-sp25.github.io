@@ -5573,11 +5573,11 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
         const unitCell = document.getElementById(`unit-cell-${id.split('-')[0]}`);
 
         if (resourcesRow.classList.contains('show')) {
-            resourcesRow.classList.remove('show');
             unitCell.rowSpan = unitCell.rowSpan - 1;
+            resourcesRow.classList.remove('show');
         } else {
-            resourcesRow.classList.add('show');
             unitCell.rowSpan = unitCell.rowSpan + 1;
+            resourcesRow.classList.add('show');
         }
     }
 </script>
