@@ -361,7 +361,8 @@ body:       |
                                     <ul>
                                         {% for resource in day.get('resources', []) %}
                                             {% if resource['type'] == 'reading' %}
-                                            <li><a href="{{ resource['link'] }}" class="label label-caution">{{ resource['name'] }}</a></li>
+                                                <li><a href="{{ resource['link'] }}" class="label label-caution">{{ resource['name'] }}</a></li>
+                                            {% end %}
                                         {% end %}
                                     </ul>
                                 </td>
