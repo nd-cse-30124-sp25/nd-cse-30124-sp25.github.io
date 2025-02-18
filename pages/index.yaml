@@ -294,10 +294,12 @@ body:       |
                                 {% elif 'exam' in day['topics'].lower() %}
                                     <i class="text-danger">{{ day.get('topics', '') }}</i>
                                 {% else %}
-                                    {{ day.get('topics', '') }}
-                                    {% if day.get('resources') %}
-                                        <i class="fa fa-caret-right" id="{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}" onclick="toggleResources('{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}')"></i>
-                                    {% end %}
+                                    <span onclick="toggleResources('{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}')" style="cursor: pointer;">
+                                        {{ day.get('topics', '') }}
+                                        {% if day.get('resources') %}
+                                            <i class="fa fa-caret-right" id="{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}"></i>
+                                        {% end %}
+                                    </span>
                                 {% end %}
                             {% else %}
                                 <i class="text-muted">Intro to AI</i>
