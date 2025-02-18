@@ -376,7 +376,7 @@ body:       |
                                             </ul>
                                         </div>
                                         <div class="col-md-3">
-                                            <h4><i class="fa fa-pencil"></i> Blogposts:</h4>
+                                            <h4><i class="fa fa-share-alt"></i> Blogposts:</h4>
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'blogpost' %}
