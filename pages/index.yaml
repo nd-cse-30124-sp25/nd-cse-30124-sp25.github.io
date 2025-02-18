@@ -359,14 +359,15 @@ body:       |
                                 <td colspan="4">
                                     <ul>
                                         {% for resource in day.get('resources', []) %}
-                                        {% if resource['type'] == 'Reading' %}
-                                            {% set assignment_label = 'success' %}
-                                        {% elif resource['type'] == 'Lecture' %}
-                                            {% set assignment_label = 'success' %}
-                                        {% elif resource['type'] == 'Notebook' %}
-                                            {% set assignment_label = 'primary' %}
+                                            {% if resource['type'] == 'Reading' %}
+                                                {% set assignment_label = 'success' %}
+                                            {% elif resource['type'] == 'Lecture' %}
+                                                {% set assignment_label = 'success' %}
+                                            {% elif resource['type'] == 'Notebook' %}
+                                                {% set assignment_label = 'primary' %}
+                                            {% end %}
+                                            <li><a href="{{ resource['link'] }}" class="label label-{{ assignment_label }}">{{ resource['type'] }}: {{ resource['name'] }}</a></li>
                                         {% end %}
-                                        <li><a href="{{ resource['link'] }}" class="label label-{{ assignment_label }}">{{ resource['type'] }}: {{ resource['name'] }}</a></li>
                                     </ul>
                                 </td>
                             </tr>
