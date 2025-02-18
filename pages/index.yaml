@@ -380,6 +380,16 @@ body:       |
                                     </ul>
                                 </td>
                                 <td colspan="3">
+                                    <h4>Blogposts:</h4>
+                                    <ul>
+                                        {% for resource in day.get('resources', []) %}
+                                            {% if resource['type'] == 'blogpost' %}
+                                                <li><a href="{{ resource['link'] }}" class="label label-danger">{{ resource['name'] }}</a></li>
+                                            {% end %}
+                                        {% end %}
+                                    </ul>
+                                </td>
+                                <td colspan="3">
                                     <h4>Notebooks:</h4>
                                     <ul>
                                         {% for resource in day.get('resources', []) %}
