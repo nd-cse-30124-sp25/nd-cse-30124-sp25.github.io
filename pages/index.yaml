@@ -350,7 +350,7 @@ body:       |
                             </td>
                         </tr>
                         {% if day.get('resources') %}
-                            <tr id="resources-{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}">
+                            <tr id="resources-{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}" style="display: none;">
                                 <td>
                                     <h4><i class="fa fa-book"></i> Readings:</h4>
                                     <ul>
@@ -746,12 +746,12 @@ body:       |
             const resourcesRow = document.getElementById(`resources-${id}`);
             const unitCell = document.getElementById(`unit-cell-${id.split('-')[0]}`);
             
-            if (resourcesRow.classList.contains('show')) {
+            if (resourcesRow.style.display === 'table-row') {
                 unitCell.rowSpan = unitCell.rowSpan - 1;
-                resourcesRow.classList.remove('show');
+                resourcesRow.style.display = 'none';
             } else {
                 unitCell.rowSpan = unitCell.rowSpan + 1;
-                resourcesRow.classList.add('show');
+                resourcesRow.style.display = 'table-row';
             }
         }
     </script>
