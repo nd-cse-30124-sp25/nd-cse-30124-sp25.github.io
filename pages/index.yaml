@@ -303,7 +303,7 @@ body:       |
                                     <i class="text-danger">{{ day.get('topics', '') }}</i>
                                 {% else %}
                                     {% if day.get('resources') %}
-                                        <i class="fa fa-caret-right caret-icon" onclick="toggleResources('{{ unit_id }}_{{ day['date'].replace(' ', '_').replace('/', '-') }}')"></i>
+                                        <i class="fa fa-caret-right caret-icon" onclick="toggleResources('{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}')"></i>
                                     {% end %}
                                     {{ day.get('topics', '') }}
                                 {% end %}
@@ -358,7 +358,7 @@ body:       |
                             </td>
                         </tr>
                         {% if day.get('resources') %}
-                            <tr id="resources-{{ unit_id }}_{{ day['date'].replace(' ', '_').replace('/', '-') }}" class="collapse collapse-row">
+                            <tr id="resources-{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}" class="collapse collapse-row">
                                 <td colspan="1">
                                     <h4>Readings:</h4>
                                     <ul>
@@ -740,7 +740,7 @@ body:       |
     <script>
         function toggleResources(id) {
             const resourcesRow = document.getElementById(`resources-${id}`);
-            const unitCell = document.getElementById(`unit-cell-${id.split('_')[0]}`);
+            const unitCell = document.getElementById(`unit-cell-${id.split('-')[0]}`);
             
             if (resourcesRow.classList.contains('show')) {
                 resourcesRow.classList.remove('show');
