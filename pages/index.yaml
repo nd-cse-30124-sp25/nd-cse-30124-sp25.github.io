@@ -350,7 +350,7 @@ body:       |
                             </td>
                         </tr>
                         {% if day.get('resources') %}
-                            <tr id="resources-{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}" class="collapse collapse-row">
+                            <tr id="resources-{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}" style="display: none;">
                                 <td colspan="3">
                                     <div class="row">
                                         <div class="col-md-3">
