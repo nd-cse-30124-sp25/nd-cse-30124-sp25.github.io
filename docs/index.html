@@ -3512,7 +3512,7 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
                         </td>
                     </tr>
                     
-                        <tr id="resources-Search_and_Representations-Wed_01-15">
+                        <tr id="resources-Search_and_Representations-Wed_01-15" style="display: none;">
                             <td>
                                 <h4><i class="fa fa-book"></i> Readings:</h4>
                                 <ul>
@@ -3631,7 +3631,7 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
                         </td>
                     </tr>
                     
-                        <tr id="resources-Search_and_Representations-Wed_01-22">
+                        <tr id="resources-Search_and_Representations-Wed_01-22" style="display: none;">
                             <td>
                                 <h4><i class="fa fa-book"></i> Readings:</h4>
                                 <ul>
@@ -3760,7 +3760,7 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
                         </td>
                     </tr>
                     
-                        <tr id="resources-Search_and_Representations-Mon_01-27">
+                        <tr id="resources-Search_and_Representations-Mon_01-27" style="display: none;">
                             <td>
                                 <h4><i class="fa fa-book"></i> Readings:</h4>
                                 <ul>
@@ -3869,7 +3869,7 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
                         </td>
                     </tr>
                     
-                        <tr id="resources-Search_and_Representations-Wed_01-29">
+                        <tr id="resources-Search_and_Representations-Wed_01-29" style="display: none;">
                             <td>
                                 <h4><i class="fa fa-book"></i> Readings:</h4>
                                 <ul>
@@ -3975,7 +3975,7 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
                         </td>
                     </tr>
                     
-                        <tr id="resources-Search_and_Representations-Mon_02-03">
+                        <tr id="resources-Search_and_Representations-Mon_02-03" style="display: none;">
                             <td>
                                 <h4><i class="fa fa-book"></i> Readings:</h4>
                                 <ul>
@@ -4077,7 +4077,7 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
                         </td>
                     </tr>
                     
-                        <tr id="resources-Direct_Fit_Models-Wed_02-05">
+                        <tr id="resources-Direct_Fit_Models-Wed_02-05" style="display: none;">
                             <td>
                                 <h4><i class="fa fa-book"></i> Readings:</h4>
                                 <ul>
@@ -4196,7 +4196,7 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
                         </td>
                     </tr>
                     
-                        <tr id="resources-Direct_Fit_Models-Mon_02-10">
+                        <tr id="resources-Direct_Fit_Models-Mon_02-10" style="display: none;">
                             <td>
                                 <h4><i class="fa fa-book"></i> Readings:</h4>
                                 <ul>
@@ -4305,7 +4305,7 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
                         </td>
                     </tr>
                     
-                        <tr id="resources-Direct_Fit_Models-Wed_02-12">
+                        <tr id="resources-Direct_Fit_Models-Wed_02-12" style="display: none;">
                             <td>
                                 <h4><i class="fa fa-book"></i> Readings:</h4>
                                 <ul>
@@ -4444,7 +4444,7 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
                         </td>
                     </tr>
                     
-                        <tr id="resources-Direct_Fit_Models-Mon_02-17">
+                        <tr id="resources-Direct_Fit_Models-Mon_02-17" style="display: none;">
                             <td>
                                 <h4><i class="fa fa-book"></i> Readings:</h4>
                                 <ul>
@@ -4664,7 +4664,7 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
                         </td>
                     </tr>
                     
-                        <tr id="resources-Supervised_Learning-Wed_02-26">
+                        <tr id="resources-Supervised_Learning-Wed_02-26" style="display: none;">
                             <td>
                                 <h4><i class="fa fa-book"></i> Readings:</h4>
                                 <ul>
@@ -5615,12 +5615,12 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
         const resourcesRow = document.getElementById(`resources-${id}`);
         const unitCell = document.getElementById(`unit-cell-${id.split('-')[0]}`);
 
-        if (resourcesRow.classList.contains('show')) {
+        if (resourcesRow.style.display === 'table-row') {
             unitCell.rowSpan = unitCell.rowSpan - 1;
-            resourcesRow.classList.remove('show');
+            resourcesRow.style.display = 'none';
         } else {
             unitCell.rowSpan = unitCell.rowSpan + 1;
-            resourcesRow.classList.add('show');
+            resourcesRow.style.display = 'table-row';
         }
     }
 </script>
