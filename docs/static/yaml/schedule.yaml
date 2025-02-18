@@ -118,6 +118,9 @@
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bf4e157a-ee3d-48b6-ac07-b27b016b88f3
     resources:
+    - name: PML - Chapter 18
+      type: reading
+      link: https://probml.github.io/pml-book/book1.html
     - name: ISLP - Chapter 8
       type: reading
       link: https://www.statlearning.com/
@@ -138,6 +141,9 @@
     - name: Notebook
       link: https://colab.research.google.com/drive/1dthRebtlLdXYt9ZSYuCsC11896ovNkCV?usp=sharing
     resources:
+    - name: PML - Sections 3.6.1.2
+      type: reading
+      link: https://probml.github.io/pml-book/book1.html
     - name: Harvard CS50
       type: lecture
       link: https://youtu.be/D8RRq3TbtHU?si=OHgr_CzMVECPEqdc&t=5578
@@ -155,6 +161,9 @@
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=23a718e2-6f4b-45a8-bca0-b282016be13b
     resources:
+    - name: PML - Sections 2.3, 3.6.1, 4.6, 5.1, 9.3
+      type: reading
+      link: https://probml.github.io/pml-book/book1.html
     - name: ISLP - Section 4.4.4
       type: reading
       link: https://www.statlearning.com/
@@ -181,6 +190,9 @@
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
     resources:
+    - name: PML - Sections 7.5, 8.1.3, Chapter 11
+      type: reading
+      link: https://probml.github.io/pml-book/book1.html
     - name: ISLP - Chapter 3
       type: reading
       link: https://www.statlearning.com/
@@ -219,6 +231,9 @@
   - date: Wed 02/26
     topics: Perceptrons
     resources:
+    - name: PML - Section 10.2.5
+      type: reading
+      link: https://probml.github.io/pml-book/book1.html
     - name: UML - Section 9.1.2
       type: reading
       link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
