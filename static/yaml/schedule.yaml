@@ -97,27 +97,29 @@
     - name: Panopto
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
     resources:
-    - Readings:
-      name: ISLP - Chapter 3
+    - name: ISLP - Chapter 3
+      type: reading
       link: https://www.statlearning.com/
     - name: D2L - Chapter 3.1
+      type: reading
       link: https://d2l.ai/chapter_linear-regression/linear-regression.html
     - name: UML - Chapter 9.2
+      type: reading
       link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
     - name: Stanford CS221
-      link: https://www.youtube.com/watch?v=nEWNNt2KmfQ&list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2&index=5
+      type: lecture
       link: https://www.youtube.com/watch?v=nEWNNt2KmfQ&list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2&index=5
     - name: Harvard CS50
-      type: Lecture
+      type: lecture
       link: https://youtu.be/-g0iJjnO2_w?si=jNuQG0o83uKw0qbR&t=2371
     - name: Singular Value Decomposition
-      type: Notebook
+      type: notebook
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
     - name: Linear Regression and Regularization
-      type: Notebook
+      type: notebook
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
     - name: Polynomial Regression
-      type: Notebook
+      type: notebook
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
 - name: Exam 01
   days:

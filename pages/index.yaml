@@ -360,7 +360,7 @@ body:       |
                                     <h4>Readings:</h4>
                                     <ul>
                                         {% for resource in day.get('resources', []) %}
-                                            {% if resource['type'] == 'Reading' %}
+                                            {% if resource['type'] == 'reading' %}
                                             <li><a href="{{ resource['link'] }}" class="label label-caution">{{ resource['name'] }}</a></li>
                                         {% end %}
                                     </ul>
@@ -369,7 +369,7 @@ body:       |
                                     <h4>Lectures:</h4>
                                     <ul>
                                         {% for resource in day.get('resources', []) %}
-                                            {% if resource['type'] == 'Lecture' %}
+                                            {% if resource['type'] == 'lecture' %}
                                                 <li><a href="{{ resource['link'] }}" class="label label-success">{{ resource['name'] }}</a></li>
                                             {% end %}
                                         {% end %}
@@ -379,7 +379,7 @@ body:       |
                                     <h4>Notebooks:</h4>
                                     <ul>
                                         {% for resource in day.get('resources', []) %}
-                                            {% if resource['type'] == 'Notebook' %}
+                                            {% if resource['type'] == 'notebook' %}
                                                 <li><a href="{{ resource['link'] }}" class="label label-primary">{{ resource['name'] }}</a></li>
                                             {% end %}
                                         {% end %}
