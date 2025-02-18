@@ -295,7 +295,7 @@ body:       |
                                     <i class="text-danger">{{ day.get('topics', '') }}</i>
                                 {% else %}
                                     {% if day.get('resources') %}
-                                        <i class="fa fa-caret-right" onclick="toggleResources('{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}')"></i>
+                                        <i class="fa fa-caret-right" id="{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}" onclick="toggleResources('{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}')"></i>
                                     {% end %}
                                     {{ day.get('topics', '') }}
                                 {% end %}
@@ -747,15 +747,20 @@ body:       |
 
     <script>
         function toggleResources(id) {
+            const button = document.getElementById(id);
             const resourcesRow = document.getElementById(`resources-${id}`);
             const unitCell = document.getElementById(`unit-cell-${id.split('-')[0]}`);
             
             if (resourcesRow.style.display === 'table-row') {
                 unitCell.rowSpan = unitCell.rowSpan - 1;
                 resourcesRow.style.display = 'none';
+                button.classList.remove('fa-caret-right');
+                button.classList.add('fa-caret-down');
             } else {
                 unitCell.rowSpan = unitCell.rowSpan + 1;
                 resourcesRow.style.display = 'table-row';
+                button.classList.remove('fa-caret-down');
+                button.classList.add('fa-caret-right');
             }
         }
     </script>
