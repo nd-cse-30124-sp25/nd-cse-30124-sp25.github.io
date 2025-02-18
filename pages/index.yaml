@@ -292,10 +292,6 @@ body:       |
                                 <td id="unit-cell-{{ unique_id }}" rowspan="{{ len(theme['days']) }}" class="text-strong text-primary text-center unit">{{ theme['name'] }}</td>
                             {% end %}
 
-                            <td class="text-center text-strong">
-                                <i class="fas fa-caret-right caret-icon" onclick="toggleResources('{{ unique_id }}')"></i>
-                                <tt>{{ day['date'] }}</tt>
-                            </td>
                             <td class="text-strong">
 
                             {% if 'topics' in day %}
@@ -305,7 +301,7 @@ body:       |
                                     <i class="text-danger">{{ day.get('topics', '') }}</i>
                                 {% else %}
                                     {% if day.get('resources') %}
-                                        <i class="fa fa-caret-right caret-icon" data-toggle="collapse" data-target="#resources-{{ day['date'].replace(' ', '_').replace('/', '-') }}"></i>
+                                        <i class="fas fa-caret-right caret-icon" onclick="toggleResources('{{ unique_id }}')"></i>
                                     {% end %}
                                     {{ day.get('topics', '') }}
                                 {% end %}
