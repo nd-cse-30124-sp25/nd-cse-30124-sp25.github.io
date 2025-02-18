@@ -2,10 +2,12 @@
   days:
   - date: Mon 01/13
     topics: Syllabus, History of AI
-    items:
+    resources:
     - name: Slides
+      type: reading
       link: https://drive.google.com/file/d/1yUot9T3myty2Tsx1KpXLxhyd77KbFlUl/view?usp=sharing
     - name: Panopto
+      type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=58dc4069-548c-4168-9dfe-b2640163d0da
 - name: 'Unit 01: Good Old Fashioned AI (GOFAI)'
 - name: Search and Representations
