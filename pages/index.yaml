@@ -715,12 +715,13 @@ body:       |
             care for the way they go about teaching the material. That being said, since someone asked, if you want to prepare for
             lecture by doing some pre-reading, here are the books the readings will be from. I personally think you'd be better
             off watching one or more of the lectures below, which are taught by literally the best teachers in the field. If you
-            do end up doing the reading, I'd be curious to hear which book you found most useful.
+            do end up doing the reading, I'd be curious to hear which book you found most useful. I personally like PML the best.
 
             <ul>
-                <li><a href="https://d2l.ai/index.html">Dive into Deep Learning</a></li>
-                <li><a href="https://www.statlearning.com/">An Introduction to Statistical Learning</a></li>
-                <li><a href="https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html">Understanding Machine Learning: From Theory to Algorithms</a></li>
+                <li><a href="https://probml.github.io/pml-book/book1.html">Probabilistic Machine Learning: An Introduction (PML)</a></li>
+                <li><a href="https://d2l.ai/index.html">Dive into Deep Learning (D2L)</a></li>
+                <li><a href="https://www.statlearning.com/">An Introduction to Statistical Learning (ISLP)</a></li>
+                <li><a href="https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html">Understanding Machine Learning: From Theory to Algorithms (UML)</a></li>
             </ul>
 
             <h3>Courses</h3>
@@ -734,6 +735,7 @@ body:       |
             <ul>
                 <li><a href="https://ai.stanford.edu/~nilsson/QAI/qai.pdf">The Quest for Artificial Intelligence</a>
                 <li><a href="https://github.com/rasbt/machine-learning-book">Machine Learning with PyTorch and Scikit-Learn</a>
+                <li><a href="https://probml.github.io/pml-book/book1.html">Probabilistic Machine Learning: An Introduction</a></li>
             </ul>
             
         </div>
