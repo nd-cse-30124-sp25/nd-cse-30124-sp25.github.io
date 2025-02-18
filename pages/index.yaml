@@ -300,7 +300,7 @@ body:       |
                                     <i class="text-danger">{{ day.get('topics', '') }}</i>
                                 {% else %}
                                     {% if day.get('resources') %}
-                                        <i class="fa fa-caret-right" data-toggle="collapse" data-target="#resources-{{ index }}" style="cursor: pointer;"></i>
+                                        <i class="fa fa-caret-right caret-icon" data-toggle="collapse" data-target="#resources-{{ index }}"></i>
                                     {% end %}
                                     {{ day.get('topics', '') }}
                                 {% end %}
@@ -354,7 +354,7 @@ body:       |
                             {% end %}
                             </td>
                         </tr>
-                        {% if day.get('additional_resources') %}
+                        {% if day.get('resources') %}
                             <tr id="resources-{{ index }}" class="collapse collapse-row">
                                 <td colspan="4">
                                     <ul>
