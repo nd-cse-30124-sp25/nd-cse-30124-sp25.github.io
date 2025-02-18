@@ -278,71 +278,87 @@ body:       |
 
                     {% for index, day in enumerate(theme['days']) %}
                         <tr>
-                        {% if index == 0 %}
-                            <td rowspan="{{ len(theme['days']) }}" class="text-strong text-primary text-center unit">{{ theme['name'] }}</td>
-                        {% end %}
-
-                        <td class="text-center text-strong"><tt>{{ day['date'] }}</tt></td>
-                        <td class="text-strong">
-
-                        {% if 'topics' in day %}
-                            {% if day['topics'] == 'Office Hours' or day['topics'].startswith('Cancelled') %}
-                                <i class="text-muted">{{ day.get('topics', '') }}</i>
-                            {% elif 'exam' in day['topics'].lower() %}
-                                <i class="text-danger">{{ day.get('topics', '') }}</i>
-                            {% else %}
-                                {{ day.get('topics', '') }}
-                            {% end %}
-                        {% else %}
-                            <i class="text-muted">Intro to AI</i>
-                        {% end %}
-
-                        {% for item in day.get('items', []) %}
-                            {% if 'exam' in item['name'].lower() %}
-                                {% set item['label'] = 'danger' %}
-                            {% elif item['name'].lower().startswith('panopto') %}
-                                {% set item['label'] = 'success' %}
-                            {% elif item['name'].lower().startswith('blogpost') %}
-                                {% set item['label'] = 'primary' %}
-                            {% else %}
-                                {% set item['label'] = 'default' %}
+                            {% if index == 0 %}
+                                <td rowspan="{{ len(theme['days']) }}" class="text-strong text-primary text-center unit">{{ theme['name'] }}</td>
                             {% end %}
 
-                            {% if 'link' in item %}
-                                <a class="label label-{{ item['label'] }}" href="{{ item['link'] }}">{{ item['name'] }}</a>
+                            <td class="text-center text-strong"><tt>{{ day['date'] }}</tt></td>
+                            <td class="text-strong">
+
+                            {% if 'topics' in day %}
+                                {% if day['topics'] == 'Office Hours' or day['topics'].startswith('Cancelled') %}
+                                    <i class="text-muted">{{ day.get('topics', '') }}</i>
+                                {% elif 'exam' in day['topics'].lower() %}
+                                    <i class="text-danger">{{ day.get('topics', '') }}</i>
+                                {% else %}
+                                    {{ day.get('topics', '') }}
+                                {% end %}
                             {% else %}
-                                <span class="label label-{{ item['label'] }}">{{ item['name'] }}</span>
+                                <i class="text-muted">Intro to AI</i>
                             {% end %}
-                        {% end %}
 
-                        </td>
-                        <td class="text-strong text-center">
+                            {% for item in day.get('items', []) %}
+                                {% if 'exam' in item['name'].lower() %}
+                                    {% set item['label'] = 'danger' %}
+                                {% elif item['name'].lower().startswith('panopto') %}
+                                    {% set item['label'] = 'success' %}
+                                {% elif item['name'].lower().startswith('blogpost') %}
+                                    {% set item['label'] = 'primary' %}
+                                {% else %}
+                                    {% set item['label'] = 'default' %}
+                                {% end %}
 
-                        {% for assignment in day.get('assignments', []) %}
-                            {% set assignment_id = '_'.join(assignment.lower().split()) %}
-
-                            {% if 'solutions' in assignment_id %}
-                                {% set assignment_label = 'success' %}
-                                <a href="static/solutions/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
-                            {% elif assignment_id.startswith('quiz') %}
-                                {% set assignment_label = 'primary' %}
-                                <a href="static/pdf/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
-                            {% elif 'practice' in assignment_id %}
-                                {% set assignment_label = 'success' %}
-                                <a href="static/pdf/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
-                            {% elif 'exam' in assignment_id %}
-                                {% set assignment_label = 'danger' %}
-                                <a href="static/pdf/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
-                            {% elif 'primer' in assignment_id %}
-                                {% set assignment_label = 'success' %}
-                                <a href="{{ assignment_id }}.html" class="label label-{{ assignment_label }}">{{ assignment }}</a>
-                            {% else %}
-                                {% set assignment_label = 'caution' %}
-                                <a href="{{ assignment_id }}.html" class="label label-{{ assignment_label }}">{{ assignment }}</a>
+                                {% if 'link' in item %}
+                                    <a class="label label-{{ item['label'] }}" href="{{ item['link'] }}">{{ item['name'] }}</a>
+                                {% else %}
+                                    <span class="label label-{{ item['label'] }}">{{ item['name'] }}</span>
+                                {% end %}
                             {% end %}
-                        {% end %}
-                        </td>
+
+                            </td>
+                            <td class="text-strong text-center">
+
+                            {% for assignment in day.get('assignments', []) %}
+                                {% set assignment_id = '_'.join(assignment.lower().split()) %}
+
+                                {% if 'solutions' in assignment_id %}
+                                    {% set assignment_label = 'success' %}
+                                    <a href="static/solutions/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
+                                {% elif assignment_id.startswith('quiz') %}
+                                    {% set assignment_label = 'primary' %}
+                                    <a href="static/pdf/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
+                                {% elif 'practice' in assignment_id %}
+                                    {% set assignment_label = 'success' %}
+                                    <a href="static/pdf/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
+                                {% elif 'exam' in assignment_id %}
+                                    {% set assignment_label = 'danger' %}
+                                    <a href="static/pdf/{{ assignment_id }}.pdf" class="label label-{{ assignment_label }}">{{ assignment }}</a>
+                                {% elif 'primer' in assignment_id %}
+                                    {% set assignment_label = 'success' %}
+                                    <a href="{{ assignment_id }}.html" class="label label-{{ assignment_label }}">{{ assignment }}</a>
+                                {% else %}
+                                    {% set assignment_label = 'caution' %}
+                                    <a href="{{ assignment_id }}.html" class="label label-{{ assignment_label }}">{{ assignment }}</a>
+                                {% end %}
+                            {% end %}
+                            </td>
+                            <td>
+                                {% if day.get('resources') %}
+                                    <button class="btn btn-info" data-toggle="collapse" data-target="#resources-{{ index }}">Resources</button>
+                                {% end %}
+                            </td>
                         </tr>
+                        {% if day.get('resources') %}
+                            <tr id="resources-{{ index }}" class="collapse">
+                                <td colspan="4">
+                                    <ul>
+                                        {% for resource in day.get('resources', []) %}
+                                            <li><a href="{{ resource['link'] }}">{{ resource['name'] }}</a></li>
+                                        {% end %}
+                                    </ul>
+                                </td>
+                            </tr>
+                        {% end %}
                     {% end %}
                 {% end %}
             </tbody>
@@ -656,8 +672,22 @@ body:       |
             available for learning it. The best teachers of the topics release much of their material
             avaible for free online. If something in class seemed unclear, you're encouraged
             to seek out an explanation that makes the most sense to you! If you find one that you really
-            like, please share it with the rest of the class. Below are links to some books and blogposts
+            like, please share it with the rest of the class. Below are links to books, blogposts, and lectures
             that I personally find very useful.
+
+            <h3>Readings</h3>
+
+            I will provide readings from these books for each lecture. However I do not necessarily endorse these books and don't
+            care for the way they go about teaching the material. That being said, since someone asked, if you want to prepare for
+            lecture by doing some pre-reading, here are the books the readings will be from. I personally think you'd be better
+            off watching one or more of the lectures below, which are taught by literally the best teachers in the field. If you
+            do end up doing the reading, I'd be curious to hear which book you found most useful.
+
+            <ul>
+                <li><a href="https://d2l.ai/index.html">Dive into Deep Learning</a></li>
+                <li><a href="https://www.statlearning.com/">An Introduction to Statistical Learning</a></li>
+                <li><a href="https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html">Understanding Machine Learning: From Theory to Algorithms</a></li>
+            </ul>
 
             <h3>Courses</h3>
             <ul>
@@ -671,5 +701,6 @@ body:       |
                 <li><a href="https://ai.stanford.edu/~nilsson/QAI/qai.pdf">The Quest for Artificial Intelligence</a>
                 <li><a href="https://github.com/rasbt/machine-learning-book">Machine Learning with PyTorch and Scikit-Learn</a>
             </ul>
+            
         </div>
     </div>
