@@ -285,12 +285,17 @@ body:       |
                     {% end %}
 
                     {% for index, day in enumerate(theme['days']) %}
+                        {% set unique_id = theme['name'].replace(' ', '_') ~ '_' ~ day['date'].replace(' ', '_').replace('/', '-') %}
+
                         <tr>
                             {% if index == 0 %}
-                                <td rowspan="{{ len(theme['days']) }}" class="text-strong text-primary text-center unit">{{ theme['name'] }}</td>
+                                <td id="unit-cell-{{ unique_id }}" rowspan="{{ len(theme['days']) }}" class="text-strong text-primary text-center unit">{{ theme['name'] }}</td>
                             {% end %}
 
-                            <td class="text-center text-strong"><tt>{{ day['date'] }}</tt></td>
+                            <td class="text-center text-strong">
+                                <i class="fas fa-caret-right caret-icon" onclick="toggleResources('{{ unique_id }}')"></i>
+                                <tt>{{ day['date'] }}</tt>
+                            </td>
                             <td class="text-strong">
 
                             {% if 'topics' in day %}
@@ -355,8 +360,7 @@ body:       |
                             </td>
                         </tr>
                         {% if day.get('resources') %}
-                            <tr id="resources-{{ day['date'].replace(' ', '_').replace('/', '-') }}" class="collapse collapse-row">
-                                <td colspan="1"> </td>
+                            <tr id="resources-{{ unique_id }}" class="collapse collapse-row">
                                 <td colspan="1">
                                     <h4>Readings:</h4>
                                     <ul>
@@ -734,3 +738,18 @@ body:       |
             
         </div>
     </div>
+
+    <script>
+        function toggleResources(id) {
+            const resourcesRow = document.getElementById(`resources-${id}`);
+            const unitCell = document.getElementById(`unit-cell-${id}`);
+            
+            if (resourcesRow.classList.contains('show')) {
+                resourcesRow.classList.remove('show');
+                unitCell.rowSpan = unitCell.rowSpan - 1;
+            } else {
+                resourcesRow.classList.add('show');
+                unitCell.rowSpan = unitCell.rowSpan + 1;
+            }
+        }
+    </script>
