@@ -12,12 +12,13 @@
   days:
   - date: Wed 01/15
     topics: Search
-    items:
+    resources:
     - name: Slides
+      type: reading
       link: https://drive.google.com/file/d/1Rc5V0QSkbObr1hWjcuLyDZ0dnPDhd538/view?usp=sharing
     - name: Panopto
+      type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2e7e50b5-88a1-44ff-86a4-b2730136eb53
-    resources:
     - name: Harvard CS50
       type: lecture
       link: https://www.youtube.com/watch?v=WbzNRTTrX0g
@@ -28,12 +29,13 @@
     topics: Cancelled in Observance of the National Championship Game (MLK Day)
   - date: Wed 01/22
     topics: A* Search
-    items:
+    resources:
     - name: Slides
+      type: reading
       link: https://drive.google.com/file/d/1TXsuZZx0iFe7HXixaGD_vB6a8mMBZLIF/view?usp=sharing
     - name: Panopto
+      type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d5fecb7f-fd0b-4103-b41e-b2730130443e
-    resources:
     - name: Harvard CS50
       type: lecture
       link: https://youtu.be/WbzNRTTrX0g?si=mqYHjM8hTRsed8h4&t=3269
@@ -56,12 +58,13 @@
       - Course Primer
   - date: Mon 01/27
     topics: Constraint Satisfaction Problems
-    items:
+    resources:
     - name: Slides
+      type: reading
       link: https://drive.google.com/file/d/1_KrWnjqZbQ5bnjV9M9R-zGRizqLuJHu2/view?usp=sharing
     - name: Panopto
+      type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=950c91e2-7057-47b7-8b53-b272016b79a9
-    resources:
     - name: Harvard CS50
       type: lecture
       link: https://youtu.be/qK46ET1xk2A?si=tSAHHe0Sp-OxWUpD&t=3033
@@ -76,12 +79,13 @@
       link: https://medium.com/my-udacity-ai-nanodegree-notes/solving-sudoku-think-constraint-satisfaction-problem-75763f0742c9
   - date: Wed 01/29
     topics: Adversarial Search
-    items:
+    resources:
     - name: Slides
+      type: reading
       link: https://drive.google.com/file/d/1_40XB0kUsCcmY5luy8iDi74SD-Jk6QR1/view?usp=sharing
     - name: Panopto
+      type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
-    resources:
     - name: Harvard CS50
       type: lecture
       link: https://youtu.be/WbzNRTTrX0g?si=CAG9IhmN4MBSzHfi&t=4323
@@ -93,12 +97,13 @@
       link: https://www.youtube.com/watch?v=STjW3eH0Cik
   - date: Mon 02/03
     topics: Knowledge Representation and Feature Engineering
-    items:
+    resources:
     - name: Slides
+      type: reading
       link: https://drive.google.com/file/d/1PZTiiiTxianayPFHaLom8LYglS-ZSm0W/view?usp=sharing
     - name: Panopto
+      type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d450ea46-dd55-498e-9af6-b2790167db7c
-    resources:
     - name: Harvard CS50
       type: lecture
       link: https://www.youtube.com/watch?v=HWQLez87vqM
@@ -112,12 +117,13 @@
   days:
   - date: Wed 02/05
     topics: Decision Trees
-    items:
+    resources:
     - name: Slides
+      type: reading
       link: https://drive.google.com/file/d/1jNOF7nxXn-fkEwuArrLaG6cmbl9b-iJx/view?usp=sharing
     - name: Panopto
+      type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bf4e157a-ee3d-48b6-ac07-b27b016b88f3
-    resources:
     - name: PML - Chapter 18
       type: reading
       link: https://probml.github.io/pml-book/book1.html
@@ -135,7 +141,7 @@
       link: https://colab.research.google.com/drive/1C8MwpktYioRquWU_tz98funLSbe8nM5x?usp=sharing
   - date: Mon 02/10
     topics: Markov Models
-    items:
+    resources:
     - name: Slides
       link: https://drive.google.com/file/d/15wSXZcU4LRnjD-6wUeIek4Ev6Bp9XS2h/view?usp=sharing
     - name: Notebook
@@ -155,12 +161,13 @@
       link: https://web.stanford.edu/~jurafsky/slp3/3.pdf
   - date: Wed 02/12
     topics: Bayesian Reasoning
-    items:
+    resources:
     - name: Slides
+      type: reading
       link: https://drive.google.com/file/d/1cuuD9_fpXVAGyz-c5vpaH1G0za7lBja-/view?usp=sharing
     - name: Panopto
+      type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=23a718e2-6f4b-45a8-bca0-b282016be13b
-    resources:
     - name: PML - Sections 2.3, 3.6.1, 4.6, 5.1, 9.3
       type: reading
       link: https://probml.github.io/pml-book/book1.html
@@ -184,12 +191,13 @@
       link: https://drive.google.com/file/d/1ucLp9MQWaBnmBXlaCNBuba8WYWLwl0pH/view?usp=sharing
   - date: Mon 02/17
     topics: Linear Regression
-    items:
+    resources:
     - name: Slides
+      type: reading
       link: https://drive.google.com/file/d/1CC4BIzS1dAEGTmRB6aRQhe9QL2iab7yq/view?usp=sharing
     - name: Panopto
+      type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
-    resources:
     - name: PML - Sections 7.5, 8.1.3, Chapter 11
       type: reading
       link: https://probml.github.io/pml-book/book1.html
