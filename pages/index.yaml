@@ -277,15 +277,20 @@ body:       |
             </thead>
             <tbody>
                 {% for theme in page.external['schedule'] %}
+                    {% if not theme.get('days') %}
+                        <tr>
+                        <td colspan="4" class="text-center text-strong" style="border-top: 2px solid #ddd; border-bottom: 2px solid #ddd; padding: 4px;">{{ theme['name'] }}</td>
+                        </tr>
+                        {% continue %}
+                    {% end %}
+
                     {% for index, day in enumerate(theme['days']) %}
                         <tr>
                             {% if index == 0 %}
-                                <td id="unit-cell-{{ loop.index }}" rowspan="{{ len(theme['days']) }}" class="text-strong text-primary text-center unit">{{ theme['name'] }}</td>
+                                <td rowspan="{{ len(theme['days']) }}" class="text-strong text-primary text-center unit">{{ theme['name'] }}</td>
                             {% end %}
-                            <td class="text-center text-strong">
-                                <i class="fas fa-caret-right caret-icon" onclick="toggleResources({{ index }})"></i>
-                                <tt>{{ day['date'] }}</tt>
-                            </td>
+
+                            <td class="text-center text-strong"><tt>{{ day['date'] }}</tt></td>
                             <td class="text-strong">
 
                             {% if 'topics' in day %}
@@ -351,7 +356,7 @@ body:       |
                         </tr>
                         {% if day.get('resources') %}
                             <tr id="resources-{{ index }}" class="collapse collapse-row">
-                                <td colspan="3">
+                                <td colspan="4">
                                     <ul>
                                         {% for resource in day.get('resources', []) %}
                                             {% if resource['type'] == 'Reading' %}
@@ -712,18 +717,3 @@ body:       |
             
         </div>
     </div>
-
-    <script>
-        function toggleResources(index) {
-            const resourcesRow = document.getElementById(`resources-${index}`);
-            const unitCell = document.getElementById(`unit-cell-${index}`);
-            
-            if (resourcesRow.classList.contains('show')) {
-                resourcesRow.classList.remove('show');
-                unitCell.rowSpan = unitCell.rowSpan - 1;
-            } else {
-                resourcesRow.classList.add('show');
-                unitCell.rowSpan = unitCell.rowSpan + 1;
-            }
-        }
-    </script>
