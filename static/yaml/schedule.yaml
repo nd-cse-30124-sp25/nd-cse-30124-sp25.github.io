@@ -156,6 +156,9 @@
     - name: MIT 6.034
       type: lecture
       link: https://www.youtube.com/watch?v=SXBG3RGr_Rc
+    - name: Cornell CS4780
+      type: lecture
+      link: https://youtu.be/a3ioGSwfVpE?si=f0JevsrXU2q3LZw6
     - name: Playing Tennis Decision Tree
       type: notebook
       link: https://colab.research.google.com/drive/1C8MwpktYioRquWU_tz98funLSbe8nM5x?usp=sharing
@@ -219,6 +222,9 @@
     - name: Naive Bayes Visualizer
       type: notebook
       link: https://colab.research.google.com/drive/1irskT_qQ0EQOZIvf35u7RNbKZu3Sea3w?usp=sharing
+    - name: Cornell CS4780
+      type: lecture
+      link: https://youtu.be/pDHEX2usCS0?si=cPLXGP4n4A-FuNtI
   - date: Mon 02/17
     topics: Linear Regression
     resources:
@@ -249,6 +255,9 @@
     - name: Harvard CS50
       type: lecture
       link: https://youtu.be/-g0iJjnO2_w?si=jNuQG0o83uKw0qbR&t=2371
+    - name: Cornell CS4780
+      type: lecture
+      link: https://youtu.be/_21o_ylL0q4?si=ee6JJ2WxAvA9hfyr
     - name: Singular Value Decomposition
       type: notebook
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
@@ -281,6 +290,9 @@
     - name: Harvard CS50
       type: lecture
       link: https://youtu.be/-g0iJjnO2_w?si=rsqf3IhYQV_PKjkc&t=751
+    - name: Cornell CS4780
+      type: lecture
+      link: https://youtu.be/wl7gVvI-HuY?si=25ULeFrFpBytCOTn
   - date: Mon 03/03
     topics: Logistic Regression
     resources:
@@ -305,6 +317,9 @@
     - name: Numpy LR and GD
       type: notebook
       link: https://colab.research.google.com/drive/1Td14eL3FLIjn5WxUlmdIT1A2nyYZ-Oms?usp=sharing
+    - name: Cornell CS4780
+      type: lecture
+      link: https://youtu.be/GnkDzIOxfzI?si=zeTur4eTkD7uHHiv
     assignments:
     - Homework 02
   - date: Wed 03/05
@@ -334,6 +349,15 @@
     - name: MIT 6.034 KNNs
       type: lecture
       link: https://www.youtube.com/watch?v=09mb78oiPkA 
+    - name: Cornell CS4780 KNNs
+      type: lecture
+      link: https://youtu.be/oymtGlGdT-k?si=Lg6X6xXHV2BlrJsF
+    - name: Cornell CS4780 SVMs 1
+      type: lecture
+      link: https://youtu.be/xpHQ6UhMlx4?si=o64fVVn6-FDP3Ar3
+    - name: Cornell CS4780 SVMs 2
+      type: lecture
+      link: https://youtu.be/RwF1esLCG4U?si=780GX0R-c0qWDogU
 - name: Spring Break
 - name: Unsupervised Learning
   days:
@@ -579,6 +603,9 @@
     - name: 3b1b
       type: lecture
       link: https://www.youtube.com/watch?v=wjZofJX0v4M
+    - name: Cornell CS4780
+      type: lecture
+      link: https://youtu.be/Nu7VZeW5TaE?si=VvFyOFVWecFkuuSX
   - date: Mon 04/28
     topics: Diffusion Models
     resources:
