@@ -18,6 +18,9 @@
     - name: Slides
       type: reading
       link: https://drive.google.com/file/d/1Rc5V0QSkbObr1hWjcuLyDZ0dnPDhd538/view?usp=sharing
+    - name: FCA - Section 3.5
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch3.S5.html
     - name: Panopto
       type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2e7e50b5-88a1-44ff-86a4-b2730136eb53
@@ -35,6 +38,9 @@
     - name: Slides
       type: reading
       link: https://drive.google.com/file/d/1TXsuZZx0iFe7HXixaGD_vB6a8mMBZLIF/view?usp=sharing
+    - name: FCA - Section 3.6
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch3.S6.html
     - name: Panopto
       type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d5fecb7f-fd0b-4103-b41e-b2730130443e
@@ -64,6 +70,9 @@
     - name: Slides
       type: reading
       link: https://drive.google.com/file/d/1_KrWnjqZbQ5bnjV9M9R-zGRizqLuJHu2/view?usp=sharing
+    - name: FCA - Sections 4.1 through 4.6
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch4.html
     - name: Panopto
       type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=950c91e2-7057-47b7-8b53-b272016b79a9
@@ -85,6 +94,9 @@
     - name: Slides
       type: reading
       link: https://drive.google.com/file/d/1_40XB0kUsCcmY5luy8iDi74SD-Jk6QR1/view?usp=sharing
+    - name: FCA - Sections 14.2 and 14.3
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch14.S2.html
     - name: Panopto
       type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
@@ -103,6 +115,9 @@
     - name: Slides
       type: reading
       link: https://drive.google.com/file/d/1PZTiiiTxianayPFHaLom8LYglS-ZSm0W/view?usp=sharing
+    - name: FCA - Chapters 5, 15, and 16
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch5.html
     - name: Panopto
       type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d450ea46-dd55-498e-9af6-b2790167db7c
@@ -123,6 +138,9 @@
     - name: Slides
       type: reading
       link: https://drive.google.com/file/d/1jNOF7nxXn-fkEwuArrLaG6cmbl9b-iJx/view?usp=sharing
+    - name: FCA - Sections 7.2 and 7.3.1
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch7.S3.html
     - name: Panopto
       type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bf4e157a-ee3d-48b6-ac07-b27b016b88f3
@@ -147,6 +165,9 @@
     - name: Slides
       type: reading
       link: https://drive.google.com/file/d/15wSXZcU4LRnjD-6wUeIek4Ev6Bp9XS2h/view?usp=sharing
+    - name: FCA - Section 9.6
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch9.html
     - name: Markov Babbler
       type: notebook
       link: https://colab.research.google.com/drive/1dthRebtlLdXYt9ZSYuCsC11896ovNkCV?usp=sharing
@@ -168,6 +189,9 @@
     - name: Slides
       type: reading
       link: https://drive.google.com/file/d/1cuuD9_fpXVAGyz-c5vpaH1G0za7lBja-/view?usp=sharing
+    - name: FCA - Sections 9.1 through 9.4
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch9.html
     - name: Panopto
       type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=23a718e2-6f4b-45a8-bca0-b282016be13b
@@ -201,6 +225,9 @@
     - name: Slides
       type: reading
       link: https://drive.google.com/file/d/1CC4BIzS1dAEGTmRB6aRQhe9QL2iab7yq/view?usp=sharing
+    - name: FCA - Sections 7.3.2 (First few paragraphs) and 7.4.2
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch7.S3.html
     - name: Panopto
       type: lecture
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
@@ -260,6 +287,9 @@
     - name: Slides
       type: reading
       link: 
+    - name: FCA - Section 7.3.2
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch7.S3.html
     - name: PML - Chapter 10
       type: reading
       link: https://probml.github.io/pml-book/book1.html
@@ -312,6 +342,9 @@
     - name: Slides
       type: reading
       link: 
+    - name: FCA - Section 10.3
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch10.S3.html
     - name: PML - Chapter 21
       type: reading
       link: https://probml.github.io/pml-book/book1.html
@@ -350,6 +383,9 @@
     - name: Slides
       type: reading
       link: 
+    - name: FCA - Section 8.1 (Until 8.1.1)
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch8.html
     - name: PML - Section 13.2
       type: reading
       link: https://probml.github.io/pml-book/book1.html
@@ -392,6 +428,9 @@
     - name: Slides
       type: reading
       link: 
+    - name: FCA - Sections 8.1.1 and 8.2
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch8.S1.html
     - name: PML - Section 13.3
       type: reading
       link: https://probml.github.io/pml-book/book1.html
@@ -425,6 +464,9 @@
     - name: Slides
       type: reading
       link: 
+    - name: FCA - Section 8.4
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch8.S4.html
     - name: PML - Chapter 14
       type: reading
       link: https://probml.github.io/pml-book/book1.html
@@ -446,6 +488,9 @@
     - name: Slides
       type: reading
       link: 
+    - name: FCA - Section 8.5 until 8.5.4
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch8.S5.html
     - name: PML - Section 15.2
       type: reading
       link: https://probml.github.io/pml-book/book1.html
@@ -468,6 +513,9 @@
     - name: Slides
       type: reading
       link: 
+    - name: FCA - Section 8.5.4
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch8.S5.html
     - name: PML - Section 15.4
       type: reading
       link: https://probml.github.io/pml-book/book1.html
@@ -491,6 +539,9 @@
     - name: Slides
       type: reading
       link: 
+    - name: FCA - Section 8.5.5
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch8.S5.html
     - name: PML - Section 15.5
       type: reading
       link: https://probml.github.io/pml-book/book1.html
@@ -512,15 +563,18 @@
     - name: Slides
       type: reading
       link: 
-    - name: This is literally too new for any of the usual sources to have something yet
+    - name: FCA - Section 8.6.3
       type: reading
-      link: 
+      link: https://artint.info/3e/html/ArtInt3e.Ch8.S6.html
   - date: Wed 04/30
     topics: Reinforcement Learning
     resources:
     - name: Slides
       type: reading
       link: 
+    - name: FCA - Chapter 13
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch13.html
     - name: D2L - Chapter 17
       type: reading
       link: https://d2l.ai/chapter_reinforcement-learning/index.html
