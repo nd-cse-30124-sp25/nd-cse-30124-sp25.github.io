@@ -320,7 +320,7 @@ body:       |
                                     <span onclick="toggleResources('{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}')" style="cursor: pointer;">
                                         {{ day.get('topics', '') }}
                                         {% if day.get('resources') %}
-                                            <i class="fa fa-caret-right" id="{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}"></i>
+                                            <i class="fa-solid fa-caret-right" id="{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}"></i>
                                         {% end %}
                                     </span>
                                 {% end %}
@@ -379,7 +379,7 @@ body:       |
                                 <td colspan="3">
                                     <div class="row">
                                         <div class="col-md-3">
-                                            <h4><i class="fa fa-book"></i> Readings:</h4>
+                                            <h4><i class="fa-solid fa-book"></i> Readings:</h4>
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'reading' %}
@@ -389,7 +389,7 @@ body:       |
                                             </ul>
                                         </div>
                                         <div class="col-md-3">
-                                            <h4><i class="fa fa-video-camera"></i> Lectures:</h4>
+                                            <h4><i class="fa-solid fa-video-camera"></i> Lectures:</h4>
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'lecture' %}
@@ -399,7 +399,7 @@ body:       |
                                             </ul>
                                         </div>
                                         <div class="col-md-3">
-                                            <h4><i class="fa fa-share-alt"></i> Blogposts:</h4>
+                                            <h4><i class="fa-solid fa-share-alt"></i> Blogposts:</h4>
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'blogpost' %}
@@ -409,7 +409,7 @@ body:       |
                                             </ul>
                                         </div>
                                         <div class="col-md-3">
-                                            <h4><i class="fa fa-step-forward"></i> Notebooks:</h4>
+                                            <h4><i class="fa-solid fa-python"></i> Notebooks:</h4>
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'notebook' %}
