@@ -615,6 +615,9 @@
     - name: FCA - Section 8.6.3
       type: reading
       link: https://artint.info/3e/html/ArtInt3e.Ch8.S6.html
+    - name: Diffusion Models
+      type: lecture
+      link: https://www.youtube.com/watch?v=1pgiu--4W3I
     - name: Simple Diffusion Model
       type: notebook
       link: https://colab.research.google.com/drive/1H3ztaNIIsshhPQx3j5oTQ8lGwvgsWDGz?usp=sharing
