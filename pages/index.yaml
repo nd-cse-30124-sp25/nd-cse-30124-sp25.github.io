@@ -320,6 +320,7 @@ body:       |
                                     <span onclick="toggleResources('{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}')" style="cursor: pointer;">
                                         {{ day.get('topics', '') }}
                                         {% if day.get('resources') %}
+                                            <i class="fa-solid fa-circle-info"></i>
                                             <i class="fa-solid fa-caret-right" id="{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}"></i>
                                         {% end %}
                                     </span>
