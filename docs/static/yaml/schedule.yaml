@@ -294,7 +294,7 @@
       type: lecture
       link: https://youtu.be/wl7gVvI-HuY?si=25ULeFrFpBytCOTn
   - date: Mon 03/03
-    topics: Logistic Regression
+    topics: Logistic Regression and Gradient Descent
     resources:
     - name: Slides
       type: reading
