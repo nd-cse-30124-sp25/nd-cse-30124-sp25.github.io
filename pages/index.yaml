@@ -127,7 +127,7 @@ body:       |
 
     <div class="row">
         <div class="page-header">
-            <h2 id="office_hours"><i class="fa fa-calendar"></i>Office Hours</h2>
+            <h2 id="office_hours"><i class="fa fa-calendar"></i> Office Hours</h2>
         </div>
     </div>
 
@@ -409,7 +409,7 @@ body:       |
                                             </ul>
                                         </div>
                                         <div class="col-md-3">
-                                            <h4><i class="fa-solid fa-python"></i> Notebooks:</h4>
+                                            <h4><i class="fa-brands fa-python"></i> Notebooks:</h4>
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'notebook' %}
