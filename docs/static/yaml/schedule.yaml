@@ -302,6 +302,9 @@
     - name: Panopto
       type: lecture
       link: 
+    - name: Numpy LR and GD
+      type: notebook
+      link: https://colab.research.google.com/drive/1Td14eL3FLIjn5WxUlmdIT1A2nyYZ-Oms?usp=sharing
     assignments:
     - Homework 02
   - date: Wed 03/05
@@ -354,6 +357,9 @@
     - name: UML - Chapter 22
       type: reading
       link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
+    - name: Clustering Visualizations
+      type: notebook
+      link: https://colab.research.google.com/drive/1WWysdY8e08f9tEC_P_lxt0INBAzmx8yn?usp=sharing
   - date: Wed 03/19
     topics: Dimensionality Reduction
     resources:
@@ -369,6 +375,9 @@
     - name: UML - Chapter 23.1
       type: reading
       link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
+    - name: PCA Visualization
+      type: notebook
+      link: https://colab.research.google.com/drive/1v1DV3oqt-XiMxsqTGyek6stAJ_S8LjeJ?usp=sharing
 - name: Applied Machine Learning
   days:
   - date: Mon 03/24
@@ -410,6 +419,9 @@
     - name: MIT 6.034 
       type: lecture
       link: https://www.youtube.com/watch?v=uXt8qF2Zzfo
+    - name: Simple FFN Visualization
+      type: notebook
+      link: https://colab.research.google.com/drive/14S8IbQQ59TNdJAF0jqGVKjh4kpu3tT_L?usp=sharing
 - name: Midterm 02
   days:
   - date: Mon 03/31
@@ -458,6 +470,9 @@
     - name: MIT 6.034
       type: lecture
       link: https://www.youtube.com/watch?v=uXt8qF2Zzfo
+    - name: Numpy Backprop
+      type: notebook
+      link: https://colab.research.google.com/drive/1ogAx_Bqe80PsFzloNR7W0Ijd1YePNGVU?usp=sharing
   - date: Wed 04/09
     topics: Convolutional Neural Networks
     resources:
@@ -482,6 +497,9 @@
     - name: Harvard CS50 (53:00 - 1:27:12)
       type: lecture
       link: https://www.youtube.com/watch?v=J1QD9hLDEDY
+    - name: MNIST CNN
+      type: notebook
+      link: https://colab.research.google.com/drive/1yYw7SwTl5Q5F_gFLfjEWwW328v3SbPB0?usp=sharing
   - date: Mon 04/14
     topics: Recurrent Neural Networks
     resources:
@@ -503,6 +521,9 @@
     - name: Harvard CS50 (1:27:00 - end)
       type: lecture
       link: https://www.youtube.com/watch?v=J1QD9hLDEDY
+    - name: Character-Level LSTM
+      type: notebook
+      link: https://colab.research.google.com/drive/1soMewNR1oVJvznbfa6oI1PUnKeblZdRc?usp=sharing
     assignments:
     - Homework 04
 - name: Modern Deep Learning
@@ -531,6 +552,9 @@
     - name: 3b1b
       type: lecture
       link: https://www.youtube.com/watch?v=eMlx5fFNoYc
+    - name: Simple Self-Attention
+      type: notebook
+      link: https://colab.research.google.com/drive/1zrnOd6wE57gefw9VJMFDD_9LTzeng9D8?usp=sharing
   - date: Mon 04/21
     topics: Cancelled (Easter Monday)
   - date: Wed 04/23
@@ -566,6 +590,9 @@
     - name: FCA - Section 8.6.3
       type: reading
       link: https://artint.info/3e/html/ArtInt3e.Ch8.S6.html
+    - name: Simple Diffusion Model
+      type: notebook
+      link: https://colab.research.google.com/drive/1H3ztaNIIsshhPQx3j5oTQ8lGwvgsWDGz?usp=sharing
   - date: Wed 04/30
     topics: Reinforcement Learning
     resources:
@@ -587,6 +614,9 @@
     - name: Stanford CS221
       type: lecture
       link: https://www.youtube.com/watch?v=HpaHTfY52RQ&list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2&index=20
+    - name: RL Lunar Lander
+      type: notebook
+      link: https://colab.research.google.com/drive/1WtcWFv57EBsRTlk1_Zl0ammBHO1iG1LM?usp=sharing
     assignments:
     - Final Practice Packet
     - Homework 05
