@@ -334,8 +334,6 @@
     - name: MIT 6.034 KNNs
       type: lecture
       link: https://www.youtube.com/watch?v=09mb78oiPkA 
-    assignments:
-    - Homework 03
 - name: Spring Break
 - name: Unsupervised Learning
   days:
