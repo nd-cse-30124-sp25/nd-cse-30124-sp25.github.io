@@ -400,10 +400,10 @@
     - name: PCA Visualization
       type: notebook
       link: https://colab.research.google.com/drive/1v1DV3oqt-XiMxsqTGyek6stAJ_S8LjeJ?usp=sharing
-- name: Applied Machine Learning
+- name: Applied ML
   days:
   - date: Mon 03/24
-    topics: Practicum - Evaluation and Validation of ML Systems
+    topics: Practicum - Exploratory Data Analysis
     assignments:
     - Homework 03
 - name: ML to DL
