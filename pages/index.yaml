@@ -360,7 +360,7 @@ body:       |
                                             <ul style="text-align: left;">
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'reading' %}
-                                                        <li><a href="{{ resource['link'] }}" class="label label-caution">{{ resource['name'] }}</a></li>
+                                                        <li style="text-align: left;"><a href="{{ resource['link'] }}" class="label label-caution">{{ resource['name'] }}</a></li>
                                                     {% end %}
                                                 {% end %}
                                             </ul>
@@ -370,7 +370,7 @@ body:       |
                                             <ul style="text-align: left;">
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'lecture' %}
-                                                        <li><a href="{{ resource['link'] }}" class="label label-success">{{ resource['name'] }}</a></li>
+                                                        <li style="text-align: left;"><a href="{{ resource['link'] }}" class="label label-success">{{ resource['name'] }}</a></li>
                                                     {% end %}
                                                 {% end %}
                                             </ul>
@@ -380,7 +380,7 @@ body:       |
                                             <ul style="text-align: left;">
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'blogpost' %}
-                                                        <li><a href="{{ resource['link'] }}" class="label label-danger">{{ resource['name'] }}</a></li>
+                                                        <li style="text-align: left;"><a href="{{ resource['link'] }}" class="label label-danger">{{ resource['name'] }}</a></li>
                                                     {% end %}
                                                 {% end %}
                                             </ul>
@@ -390,7 +390,7 @@ body:       |
                                             <ul style="text-align: left;">
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'notebook' %}
-                                                        <li><a href="{{ resource['link'] }}" class="label label-primary">{{ resource['name'] }}</a></li>
+                                                        <li style="text-align: left;"><a href="{{ resource['link'] }}" class="label label-primary">{{ resource['name'] }}</a></li>
                                                     {% end %}
                                                 {% end %}
                                             </ul>
