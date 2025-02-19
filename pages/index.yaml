@@ -738,6 +738,7 @@ body:       |
             <p><br></p>
 
             <ul>
+                <li><a href="https://artint.info/3e/html/ArtInt3e.html">Artificial Intelligence: Foundations of Computational Agents (FCA)</a></li>
                 <li><a href="https://probml.github.io/pml-book/book1.html">Probabilistic Machine Learning: An Introduction (PML)</a></li>
                 <li><a href="https://d2l.ai/index.html">Dive into Deep Learning (D2L)</a></li>
                 <li><a href="https://www.statlearning.com/">An Introduction to Statistical Learning (ISLP)</a></li>
@@ -752,11 +753,10 @@ body:       |
                 <li><a href="https://www.youtube.com/watch?v=MrLPzBxG95I">Cornell's CS4780: Machine Learning for Decision Making</a></li>
             </ul>
 
-            <h3>Books</h3>
+            <h3>Other Books</h3>
             <ul>
                 <li><a href="https://ai.stanford.edu/~nilsson/QAI/qai.pdf">The Quest for Artificial Intelligence</a>
                 <li><a href="https://github.com/rasbt/machine-learning-book">Machine Learning with PyTorch and Scikit-Learn</a>
-                <li><a href="https://probml.github.io/pml-book/book1.html">Probabilistic Machine Learning: An Introduction</a></li>
             </ul>
 
             <h3>"Background" Courses</h3>
