@@ -255,10 +255,22 @@ body:       |
             width: 175px;
             vertical-align: middle;
         }
+
+        table.schedule tbody tr.topic-row:nth-of-type(even) {
+            background-color: #f9f9f9;
+        }
+
+        table.schedule tbody tr.topic-row:nth-of-type(odd) {
+            background-color: #ffffff;
+        }
+
+        table.schedule tbody tr.resource-row {
+            background-color: #ffffff !important;
+        }
     </style>
 
     <div class="row">
-        <table class="table condensed table-striped schedule">
+        <table class="table condensed schedule">
             <thead>
                 <tr>
                     <th class="text-center">Unit</th>
@@ -270,7 +282,7 @@ body:       |
             <tbody>
                 {% for theme in page.external['schedule'] %}
                     {% if not theme.get('days') %}
-                        <tr>
+                        <tr class="topic-row">
                         <td colspan="4" class="text-center text-strong" style="border-top: 2px solid #ddd; border-bottom: 2px solid #ddd; padding: 4px;">{{ theme['name'] }}</td>
                         </tr>
                         {% continue %}
@@ -278,7 +290,7 @@ body:       |
 
                     {% for index, day in enumerate(theme['days']) %}
 
-                        <tr>
+                        <tr class="topic-row">
                             {% if index == 0 %}
                                 {% set unit_id = theme['name'].replace(' ', '_') %}
 
@@ -352,45 +364,45 @@ body:       |
                             </td>
                         </tr>
                         {% if day.get('resources') %}
-                            <tr id="resources-{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}" style="display: none;">
+                            <tr id="resources-{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}" class="resource-row" style="display: none;">
                                 <td colspan="3">
                                     <div class="row">
                                         <div class="col-md-3">
                                             <h4><i class="fa fa-book"></i> Readings:</h4>
-                                            <ul style="text-align: left;">
+                                            <ul>
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'reading' %}
-                                                        <li style="text-align: left;"><a href="{{ resource['link'] }}" class="label label-caution">{{ resource['name'] }}</a></li>
+                                                        <li><a href="{{ resource['link'] }}" class="label label-caution">{{ resource['name'] }}</a></li>
                                                     {% end %}
                                                 {% end %}
                                             </ul>
                                         </div>
                                         <div class="col-md-3">
                                             <h4><i class="fa fa-video-camera"></i> Lectures:</h4>
-                                            <ul style="text-align: left;">
+                                            <ul>
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'lecture' %}
-                                                        <li style="text-align: left;"><a href="{{ resource['link'] }}" class="label label-success">{{ resource['name'] }}</a></li>
+                                                        <li><a href="{{ resource['link'] }}" class="label label-success">{{ resource['name'] }}</a></li>
                                                     {% end %}
                                                 {% end %}
                                             </ul>
                                         </div>
                                         <div class="col-md-3">
                                             <h4><i class="fa fa-share-alt"></i> Blogposts:</h4>
-                                            <ul style="text-align: left;">
+                                            <ul>
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'blogpost' %}
-                                                        <li style="text-align: left;"><a href="{{ resource['link'] }}" class="label label-danger">{{ resource['name'] }}</a></li>
+                                                        <li><a href="{{ resource['link'] }}" class="label label-danger">{{ resource['name'] }}</a></li>
                                                     {% end %}
                                                 {% end %}
                                             </ul>
                                         </div>
                                         <div class="col-md-3">
                                             <h4><i class="fa fa-step-forward"></i> Notebooks:</h4>
-                                            <ul style="text-align: left;">
+                                            <ul>
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'notebook' %}
-                                                        <li style="text-align: left;"><a href="{{ resource['link'] }}" class="label label-primary">{{ resource['name'] }}</a></li>
+                                                        <li><a href="{{ resource['link'] }}" class="label label-primary">{{ resource['name'] }}</a></li>
                                                     {% end %}
                                                 {% end %}
                                             </ul>
@@ -769,4 +781,23 @@ body:       |
                 resourcesRow.style.display = 'table-row';
             }
         }
+
+        function fixAlternatingRows() {
+            let topicRows = document.querySelectorAll(".topic-row");
+            topicRows.forEach((row, index) => {
+                if (index % 2 === 0) {
+                    row.style.backgroundColor = "#f9f9f9";
+                } else {
+                    row.style.backgroundColor = "#ffffff";
+                }
+            });
+        }
+
+        document.querySelectorAll(".caret-icon").forEach(icon => {
+            icon.addEventListener("click", function() {
+                setTimeout(fixAlternatingRows, 200);
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", fixAlternatingRows);
     </script>
