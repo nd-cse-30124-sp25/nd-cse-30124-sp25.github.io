@@ -271,9 +271,11 @@ body:       |
         div.resource-row ul {
             list-style-position: inside;
             padding-left: 0;
+            margin-left: 0;
         }
 
         div.resource-row li {
+            padding-left: 0;
             margin-left: 0;
         }
     </style>
