@@ -7638,8 +7638,8 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
         that I personally find very useful.
 
         <div class="row">
-            <div class="col-md-4">
-                <h3 onclick="toggleResources('readings')">
+            <div class="col-md-6">
+                <h3 onclick="toggleResourceSection('readings')">
                     <i class="fa-solid fa-book"></i>
                     Readings
                     <i class="fa-solid fa-circle-info"></i>
@@ -7656,8 +7656,8 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <h3 onclick="toggleResources('ai-ml-courses')">
+            <div class="col-md-6">
+                <h3 onclick="toggleResourceSection('ai-ml-courses')">
                     <i class="fa-solid fa-circle-info"></i>
                     AI/ML Courses
                     <i class="fa-solid fa-caret-right" id="ai-ml-courses-icon"></i>
@@ -7671,9 +7671,11 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
                     </ul>
                 </div>
             </div>
+        </div>
 
-            <div class="col-md-4">
-                <h3 onclick="toggleResources('other-books')">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 onclick="toggleResourceSection('other-books')">
                     <i class="fa-solid fa-circle-info"></i>
                     Other Books
                     <i class="fa-solid fa-caret-right" id="other-books-icon"></i>
@@ -7685,11 +7687,9 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
                     </ul>
                 </div>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col-md-4">
-                <h3 onclick="toggleResources('background-courses')">
+            <div class="col-md-6">
+                <h3 onclick="toggleResourceSection('background-courses')">
                     <i class="fa-solid fa-circle-info"></i>
                     "Background" Courses
                     <i class="fa-solid fa-caret-right" id="background-courses-icon"></i>
@@ -7705,9 +7705,11 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
                     </ul>
                 </div>
             </div>
+        </div>
 
-            <div class="col-md-4">
-                <h3 onclick="toggleResources('supplemental-courses')">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 onclick="toggleResourceSection('supplemental-courses')">
                     <i class="fa-solid fa-circle-info"></i>
                     Supplemental Courses
                     <i class="fa-solid fa-caret-right" id="supplemental-courses-icon"></i>
@@ -7764,6 +7766,21 @@ python libraries for these algorithms such as scikit-learn and pytorch.</p>
     });
 
     document.addEventListener("DOMContentLoaded", fixAlternatingRows);
+
+    function toggleResourceSection(id) {
+        const resourcesDiv = document.getElementById(id);
+        const icon = document.getElementById(`${id}-icon`);
+
+        if (resourcesDiv.style.display === 'none' || resourcesDiv.style.display === '') {
+            resourcesDiv.style.display = 'block';
+            icon.classList.remove('fa-caret-right');
+            icon.classList.add('fa-caret-down');
+        } else {
+            resourcesDiv.style.display = 'none';
+            icon.classList.remove('fa-caret-down');
+            icon.classList.add('fa-caret-right');
+        }
+    }
 </script>
 
 
