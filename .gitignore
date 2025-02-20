@@ -1,7 +1,6 @@
 pages/*.html
 *.pyc
 *.swp
-*_solutions.pdf
 *_solutions.ipynb
 .DS_Store
 alphabet
