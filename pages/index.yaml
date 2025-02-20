@@ -379,7 +379,7 @@ body:       |
                             <tr id="resources-{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}" class="resource-row" style="display: none;">
                                 <td colspan="3">
                                     <div class="row">
-                                        <div class="col-md-3">
+                                        <div class="col-md-2">
                                             <h4><i class="fa-solid fa-book"></i> Readings:</h4>
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
@@ -389,17 +389,27 @@ body:       |
                                                 {% end %}
                                             </ul>
                                         </div>
-                                        <div class="col-md-3">
-                                            <h4><i class="fa-solid fa-video-camera"></i> Lectures:</h4>
+                                        <div class="col-md-2">
+                                            <h4><i class="fa-solid fa-video-camera"></i> Videos:</h4>
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
-                                                    {% if resource['type'] == 'lecture' %}
+                                                    {% if resource['type'] == 'video' %}
                                                         <li><a href="{{ resource['link'] }}" class="label label-success">{{ resource['name'] }}</a></li>
                                                     {% end %}
                                                 {% end %}
                                             </ul>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-2">
+                                            <h4><i class="fa-brands fa-python"></i> Notebooks:</h4>
+                                            <ul>
+                                                {% for resource in day.get('resources', []) %}
+                                                    {% if resource['type'] == 'notebook' %}
+                                                        <li><a href="{{ resource['link'] }}" class="label label-primary">{{ resource['name'] }}</a></li>
+                                                    {% end %}
+                                                {% end %}
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-2">
                                             <h4><i class="fa-solid fa-share-alt"></i> Blogposts:</h4>
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
@@ -409,12 +419,12 @@ body:       |
                                                 {% end %}
                                             </ul>
                                         </div>
-                                        <div class="col-md-3">
-                                            <h4><i class="fa-brands fa-python"></i> Notebooks:</h4>
+                                        <div class="col-md-2">
+                                            <h4><i class="fa-solid fa-square-twitter"></i> Socials:</h4>
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
-                                                    {% if resource['type'] == 'notebook' %}
-                                                        <li><a href="{{ resource['link'] }}" class="label label-primary">{{ resource['name'] }}</a></li>
+                                                    {% if resource['type'] == 'social' %}
+                                                        <li><a href="{{ resource['link'] }}" class="label label-danger">{{ resource['name'] }}</a></li>
                                                     {% end %}
                                                 {% end %}
                                             </ul>
@@ -750,54 +760,90 @@ body:       |
             like, please share it with the rest of the class. Below are links to books, blogposts, and lectures
             that I personally find very useful.
 
-            <h3>Readings</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 onclick="toggleResources('readings')">
+                        <i class="fa-solid fa-book"></i>
+                        Readings
+                        <i class="fa-solid fa-circle-info"></i>
+                        <i class="fa-solid fa-caret-right" id="readings-icon"></i>
+                    </h3>
+                    <div id="readings" style="display: none;">
+                        <ul>
+                            <li><a href="https://artint.info/3e/html/ArtInt3e.html">Artificial Intelligence: Foundations of Computational Agents (FCA)</a></li>
+                            <li><a href="https://probml.github.io/pml-book/book1.html">Probabilistic Machine Learning: An Introduction (PML)</a></li>
+                            <li><a href="https://d2l.ai/index.html">Dive into Deep Learning (D2L)</a></li>
+                            <li><a href="https://www.statlearning.com/">An Introduction to Statistical Learning (ISLP)</a></li>
+                            <li><a href="https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html">Understanding Machine Learning: From Theory to Algorithms (UML)</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-            I will provide readings from these books for each lecture. However I do not necessarily endorse these books and don't
-            always care for the way they go about teaching the material. That being said, since someone asked, if you want to prepare for
-            lecture by doing some pre-reading, here are the books the readings will be from. I personally think you'd be better
-            off watching one or more of the lectures, which are taught by literally the best teachers in the field. If you
-            do end up doing the reading, I'd be curious to hear which book you found most useful. I personally like PML the best.
+                <div class="col-md-4">
+                    <h3 onclick="toggleResources('ai-ml-courses')">
+                        <i class="fa-solid fa-circle-info"></i>
+                        AI/ML Courses
+                        <i class="fa-solid fa-caret-right" id="ai-ml-courses-icon"></i>
+                    </h3>
+                    <div id="ai-ml-courses" style="display: none;">
+                        <ul>
+                            <li><a href="https://cs50.harvard.edu/ai/2024/">Harvard's CS50's Introduction to Artificial Intelligence with Python</a></li>
+                            <li><a href="https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/">MIT's 6.034 Artificial Intelligence taught by Patrick Winston</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=ZiwogMtbjr4&list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2">Stanford's CS221: Artificial Intelligence: Principles and Techniques</a></li>
+                            <li><a href="https://www.youtube.com/playlist?list=PLl8OlHZGYOQ7bkVbuRthEsaLr7bONzbXS">Cornell's CS4780: Machine Learning for Decision Making</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-            <p><br></p>
+                <div class="col-md-4">
+                    <h3 onclick="toggleResources('other-books')">
+                        <i class="fa-solid fa-circle-info"></i>
+                        Other Books
+                        <i class="fa-solid fa-caret-right" id="other-books-icon"></i>
+                    </h3>
+                    <div id="other-books" style="display: none;">
+                        <ul>
+                            <li><a href="https://ai.stanford.edu/~nilsson/QAI/qai.pdf">The Quest for Artificial Intelligence</a></li>
+                            <li><a href="https://github.com/rasbt/machine-learning-book">Machine Learning with PyTorch and Scikit-Learn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-            <ul>
-                <li><a href="https://artint.info/3e/html/ArtInt3e.html">Artificial Intelligence: Foundations of Computational Agents (FCA)</a></li>
-                <li><a href="https://probml.github.io/pml-book/book1.html">Probabilistic Machine Learning: An Introduction (PML)</a></li>
-                <li><a href="https://d2l.ai/index.html">Dive into Deep Learning (D2L)</a></li>
-                <li><a href="https://www.statlearning.com/">An Introduction to Statistical Learning (ISLP)</a></li>
-                <li><a href="https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html">Understanding Machine Learning: From Theory to Algorithms (UML)</a></li>
-            </ul>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 onclick="toggleResources('background-courses')">
+                        <i class="fa-solid fa-circle-info"></i>
+                        "Background" Courses
+                        <i class="fa-solid fa-caret-right" id="background-courses-icon"></i>
+                    </h3>
+                    <div id="background-courses" style="display: none;">
+                        <ul>
+                            <li><a href="https://www.youtube.com/watch?v=7UJ4CFRGd-U&list=PL221E2BBF13BECF6C&index=2">MIT's 18.06 Linear Algebra taught by THE Gilbert Strang</a></li>
+                            <li><a href="https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfUl0tcqPNTJsb7R6BqSLo6">Linear Algebra</a></li>
+                            <li><a href="https://www.youtube.com/playlist?list=PLhcN-s3_Z7-YS6ltpJhjwqvHO1TYDbiZv">Matrix Calculus</a></li>
+                            <li><a href="https://www.youtube.com/playlist?list=PLBh2i93oe2qswFOC98oSFc37-0f4S3D4z">Probability Theory</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=jdoLvrfkG3Y">Introduction to Probability</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=sQqniayndb4&list=PLMrJAkhIeNNR3sNYvfgiKgcStwuPSts9V">Probability Bootcamp</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-            <h3>AI/ML Courses</h3>
-            <ul>
-                <li><a href="https://cs50.harvard.edu/ai/2024/">Harvard's CS50's Introduction to Artificial Intelligence with Python</a></li>
-                <li><a href="https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/">MIT's 6.034 Artificial Intelligence taught by Patrick Winston</a></li>
-                <li><a href="https://www.youtube.com/watch?v=ZiwogMtbjr4&list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2">Stanford's CS221: Artificial Intelligence: Principles and Techniques</a></li>
-                <li><a href="https://www.youtube.com/playlist?list=PLl8OlHZGYOQ7bkVbuRthEsaLr7bONzbXS">Cornell's CS4780: Machine Learning for Decision Making</a></li>
-            </ul>
-
-            <h3>Other Books</h3>
-            <ul>
-                <li><a href="https://ai.stanford.edu/~nilsson/QAI/qai.pdf">The Quest for Artificial Intelligence</a>
-                <li><a href="https://github.com/rasbt/machine-learning-book">Machine Learning with PyTorch and Scikit-Learn</a>
-            </ul>
-
-            <h3>"Background" Courses</h3>
-            <ul>
-                <li><a href="https://www.youtube.com/watch?v=7UJ4CFRGd-U&list=PL221E2BBF13BECF6C&index=2">MIT's 18.06 Linear Algebra taught by THE Gilbert Strang</a></li>
-                <li><a href="https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfUl0tcqPNTJsb7R6BqSLo6">Linear Algebra</a></li>
-                <li><a href="https://www.youtube.com/playlist?list=PLhcN-s3_Z7-YS6ltpJhjwqvHO1TYDbiZv">Matrix Calculus</a></li>
-                <li><a href="https://www.youtube.com/playlist?list=PLBh2i93oe2qswFOC98oSFc37-0f4S3D4z">Probability Theory</a></li>
-                <li><a href="https://www.youtube.com/watch?v=jdoLvrfkG3Y">Introduction to Probability</a></li>
-                <li><a href="https://www.youtube.com/watch?v=sQqniayndb4&list=PLMrJAkhIeNNR3sNYvfgiKgcStwuPSts9V">Probability Bootcamp</a></li>
-            </ul>
-
-            <h3>Supplemental Courses</h3>
-            <ul>
-                <li><a href="https://www.youtube.com/playlist?list=PL_iWQOsE6TfVYGEGiAOMaOzzv41Jfm_Ps">Berkley's CS 285: Deep Reinforcement Learning</a></li>
-                <li><a href="https://www.youtube.com/playlist?list=PLMrJAkhIeNNQz4BMoGSsN8cbt8pHlokhV">University of Washington's: Data Science for Biologists</a></li>
-                <li><a href="https://www.youtube.com/playlist?list=PL5XwKDZZlwaY7t0M5OLprpkJUIrF8Lc9j">GPU Programming</a></li>
-            </ul>
+                <div class="col-md-4">
+                    <h3 onclick="toggleResources('supplemental-courses')">
+                        <i class="fa-solid fa-circle-info"></i>
+                        Supplemental Courses
+                        <i class="fa-solid fa-caret-right" id="supplemental-courses-icon"></i>
+                    </h3>
+                    <div id="supplemental-courses" style="display: none;">
+                        <ul>
+                            <li><a href="https://www.youtube.com/playlist?list=PL_iWQOsE6TfVYGEGiAOMaOzzv41Jfm_Ps">Berkley's CS 285: Deep Reinforcement Learning</a></li>
+                            <li><a href="https://www.youtube.com/playlist?list=PLMrJAkhIeNNQz4BMoGSsN8cbt8pHlokhV">University of Washington's: Data Science for Biologists</a></li>
+                            <li><a href="https://www.youtube.com/playlist?list=PL5XwKDZZlwaY7t0M5OLprpkJUIrF8Lc9j">GPU Programming</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             
         </div>
     </div>
