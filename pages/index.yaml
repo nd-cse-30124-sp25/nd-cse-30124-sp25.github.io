@@ -393,7 +393,7 @@ body:       |
                                             <h4><i class="fa-solid fa-video-camera"></i> Videos:</h4>
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
-                                                    {% if resource['type'] == 'video' %}
+                                                    {% if resource['type'] == 'lecture' %}
                                                         <li><a href="{{ resource['link'] }}" class="label label-success">{{ resource['name'] }}</a></li>
                                                     {% end %}
                                                 {% end %}
