@@ -168,6 +168,15 @@
     - name: Playing Tennis Decision Tree
       type: notebook
       link: https://colab.research.google.com/drive/1C8MwpktYioRquWU_tz98funLSbe8nM5x?usp=sharing
+    - name: Entropy (StatQuest)
+      type: lecture
+      link: https://youtu.be/YtebGVx-Fxw?si=zC-J1JrOOe64b8cM
+    - name: Decision Trees (StatQuest)
+      type: lecture
+      link: https://youtu.be/7VeUPuFGJHk?si=SO3AHNT9KX1vJdln
+    - name: Regression Trees (StatQuest)
+      type: lecture
+      link: https://youtu.be/g9c66TUylZ4?si=SpvGvKvq9DmjLXYi
   - date: Mon 02/10
     topics: Markov Models
     resources:
@@ -231,6 +240,27 @@
     - name: Cornell CS4780
       type: lecture
       link: https://youtu.be/pDHEX2usCS0?si=cPLXGP4n4A-FuNtI
+    - name: Conditional Probability (StatQuest)
+      type: lecture
+      link: https://youtu.be/1ONDvW1UIJc?si=3mNParEk5_PjfnZN
+    - name: Bayes' Theorem (StatQuest)
+      type: lecture
+      link: https://youtu.be/9wCnvr7Xw4E?si=PEhYzKTasfIq1xOx
+    - name: Likelihood (StatQuest)
+      type: lecture
+      link: https://youtu.be/pYxNSUDSFH4?si=zt0zdX9Kf8-Z58jR
+    - name: PDFs (StatQuest)
+      type: lecture
+      link: https://youtu.be/oI3hZJqXJuc?si=z0mmgAYp_kQXztLu
+    - name: MLE (StatQuest)
+      type: lecture
+      link: https://youtu.be/XepXtl9YKwc?si=eIiQ1SJeyVNEj_ey
+    - name: Naive Bayes (StatQuest)
+      type: lecture
+      link: https://youtu.be/O2L2Uv9pdDA?si=rAU-89pPD7qt_U-l
+    - name: Gaussian NB (StatQuest)
+      type: lecture
+      link: https://youtu.be/H3EjCKtlVog?si=BlD029fjYUcvGMAq
   - date: Mon 02/17
     topics: Linear Regression
     resources:
@@ -273,6 +303,24 @@
     - name: Polynomial Regression
       type: notebook
       link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5aad0ebb-3b39-45cc-a3f3-b2740169d60b
+    - name: Linear Regression (StatQuest)
+      type: lecture
+      link: https://youtu.be/nk2CQITm_eo?si=LtdQNRlau17NbjjF
+    - name: Multiple Regression (StatQuest)
+      type: lecture
+      link: https://youtu.be/zITIFTsivN8?si=f0YbEmnZ6_XFMpY5
+    - name: Bias and Variance (StatQuest)
+      type: lecture
+      link: https://youtu.be/EuBBz3bI-aA?si=WYsqtbrIZ6ICrYGP
+    - name: L2 Regularization (StatQuest)
+      type: lecture
+      link: https://youtu.be/Q81RR3yKn30?si=tMvAc1m9RHe7WYgH
+    - name: L1 Regularization (StatQuest)
+      type: lecture
+      link: https://youtu.be/NGf0voTMlcs?si=QACQkO-8Msm95saj
+    - name: L1 vs. L2 Visualization (StatQuest)
+      type: lecture
+      link: https://youtu.be/Xm2C_gTAl8c?si=MovbjzS6Cf-PN70-
 - name: Exam 01
   days:
   - date: Wed 02/19
@@ -331,6 +379,12 @@
     - name: Cornell CS4780
       type: lecture
       link: https://youtu.be/GnkDzIOxfzI?si=zeTur4eTkD7uHHiv
+    - name: Logistic Regression (StatQuest)
+      type: lecture
+      link: https://youtu.be/yIYKR4sgzI8?si=1HhaymUgRNNAMEy3
+    - name: Gradient Descent (StatQuest)
+      type: lecture
+      link: https://youtu.be/sDv4f4s2SB8?si=TrI_ge8kywlfgmrv
     assignments:
     - Homework 02
   - date: Wed 03/05
@@ -369,6 +423,12 @@
     - name: Cornell CS4780 SVMs 2
       type: lecture
       link: https://youtu.be/RwF1esLCG4U?si=780GX0R-c0qWDogU
+    - name: SVMs (StatQuest)
+      type: lecture
+      link: https://youtu.be/efR1C6CvhmE?si=i5q-s8QuxKEAQ3Az
+    - name: KNN (StatQuest)
+      type: lecture
+      link: https://youtu.be/HVXime0nQeI?si=vUOtkw1Q6nxt9Aj3
 - name: Spring Break
 - name: Unsupervised Learning
   days:
@@ -393,6 +453,12 @@
     - name: Clustering Visualizations
       type: notebook
       link: https://colab.research.google.com/drive/1WWysdY8e08f9tEC_P_lxt0INBAzmx8yn?usp=sharing
+    - name: Hierarchical (StatQuest)
+      type: lecture
+      link: https://youtu.be/7xHsRkOdVwo?si=f8UkfIYcaxpyEUVk
+    - name: K-Means (StatQuest)
+      type: lecture
+      link: https://youtu.be/4b5d3muPQmA?si=T2ow71QcEXdbKt7V
   - date: Wed 03/19
     topics: Dimensionality Reduction
     resources:
@@ -411,10 +477,32 @@
     - name: PCA Visualization
       type: notebook
       link: https://colab.research.google.com/drive/1v1DV3oqt-XiMxsqTGyek6stAJ_S8LjeJ?usp=sharing
+    - name: Covariance (StatQuest)
+      type: lecture
+      link: https://youtu.be/qtaqvPAeEJY?si=bw-zWo3JmyX0PvGg
+    - name: PCA (Short) - Statquest
+      type: lecture
+      link: https://youtu.be/HMOI_lkzW08?si=MkLlaC0hgAeh9009
+    - name: PCA - Statquest
+      type: lecture
+      link: https://youtu.be/FgakZw6K1QQ?si=rvTJ67NAVVYZhoOh
+    - name: t-SNE (StatQuest)
+      type: lecture
+      link: https://youtu.be/NEaUSP4YerM?si=lME2kIla7hilnX4w
 - name: Applied ML
   days:
   - date: Mon 03/24
     topics: Practicum - Exploratory Data Analysis
+    resources:
+    - name: Slides
+      type: reading
+      link: 
+    - name: Confusion Matrix (StatQuest)
+      type: lecture
+      link: https://youtu.be/Kdsp6soqA7o?si=g3ssfI10Oqdms09K
+    - name: ROC/AUC (StatQuest)
+      type: lecture
+      link: https://youtu.be/4jRBRDbJemM?si=5sp5qUoMbHvygXYP
     assignments:
     - Homework 03
 - name: ML to DL
@@ -455,6 +543,15 @@
     - name: Simple FFN Visualization
       type: notebook
       link: https://colab.research.google.com/drive/14S8IbQQ59TNdJAF0jqGVKjh4kpu3tT_L?usp=sharing
+    - name: Neural Networks (StatQuest)
+      type: lecture
+      link: https://youtu.be/CqOfi41LfDw?si=uc3frgwCzGIqxuQN
+    - name: pytorch (StatQuest)
+      type: lecture
+      link: https://youtu.be/FHdlXe1bSe4?si=jrQBr_XpoS7moqoO
+    - name: Matrix Math (StatQuest)
+      type: lecture
+      link: https://youtu.be/ZTt9gsGcdDo?si=WPN9Vxtbm_94C-nq
 - name: Midterm 02
   days:
   - date: Mon 03/31
@@ -506,6 +603,15 @@
     - name: Numpy Backprop
       type: notebook
       link: https://colab.research.google.com/drive/1ogAx_Bqe80PsFzloNR7W0Ijd1YePNGVU?usp=sharing
+    - name: SGD (StatQuest)
+      type: lecture
+      link: https://youtu.be/vMh0zPT0tLI?si=V4gwCG8HGbcQ6kX7
+    - name: Chain Rule (StatQuest)
+      type: lecture
+      link: https://youtu.be/wl1myxrtQHQ?si=npy0cR-pfY5RIT5t
+    - name: Backprop (StatQuest)
+      type: lecture
+      link: https://youtu.be/IN2XmBhILt4?si=9tYxD7DT3xvBuYGz
   - date: Wed 04/09
     topics: Convolutional Neural Networks
     resources:
@@ -533,6 +639,9 @@
     - name: MNIST CNN
       type: notebook
       link: https://colab.research.google.com/drive/1yYw7SwTl5Q5F_gFLfjEWwW328v3SbPB0?usp=sharing
+    - name: CNNs (StatQuest)
+      type: lecture
+      link: https://youtu.be/HGwBXDKFk9I?si=5k2GTtevGNxIMEXQ
   - date: Mon 04/14
     topics: Recurrent Neural Networks
     resources:
@@ -557,6 +666,12 @@
     - name: Character-Level LSTM
       type: notebook
       link: https://colab.research.google.com/drive/1soMewNR1oVJvznbfa6oI1PUnKeblZdRc?usp=sharing
+    - name: RNNs (StatQuest)
+      type: lecture
+      link: https://youtu.be/AsNTP8Kwu80?si=Dm7SlTxtLYedMi7R
+    - name: LSTMs (StatQuest)
+      type: lecture
+      link: https://youtu.be/YCzL96nL7j0?si=cy5A4boGNLkMu6os
     assignments:
     - Homework 04
 - name: Modern Deep Learning
@@ -588,6 +703,12 @@
     - name: Simple Self-Attention
       type: notebook
       link: https://colab.research.google.com/drive/1zrnOd6wE57gefw9VJMFDD_9LTzeng9D8?usp=sharing
+    - name: Attention (StatQuest)
+      type: lecture
+      link: https://youtu.be/PSs6nxngL6k?si=gfuV6LQqtS0jDxQc
+    - name: Matrix Math (StatQuest)
+      type: lecture
+      link: https://youtu.be/KphmOJnLAdI?si=dkXEgyn5ImhMdDnD
   - date: Mon 04/21
     topics: Cancelled (Easter Monday)
   - date: Wed 04/23
@@ -617,6 +738,9 @@
     - name: Cornell CS4780
       type: lecture
       link: https://youtu.be/Nu7VZeW5TaE?si=VvFyOFVWecFkuuSX
+    - name: Transformers (StatQuest)
+      type: lecture
+      link: https://youtu.be/zxQyTK8quyY?si=TfF6rH36dN7WcZdN
   - date: Mon 04/28
     topics: Diffusion Models
     resources:
