@@ -112,6 +112,9 @@
     - name: Tic Tac Toe
       type: notebook
       link: https://colab.research.google.com/drive/1Fys3UaM_dBboKzaCWqMN2RC2iKy8xPE9?usp=sharing
+    - name: Adversarial Search
+      type: blogpost
+      link: https://stackabuse.com/minimax-and-alpha-beta-pruning-in-python/
   - date: Mon 02/03
     topics: Knowledge Representation and Feature Engineering
     resources:
