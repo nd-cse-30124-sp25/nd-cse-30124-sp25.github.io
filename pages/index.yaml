@@ -379,7 +379,7 @@ body:       |
                             <tr id="resources-{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}" class="resource-row" style="display: none;">
                                 <td colspan="3">
                                     <div class="row">
-                                        <div class="col-md-2">
+                                        <div class="col-md-3">
                                             <h4><i class="fa-solid fa-book"></i> Readings:</h4>
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
@@ -389,7 +389,7 @@ body:       |
                                                 {% end %}
                                             </ul>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col-md-3">
                                             <h4><i class="fa-solid fa-video-camera"></i> Videos:</h4>
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
