@@ -109,6 +109,9 @@
     - name: MIT 6.034
       type: lecture
       link: https://www.youtube.com/watch?v=STjW3eH0Cik
+    - name: Tic Tac Toe
+      type: notebook
+      link: https://colab.research.google.com/drive/1Fys3UaM_dBboKzaCWqMN2RC2iKy8xPE9?usp=sharing
   - date: Mon 02/03
     topics: Knowledge Representation and Feature Engineering
     resources:
