@@ -359,6 +359,9 @@
       type: video
       student: Anthony Tsiantis '26
       link: https://youtu.be/l-9ALe3U-Fg?si=tS0U8QDoRylnSHnZ
+    - name: Perceptron
+      type: notebook
+      link: https://drive.google.com/file/d/1iX-UsNbA9hPjXkK2xUWrKpGQ-YyQtqcT/view?usp=sharing
   - date: Mon 03/03
     topics: Logistic Regression and Gradient Descent
     resources:
