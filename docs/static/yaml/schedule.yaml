@@ -343,6 +343,9 @@
   - date: Wed 02/26
     topics: Perceptrons
     resources:
+    - name: Slides
+      type: reading
+      link: https://docs.google.com/presentation/d/1woCFeEo6jfxaGHt_sGD4FFx6R_k-uoxD/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
     - name: PML - Section 10.2.5
       type: reading
       link: https://probml.github.io/pml-book/book1.html
