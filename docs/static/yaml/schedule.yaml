@@ -352,6 +352,10 @@
     - name: Cornell CS4780
       type: video
       link: https://youtu.be/wl7gVvI-HuY?si=25ULeFrFpBytCOTn
+    - name: Perceptrons
+      type: video
+      student: Anthony Tsiantis
+      link: https://youtu.be/l-9ALe3U-Fg?si=tS0U8QDoRylnSHnZ
   - date: Mon 03/03
     topics: Logistic Regression and Gradient Descent
     resources:
@@ -385,6 +389,9 @@
     - name: Gradient Descent (StatQuest)
       type: video
       link: https://youtu.be/sDv4f4s2SB8?si=TrI_ge8kywlfgmrv
+    - name: Gradient Descent (3b1b)
+      type: video
+      link: https://youtu.be/IHZwWFHWa-w?si=Kn21ycaonExUo5Br
     assignments:
     - Homework 02
   - date: Wed 03/05
