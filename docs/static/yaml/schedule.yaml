@@ -352,6 +352,9 @@
     - name: UML - Section 9.1.2
       type: reading
       link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
+    - name: Panopto
+      type: video
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ed8b2037-1683-41ad-af60-b290016968af
     - name: Harvard CS50
       type: video
       link: https://youtu.be/-g0iJjnO2_w?si=rsqf3IhYQV_PKjkc&t=751
