@@ -177,6 +177,9 @@
     - name: Regression Trees (StatQuest)
       type: video
       link: https://youtu.be/g9c66TUylZ4?si=SpvGvKvq9DmjLXYi
+    - name: Information Theory (3b1b)
+      type: video
+      link: https://youtu.be/v68zYyaEmEA?si=0mkPXsH4BYhxzSCl
   - date: Mon 02/10
     topics: Markov Models
     resources:
@@ -354,7 +357,7 @@
       link: https://youtu.be/wl7gVvI-HuY?si=25ULeFrFpBytCOTn
     - name: Perceptrons
       type: video
-      student: Anthony Tsiantis
+      student: Anthony Tsiantis '26
       link: https://youtu.be/l-9ALe3U-Fg?si=tS0U8QDoRylnSHnZ
   - date: Mon 03/03
     topics: Logistic Regression and Gradient Descent
@@ -649,6 +652,9 @@
     - name: CNNs (StatQuest)
       type: video
       link: https://youtu.be/HGwBXDKFk9I?si=5k2GTtevGNxIMEXQ
+    - name: Convolution (3b1b)
+      type: video
+      link: https://youtu.be/KuXjwB4LzSA?si=ulXCDjK3Qd2WZOc0
   - date: Mon 04/14
     topics: Recurrent Neural Networks
     resources:
