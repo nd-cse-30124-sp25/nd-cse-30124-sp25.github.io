@@ -397,7 +397,7 @@ body:       |
                                                         <li>
                                                             <a href="{{ resource['link'] }}" class="label label-success">{{ resource['name'] }}</a>
                                                             {% if resource.get('student') %}
-                                                                <ul><li><span class="label label-default">{{ resource['student'] }}</span></li></ul>
+                                                                <ul style="padding-left: 4px;"><li>({{ resource['student'] }})</li></ul>
                                                             {% end %}
                                                         </li>
                                                     {% end %}
