@@ -394,7 +394,12 @@ body:       |
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'video' %}
-                                                        <li><a href="{{ resource['link'] }}" class="label label-success">{{ resource['name'] }}</a></li>
+                                                        <li>
+                                                            <a href="{{ resource['link'] }}" class="label label-success">{{ resource['name'] }}</a>
+                                                            {% if resource.get('student') %}
+                                                                <ul><li><span class="label label-default">{{ resource['student'] }}</span></li></ul>
+                                                            {% end %}
+                                                        </li>
                                                     {% end %}
                                                 {% end %}
                                             </ul>
