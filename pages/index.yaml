@@ -384,7 +384,12 @@ body:       |
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'reading' %}
-                                                        <li><a href="{{ resource['link'] }}" class="label label-caution">{{ resource['name'] }}</a></li>
+                                                        <li>
+                                                            <a href="{{ resource['link'] }}" class="label label-caution">{{ resource['name'] }}</a>
+                                                            {% if resource.get('student') %}
+                                                                <span style="font-size: 0.7em; color: #999;">{{ resource['student'] }}</span>
+                                                            {% end %}
+                                                        </li>
                                                     {% end %}
                                                 {% end %}
                                             </ul>
@@ -409,7 +414,12 @@ body:       |
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'notebook' %}
-                                                        <li><a href="{{ resource['link'] }}" class="label label-primary">{{ resource['name'] }}</a></li>
+                                                        <li>
+                                                            <a href="{{ resource['link'] }}" class="label label-primary">{{ resource['name'] }}</a>
+                                                            {% if resource.get('student') %}
+                                                                <span style="font-size: 0.7em; color: #999;">{{ resource['student'] }}</span>
+                                                            {% end %}
+                                                        </li>
                                                     {% end %}
                                                 {% end %}
                                             </ul>
@@ -419,7 +429,12 @@ body:       |
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'blogpost' %}
-                                                        <li><a href="{{ resource['link'] }}" class="label label-danger">{{ resource['name'] }}</a></li>
+                                                        <li>
+                                                            <a href="{{ resource['link'] }}" class="label label-danger">{{ resource['name'] }}</a>
+                                                            {% if resource.get('student') %}
+                                                                <span style="font-size: 0.7em; color: #999;">{{ resource['student'] }}</span>
+                                                            {% end %}
+                                                        </li>
                                                     {% end %}
                                                 {% end %}
                                             </ul>
@@ -429,7 +444,12 @@ body:       |
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'social' %}
-                                                        <li><a href="{{ resource['link'] }}" class="label label-danger">{{ resource['name'] }}</a></li>
+                                                        <li>
+                                                            <a href="{{ resource['link'] }}" class="label label-danger">{{ resource['name'] }}</a>
+                                                            {% if resource.get('student') %}
+                                                                <span style="font-size: 0.7em; color: #999;">{{ resource['student'] }}</span>
+                                                            {% end %}
+                                                        </li>
                                                     {% end %}
                                                 {% end %}
                                             </ul>
