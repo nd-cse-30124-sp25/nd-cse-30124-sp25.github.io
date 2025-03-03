@@ -380,7 +380,7 @@
     resources:
     - name: Slides
       type: reading
-      link: 
+      link: https://docs.google.com/presentation/d/1nOU8NcjYKTvWy1S1l---qaAeITS_uUgc/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
     - name: FCA - Section 7.3.2
       type: reading
       link: https://artint.info/3e/html/ArtInt3e.Ch7.S3.html
