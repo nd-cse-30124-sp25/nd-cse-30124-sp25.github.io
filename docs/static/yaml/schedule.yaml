@@ -180,6 +180,9 @@
     - name: Information Theory (3b1b)
       type: video
       link: https://youtu.be/v68zYyaEmEA?si=0mkPXsH4BYhxzSCl
+    - name: Decision Trees (MLU)
+      type: blogpost
+      link: https://mlu-explain.github.io/decision-tree/
   - date: Mon 02/10
     topics: Markov Models
     resources:
@@ -324,6 +327,9 @@
     - name: L1 vs. L2 Visualization (StatQuest)
       type: video
       link: https://youtu.be/Xm2C_gTAl8c?si=MovbjzS6Cf-PN70-
+    - name: Linear Regression (MLU)
+      type: blogpost
+      link: https://mlu-explain.github.io/linear-regression/
 - name: Exam 01
   days:
   - date: Wed 02/19
@@ -405,6 +411,12 @@
     - name: Gradient Descent (3b1b)
       type: video
       link: https://youtu.be/IHZwWFHWa-w?si=Kn21ycaonExUo5Br
+    - name: Visualizing Gradient Descent
+      type: notebook
+      link: https://www.kaggle.com/code/christianwittmann/visualizing-gradient-descent-in-3d
+    - name: Logistic Regression (MLU)
+      type: blogpost
+      link: https://mlu-explain.github.io/logistic-regression/
     assignments:
     - Homework 02
   - date: Wed 03/05
@@ -632,6 +644,9 @@
     - name: Backprop (StatQuest)
       type: video
       link: https://youtu.be/IN2XmBhILt4?si=9tYxD7DT3xvBuYGz
+    - name: Building Micograd (Karpathy)
+      type: video
+      link: https://www.youtube.com/watch?v=VMj-3S1tku0
   - date: Wed 04/09
     topics: Convolutional Neural Networks
     resources:
