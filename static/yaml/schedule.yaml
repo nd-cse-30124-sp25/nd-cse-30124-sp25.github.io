@@ -417,6 +417,9 @@
     - name: Logistic Regression (MLU)
       type: blogpost
       link: https://mlu-explain.github.io/logistic-regression/
+    - name: Logistic Regression Visualization
+      type: notebook
+      link: https://colab.research.google.com/drive/1EEsiC4noy6ncQdm9wxLnPwO82R9zncWQ?usp=sharing
     assignments:
     - Homework 02
   - date: Wed 03/05
