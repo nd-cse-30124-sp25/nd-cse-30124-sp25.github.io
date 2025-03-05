@@ -427,7 +427,7 @@
     resources:
     - name: Slides
       type: reading
-      link: 
+      link: https://docs.google.com/presentation/d/1qM85nWuWCBsmf4FW8ebS4m9eQ1QfN_6d/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
     - name: PML - Sections 16.1, 17.3
       type: reading
       link: https://probml.github.io/pml-book/book1.html
