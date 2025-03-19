@@ -502,7 +502,7 @@
     resources:
     - name: Slides
       type: reading
-      link: 
+      link: https://docs.google.com/presentation/d/1SLJK_BD-Qfmr56sYqbzDbJw6M_3OCmAz/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
     - name: PML - Section 20.1
       type: reading
       link: https://probml.github.io/pml-book/book1.html
