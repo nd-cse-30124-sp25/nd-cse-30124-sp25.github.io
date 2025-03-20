@@ -590,19 +590,7 @@
     - name: Matrix Math (StatQuest)
       type: video
       link: https://youtu.be/ZTt9gsGcdDo?si=WPN9Vxtbm_94C-nq
-- name: Midterm 02
-  days:
   - date: Mon 03/31
-    topics: Review
-  - date: Wed 04/02
-    topics: Exam 02
-    assignments:
-    - Exam 02 Practice Packet
-    - Exam 02
-- name: 'Unit 03: Deep Learning'
-- name: Foundations of Deep Learning
-  days:
-  - date: Mon 04/07
     topics: Gradient Descent and Backpropagation
     resources:
     - name: Slides
@@ -653,6 +641,18 @@
     - name: Building Micograd (Karpathy)
       type: video
       link: https://www.youtube.com/watch?v=VMj-3S1tku0
+- name: Midterm 02
+  days:
+  - date: Wed 04/02
+    topics: Review
+  - date: Mon 04/07
+    topics: Exam 02
+    assignments:
+    - Exam 02 Practice Packet
+    - Exam 02
+- name: 'Unit 03: Deep Learning'
+- name: Foundations of Deep Learning
+  days:
   - date: Wed 04/09
     topics: Convolutional Neural Networks
     resources:
