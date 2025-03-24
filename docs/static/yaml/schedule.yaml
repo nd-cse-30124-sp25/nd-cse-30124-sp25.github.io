@@ -395,7 +395,7 @@
       link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
     - name: Panopto
       type: video
-      link: 
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ce3f234d-f8c8-463f-b7f0-b2950169e996
     - name: Numpy LR and GD
       type: notebook
       link: https://colab.research.google.com/drive/1Td14eL3FLIjn5WxUlmdIT1A2nyYZ-Oms?usp=sharing
@@ -439,7 +439,7 @@
       link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
     - name: Panopto
       type: video
-      link: 
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a38cd616-4164-463e-a3f1-b29701687382
     - name: Harvard CS50 (0:00 - 12:30 and 33:29 - 39:41)
       type: video
       link: https://www.youtube.com/watch?v=-g0iJjnO2_w
@@ -485,6 +485,9 @@
     - name: UML - Chapter 22
       type: reading
       link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
+    - name: Panopto
+      type: video
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=550c09db-9c29-4e62-8e91-b2a30158051d 
     - name: Clustering Visualizations
       type: notebook
       link: https://colab.research.google.com/drive/1WWysdY8e08f9tEC_P_lxt0INBAzmx8yn?usp=sharing
