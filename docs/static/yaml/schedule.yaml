@@ -537,7 +537,10 @@
     resources:
     - name: Slides
       type: reading
-      link: 
+      link: https://docs.google.com/presentation/d/11mKFiHeI_j7IJ7Zv1exWsGPXU7LZT9_8/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
+    - name: Practicum
+      type: notebook
+      link: https://drive.google.com/file/d/1uhaA2gempxnxCGCLSFbXWWjog7jiWVtV/view?usp=sharing
     - name: Confusion Matrix (StatQuest)
       type: video
       link: https://youtu.be/Kdsp6soqA7o?si=g3ssfI10Oqdms09K
