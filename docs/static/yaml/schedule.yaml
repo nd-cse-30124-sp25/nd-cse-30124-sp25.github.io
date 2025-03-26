@@ -556,7 +556,7 @@
     resources:
     - name: Slides
       type: reading
-      link: 
+      link: https://docs.google.com/presentation/d/1EJRp_KLUmyX0aRp9dhMzRW0Dw6HYkVgs/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
     - name: FCA - Section 8.1 (Until 8.1.1)
       type: reading
       link: https://artint.info/3e/html/ArtInt3e.Ch8.html
