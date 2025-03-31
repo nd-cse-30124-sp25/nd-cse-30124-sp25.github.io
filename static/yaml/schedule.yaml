@@ -556,7 +556,7 @@
     resources:
     - name: Slides
       type: reading
-      link: https://docs.google.com/presentation/d/1EJRp_KLUmyX0aRp9dhMzRW0Dw6HYkVgs/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
+      link: https://drive.google.com/file/d/1UDZuhHbDqn7kjcZP4KIggRrfLBb_OQ64/view?usp=sharing
     - name: FCA - Section 8.1 (Until 8.1.1)
       type: reading
       link: https://artint.info/3e/html/ArtInt3e.Ch8.html
@@ -574,7 +574,7 @@
       link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
     - name: Panopto
       type: video
-      link: 
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=64dff764-0306-4caa-8e38-b2ac01594013
     - name: Harvard CS50 (0:00 - 16:00)
       type: video
       link: https://www.youtube.com/watch?v=J1QD9hLDEDY
