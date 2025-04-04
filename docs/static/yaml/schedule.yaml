@@ -619,7 +619,7 @@
       link: https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
     - name: Panopto
       type: video
-      link: 
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=36c905b4-cbd9-4a0d-aa0c-b2b10162772b
     - name: Harvard CS50 (16:00 - 39:00)
       type: video
       link: https://www.youtube.com/watch?v=J1QD9hLDEDY
@@ -651,6 +651,10 @@
   days:
   - date: Wed 04/02
     topics: Review
+    resources:
+    - name: Panopto
+      type: video
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6877fd1b-5dd1-4894-896e-b2b3016366a8
   - date: Mon 04/07
     topics: Exam 02
     assignments:
