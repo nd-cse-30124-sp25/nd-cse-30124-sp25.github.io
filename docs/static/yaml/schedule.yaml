@@ -669,7 +669,7 @@
     resources:
     - name: Slides
       type: reading
-      link: 
+      link: https://docs.google.com/presentation/d/1VwAqIQRYTw_fMUnEQesaB_Fyk44SJJqy/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
     - name: FCA - Section 8.4
       type: reading
       link: https://artint.info/3e/html/ArtInt3e.Ch8.S4.html
@@ -697,6 +697,9 @@
     - name: Convolution (3b1b)
       type: video
       link: https://youtu.be/KuXjwB4LzSA?si=ulXCDjK3Qd2WZOc0
+    - name: Convolution 2 (3b1b)
+      type: video 
+      link: https://www.youtube.com/watch?v=8rrHTtUzyZA
   - date: Mon 04/14
     topics: Recurrent Neural Networks
     resources:
