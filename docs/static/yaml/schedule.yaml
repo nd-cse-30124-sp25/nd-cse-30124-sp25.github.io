@@ -700,6 +700,9 @@
     - name: Convolution 2 (3b1b)
       type: video 
       link: https://www.youtube.com/watch?v=8rrHTtUzyZA
+    - name: CNNs (HdM)
+      type: reading
+      link: https://hannibunny.github.io/mlbook/neuralnetworks/03ConvolutionNeuralNetworks.html
   - date: Mon 04/14
     topics: Recurrent Neural Networks
     resources:
