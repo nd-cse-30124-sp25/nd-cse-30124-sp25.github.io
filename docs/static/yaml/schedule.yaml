@@ -708,7 +708,7 @@
     resources:
     - name: Slides
       type: reading
-      link: 
+      link: https://docs.google.com/presentation/d/1PTVKf1WqOO8i0ERlykTnSDb-NdkctqqY/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
     - name: FCA - Section 8.5 until 8.5.4
       type: reading
       link: https://artint.info/3e/html/ArtInt3e.Ch8.S5.html
