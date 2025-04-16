@@ -738,11 +738,11 @@
 - name: Modern Deep Learning
   days:
   - date: Wed 04/16
-    topics: Attention 
+    topics: Self-Attention and Transformers
     resources:
     - name: Slides
       type: reading
-      link: 
+      link: https://docs.google.com/presentation/d/1VV1kUnmtvqS_oNtW5t7TWA7s5Hn6hiqU/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
     - name: FCA - Section 8.5.4
       type: reading
       link: https://artint.info/3e/html/ArtInt3e.Ch8.S5.html
@@ -773,7 +773,7 @@
   - date: Mon 04/21
     topics: Cancelled (Easter Monday)
   - date: Wed 04/23
-    topics: Transformers and LLMs
+    topics: LLMs and Agents
     resources:
     - name: Slides
       type: reading
