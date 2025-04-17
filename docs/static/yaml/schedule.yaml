@@ -267,6 +267,9 @@
     - name: Gaussian NB (StatQuest)
       type: video
       link: https://youtu.be/H3EjCKtlVog?si=BlD029fjYUcvGMAq
+    - name: Bayesian Reasoning (HdM)
+      type: reading
+      link: https://hannibunny.github.io/mlbook/machinelearning/parametricClassification1D.html
   - date: Mon 02/17
     topics: Linear Regression
     resources:
@@ -330,6 +333,12 @@
     - name: Linear Regression (MLU)
       type: blogpost
       link: https://mlu-explain.github.io/linear-regression/
+    - name: Linear Regression (rasbt)
+      type: notebook
+      link: https://github.com/rasbt/machine-learning-book/blob/main/ch09/ch09.ipynb
+    - name: Linear Regression (HdM)
+      type: reading
+      link: https://hannibunny.github.io/mlbook/machinelearning/LinReg.html
 - name: Exam 01
   days:
   - date: Wed 02/19
@@ -420,6 +429,9 @@
     - name: Logistic Regression Visualization
       type: notebook
       link: https://colab.research.google.com/drive/1EEsiC4noy6ncQdm9wxLnPwO82R9zncWQ?usp=sharing
+    - name: Logistic Regression (HdM)
+      type: reading
+      link: https://hannibunny.github.io/mlbook/machinelearning/LinearClassification.html
     assignments:
     - Homework 02
   - date: Wed 03/05
@@ -464,6 +476,12 @@
     - name: KNN (StatQuest)
       type: video
       link: https://youtu.be/HVXime0nQeI?si=vUOtkw1Q6nxt9Aj3
+    - name: KNN (HdM)
+      type: reading
+      link: https://hannibunny.github.io/mlbook/machinelearning/knn.html
+    - name: SVMs (HdM)
+      type: reading
+      link: https://hannibunny.github.io/mlbook/machinelearning/svm.html
 - name: Spring Break
 - name: Unsupervised Learning
   days:
@@ -500,6 +518,9 @@
     - name: K-Means (StatQuest)
       type: video
       link: https://youtu.be/4b5d3muPQmA?si=T2ow71QcEXdbKt7V
+    - name: Clustering (rasbt)
+      type: notebook
+      link: https://github.com/rasbt/machine-learning-book/blob/main/ch10/ch10.ipynb
   - date: Wed 03/19
     topics: Dimensionality Reduction
     resources:
@@ -530,6 +551,9 @@
     - name: t-SNE (StatQuest)
       type: video
       link: https://youtu.be/NEaUSP4YerM?si=lME2kIla7hilnX4w
+    - name: PCA (rasbt)
+      type: notebook
+      link: https://github.com/rasbt/machine-learning-book/blob/main/ch05/ch05.ipynb
 - name: Applied ML
   days:
   - date: Mon 03/24
@@ -547,6 +571,12 @@
     - name: ROC/AUC (StatQuest)
       type: video
       link: https://youtu.be/4jRBRDbJemM?si=5sp5qUoMbHvygXYP
+    - name: Model Evaluation (rasbt)
+      type: notebook
+      link: https://github.com/rasbt/machine-learning-book/blob/main/ch06/ch06.ipynb
+    - name: Ensemble Learning (rasbt)
+      type: notebook
+      link: https://github.com/rasbt/machine-learning-book/blob/main/ch07/ch07.ipynb
     assignments:
     - Homework 03
 - name: ML to DL
@@ -596,6 +626,12 @@
     - name: Matrix Math (StatQuest)
       type: video
       link: https://youtu.be/ZTt9gsGcdDo?si=WPN9Vxtbm_94C-nq
+    - name: MLP from scratch (rasbt)
+      type: notebook
+      link: https://github.com/rasbt/machine-learning-book/blob/main/ch11/ch11.ipynb
+    - name: Neural Networks (HdM)
+      type: reading
+      link: https://hannibunny.github.io/mlbook/neuralnetworks/01NeuralNets.html
   - date: Mon 03/31
     topics: Gradient Descent and Backpropagation
     resources:
@@ -647,6 +683,9 @@
     - name: Building Micograd (Karpathy)
       type: video
       link: https://www.youtube.com/watch?v=VMj-3S1tku0
+    - name: Pytorch Computation Graphs (rasbt)
+      type: notebook
+      link: https://github.com/rasbt/machine-learning-book/blob/main/ch13/ch13_part1.ipynb
 - name: Midterm 02
   days:
   - date: Wed 04/02
@@ -703,6 +742,12 @@
     - name: CNNs (HdM)
       type: reading
       link: https://hannibunny.github.io/mlbook/neuralnetworks/03ConvolutionNeuralNetworks.html
+    - name: CNN Animations (HdM)
+      type: reading
+      link: https://hannibunny.github.io/mlbook/neuralnetworks/convolutionDemos.html
+    - name: CNN (rasbt)
+      type: notebook
+      link: https://github.com/rasbt/machine-learning-book/blob/main/ch14/ch14_part1.ipynb
   - date: Mon 04/14
     topics: Recurrent Neural Networks
     resources:
@@ -733,6 +778,15 @@
     - name: LSTMs (StatQuest)
       type: video
       link: https://youtu.be/YCzL96nL7j0?si=cy5A4boGNLkMu6os
+    - name: RNN Part 1 (rasbt)
+      type: notebook
+      link: https://github.com/rasbt/machine-learning-book/blob/main/ch15/ch15_part1.ipynb
+    - name: RNN Part 2 (rasbt)
+      type: notebook
+      link: https://github.com/rasbt/machine-learning-book/blob/main/ch15/ch15_part2.ipynb
+    - name: RNN (HdM)
+      type: reading
+      link: https://hannibunny.github.io/mlbook/neuralnetworks/02RecurrentNeuralNetworks.html
     assignments:
     - Homework 04
 - name: Modern Deep Learning
@@ -809,8 +863,17 @@
       type: video
       link: https://youtu.be/zxQyTK8quyY?si=TfF6rH36dN7WcZdN
     - name: GPT3 (Alammar)
-      type: reading
+      type: blogpost
       link: https://jalammar.github.io/how-gpt3-works-visualizations-animations/
+    - name: MoE (Maarten)
+      type: blogpost
+      link: https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts
+    - name: LLM Reasoning (Maarten)
+      type: blogpost
+      link: https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-reasoning-llms
+    - name: Deepseek (Alammar)
+      type: blogpost
+      link: https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1
   - date: Mon 04/28
     topics: Diffusion Models
     resources:
@@ -850,6 +913,15 @@
     - name: RL Lunar Lander
       type: notebook
       link: https://colab.research.google.com/drive/1WtcWFv57EBsRTlk1_Zl0ammBHO1iG1LM?usp=sharing
+    - name: RL (rasbt)
+      type: notebook
+      link: https://github.com/rasbt/machine-learning-book/blob/main/ch19/ch19.ipynb
+    - name: RL (HdM)
+      type: reading
+      link: https://hannibunny.github.io/mlbook/rl/reinforcement.html
+    - name: Deep RL (HdM)
+      type: reading
+      link: https://hannibunny.github.io/mlbook/rl/DQN.html
     assignments:
     - Final Practice Packet
     - Homework 05
