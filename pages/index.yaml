@@ -851,6 +851,7 @@ body:       |
                         <ul>
                             <li><a href="https://ai.stanford.edu/~nilsson/QAI/qai.pdf">The Quest for Artificial Intelligence</a></li>
                             <li><a href="https://github.com/rasbt/machine-learning-book">Machine Learning with PyTorch and Scikit-Learn</a></li>
+                            <li><a href="https://www.nltk.org/book/">Natural Language Processing with Python (NLTK)</a></li>
                         </ul>
                     </div>
                 </div>
