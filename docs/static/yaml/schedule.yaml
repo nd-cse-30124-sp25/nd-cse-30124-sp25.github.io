@@ -787,6 +787,9 @@
     - name: RNN (HdM)
       type: reading
       link: https://hannibunny.github.io/mlbook/neuralnetworks/02RecurrentNeuralNetworks.html
+    - name: RNN Cheatsheet (Stanford)
+      type: reading
+      link: https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks
     assignments:
     - Homework 04
 - name: Modern Deep Learning
