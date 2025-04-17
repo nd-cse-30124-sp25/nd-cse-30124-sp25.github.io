@@ -901,7 +901,7 @@ body:       |
                     </h3>
                     <div id="blogposts" style="display: none;">
                         <ul>
-                            <li><a href="">Test</a></li>
+                            <li><a href="https://victorzhou.com/posts/linear-algebra-for-machine-learning/">Linear Algebra for Machine Learning</a></li>
                         </ul>
                     </div>
                 </div>

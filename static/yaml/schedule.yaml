@@ -183,6 +183,15 @@
     - name: Decision Trees (MLU)
       type: blogpost
       link: https://mlu-explain.github.io/decision-tree/
+    - name: Decision Trees (r2d3)
+      type: blogpost
+      link: https://www.r2d3.us/visual-intro-to-machine-learning-part-1/
+    - name: IG and Entropy (Zhou)
+      type: blogpost
+      link: https://victorzhou.com/blog/information-gain/
+    - name: Information Theory (Olah)
+      type: blogpost
+      link: https://colah.github.io/posts/2015-09-Visual-Information/
   - date: Mon 02/10
     topics: Markov Models
     resources:
@@ -270,6 +279,9 @@
     - name: Bayesian Reasoning (HdM)
       type: reading
       link: https://hannibunny.github.io/mlbook/machinelearning/parametricClassification1D.html
+    - name: Naive Bayes (Raschka)
+      type: blogpost
+      link: https://sebastianraschka.com/Articles/2014_naive_bayes_1.html
   - date: Mon 02/17
     topics: Linear Regression
     resources:
@@ -384,6 +396,9 @@
     - name: Perceptron
       type: notebook
       link: https://drive.google.com/file/d/1iX-UsNbA9hPjXkK2xUWrKpGQ-YyQtqcT/view?usp=sharing
+    - name: Perceptrons (Raschka)
+      type: blogpost
+      link: https://sebastianraschka.com/Articles/2015_singlelayer_neurons.html
   - date: Mon 03/03
     topics: Logistic Regression and Gradient Descent
     resources:
@@ -482,6 +497,9 @@
     - name: SVMs (HdM)
       type: reading
       link: https://hannibunny.github.io/mlbook/machinelearning/svm.html
+    - name: Kernel Methods (Raschka)
+      type: blogpost
+      link: https://sebastianraschka.com/Articles/2014_kernel_pca.html
 - name: Spring Break
 - name: Unsupervised Learning
   days:
@@ -554,6 +572,21 @@
     - name: PCA (rasbt)
       type: notebook
       link: https://github.com/rasbt/machine-learning-book/blob/main/ch05/ch05.ipynb
+    - name: MNIST (Olah)
+      type: blogpost
+      link: https://colah.github.io/posts/2014-10-Visualizing-MNIST/
+    - name: PCA (Raschka)
+      type: blogpost
+      link: https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html
+    - name: PCA from scratch (Raschka)
+      type: blogpost
+      link: https://sebastianraschka.com/Articles/2014_pca_step_by_step.html
+    - name: Standardization (Raschka)
+      type: blogpost
+      link: https://sebastianraschka.com/Articles/2014_about_feature_scaling.html
+    - name: LDA (Raschka)
+      type: blogpost
+      link: https://sebastianraschka.com/Articles/2014_python_lda.html
 - name: Applied ML
   days:
   - date: Mon 03/24
@@ -577,6 +610,15 @@
     - name: Ensemble Learning (rasbt)
       type: notebook
       link: https://github.com/rasbt/machine-learning-book/blob/main/ch07/ch07.ipynb
+    - name: Model Evaluation (Raschka)
+      type: paper
+      link: https://arxiv.org/pdf/1811.12808
+    - name: Model Evaluation (Raschka)
+      type: blogpost
+      link: https://sebastianraschka.com/blog/2016/model-evaluation-selection-part3.html
+    - name: Ensemble Classifier (Raschka)
+      type: blogpost
+      link: https://sebastianraschka.com/Articles/2014_ensemble_classifier.html
     assignments:
     - Homework 03
 - name: ML to DL
@@ -632,6 +674,18 @@
     - name: Neural Networks (HdM)
       type: reading
       link: https://hannibunny.github.io/mlbook/neuralnetworks/01NeuralNets.html
+    - name: Neural Networks (Zhou)
+      type: blogpost
+      link: https://victorzhou.com/blog/intro-to-neural-networks/
+    - name: Softmax (Zhou)
+      type: blogpost
+      link: https://victorzhou.com/blog/softmax/
+    - name: One-hot (Zhou)
+      type: blogpost
+      link: https://victorzhou.com/blog/one-hot/
+    - name: Loss Functions (Raschka)
+      type: blogpost
+      link: https://sebastianraschka.com/blog/2022/losses-learned-part1.html
   - date: Mon 03/31
     topics: Gradient Descent and Backpropagation
     resources:
@@ -686,6 +740,9 @@
     - name: Pytorch Computation Graphs (rasbt)
       type: notebook
       link: https://github.com/rasbt/machine-learning-book/blob/main/ch13/ch13_part1.ipynb
+    - name: Backprop (Olah)
+      type: blogpost
+      link: https://colah.github.io/posts/2015-08-Backprop/
 - name: Midterm 02
   days:
   - date: Wed 04/02
@@ -748,6 +805,15 @@
     - name: CNN (rasbt)
       type: notebook
       link: https://github.com/rasbt/machine-learning-book/blob/main/ch14/ch14_part1.ipynb
+    - name: CNNs (Zhou)
+      type: blogpost
+      link: https://victorzhou.com/blog/intro-to-cnns-part-1/
+    - name: Convolutions (Olah)
+      type: blogpost
+      link: https://colah.github.io/posts/2014-07-Understanding-Convolutions/
+    - name: CNNs (Olah)
+      type: blogpost
+      link: https://colah.github.io/posts/2014-07-Conv-Nets-Modular/
   - date: Mon 04/14
     topics: Recurrent Neural Networks
     resources:
@@ -790,6 +856,27 @@
     - name: RNN Cheatsheet (Stanford)
       type: reading
       link: https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks
+    - name: Word Embeddings (Lilian)
+      type: blogpost
+      link: https://lilianweng.github.io/posts/2017-10-15-word-embedding/
+    - name: RNN Stock Prices (Lilian)
+      type: blogpost
+      link: https://lilianweng.github.io/posts/2017-07-08-stock-rnn-part-1/
+    - name: RNNs (Zhou)
+      type: blogpost
+      link: https://victorzhou.com/blog/intro-to-rnns/
+    - name: BoW (Zhou)
+      type: blogpost
+      link: https://victorzhou.com/blog/bag-of-words/
+    - name: Word Embeddings (Olah)
+      type: blogpost
+      link: https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/
+    - name: LSTMs (Olah)
+      type: blogpost
+      link: https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+    - name: Neural Machine Translation by Jointly Learning to Align and Translate (Bahdanau et al.)
+      type: paper
+      link: https://arxiv.org/pdf/1409.0473
     assignments:
     - Homework 04
 - name: Modern Deep Learning
@@ -833,6 +920,33 @@
     - name: Attention (rasbt)
       type: notebook
       link: https://github.com/rasbt/machine-learning-book/blob/main/ch16/ch16-part1-self-attention.ipynb
+    - name: Attention (Lilian)
+      type: blogpost
+      link: https://lilianweng.github.io/posts/2018-06-24-attention/
+    - name: Annotated Transformer (Harvard)
+      type: blogpost
+      link: http://nlp.seas.harvard.edu/annotated-transformer/
+    - name: Attention is All You Need (Vaswani et al.)
+      type: paper
+      link: https://arxiv.org/abs/1706.03762
+    - name: Illustrated Transformer (Alammar)
+      type: blogpost
+      link: https://jalammar.github.io/illustrated-transformer/
+    - name: Transformers (Lilian)
+      type: blogpost
+      link: https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2/
+    - name: Transformer Family Tree (Amatriain et al.)
+      type: paper
+      link: https://arxiv.org/pdf/2302.07730
+    - name: BERT Pre-training of Deep Bidirectional Transformers for Language Understanding (Devlin et al.)
+      type: paper
+      link: https://arxiv.org/pdf/1810.04805
+    - name: Improving Language Understanding by Generative Pre-Training (Radford et al.)
+      type: paper
+      link: https://gwern.net/doc/www/s3-us-west-2.amazonaws.com/d73fdc5ffa8627bce44dcda2fc012da638ffb158.pdf
+    - name: Programming Self-Attention (Raschka)
+      type: blogpost
+      link: https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html
   - date: Mon 04/21
     topics: Cancelled (Easter Monday)
   - date: Wed 04/23
@@ -877,6 +991,9 @@
     - name: Deepseek (Alammar)
       type: blogpost
       link: https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1
+    - name: LLM Agents (Lilian)
+      type: blogpost
+      link: https://lilianweng.github.io/posts/2023-06-23-agent/
   - date: Mon 04/28
     topics: Diffusion Models
     resources:
@@ -892,6 +1009,12 @@
     - name: Simple Diffusion Model
       type: notebook
       link: https://colab.research.google.com/drive/1H3ztaNIIsshhPQx3j5oTQ8lGwvgsWDGz?usp=sharing
+    - name: Diffusion Models (Lilian)
+      type: blogpost
+      link: https://lilianweng.github.io/posts/2021-07-11-diffusion-models/
+    - name: Video Diffusion (Lilian)
+      type: blogpost
+      link: https://lilianweng.github.io/posts/2024-04-12-diffusion-video/
   - date: Wed 04/30
     topics: Reinforcement Learning
     resources:
@@ -925,6 +1048,15 @@
     - name: Deep RL (HdM)
       type: reading
       link: https://hannibunny.github.io/mlbook/rl/DQN.html
+    - name: Multi-Armed Bandit (Lilian)
+      type: blogpost
+      link: https://lilianweng.github.io/posts/2018-01-23-multi-armed-bandit/
+    - name: RL (Lilian)
+      type: blogpost
+      link: https://lilianweng.github.io/posts/2018-02-19-rl-overview/
+    - name: Deep RL (Lilian)
+      type: blogpost
+      link: https://lilianweng.github.io/posts/2018-05-05-drl-implementation/
     assignments:
     - Final Practice Packet
     - Homework 05
