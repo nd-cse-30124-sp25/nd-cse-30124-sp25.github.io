@@ -773,6 +773,9 @@
     - name: Attention (HdM) 
       type: reading 
       link: https://hannibunny.github.io/mlbook/transformer/attention.html
+    - name: Attention (rasbt)
+      type: notebook
+      link: https://github.com/rasbt/machine-learning-book/blob/main/ch16/ch16-part1-self-attention.ipynb
   - date: Mon 04/21
     topics: Cancelled (Easter Monday)
   - date: Wed 04/23
@@ -805,6 +808,9 @@
     - name: Transformers (StatQuest)
       type: video
       link: https://youtu.be/zxQyTK8quyY?si=TfF6rH36dN7WcZdN
+    - name: GPT3 (Alammar)
+      type: reading
+      link: https://jalammar.github.io/how-gpt3-works-visualizations-animations/
   - date: Mon 04/28
     topics: Diffusion Models
     resources:
