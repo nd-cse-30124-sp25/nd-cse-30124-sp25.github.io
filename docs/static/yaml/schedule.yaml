@@ -770,6 +770,9 @@
     - name: Matrix Math (StatQuest)
       type: video
       link: https://youtu.be/KphmOJnLAdI?si=dkXEgyn5ImhMdDnD
+    - name: Attention (HdM) 
+      type: reading 
+      link: https://hannibunny.github.io/mlbook/transformer/attention.html
   - date: Mon 04/21
     topics: Cancelled (Easter Monday)
   - date: Wed 04/23
