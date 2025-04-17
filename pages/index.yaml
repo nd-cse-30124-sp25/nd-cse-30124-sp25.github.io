@@ -424,13 +424,34 @@ body:       |
                                                 {% end %}
                                             </ul>
                                         </div>
-                                        <div class="col-md-2">
+                                    </div>
+                                </td>
+                            </tr> 
+                            <tr id="resources-{{ unit_id }}-{{ day['date'].replace(' ', '_').replace('/', '-') }}" class="resource-row" style="display: none;">
+                                <td colspan="3">
+                                    <div class="row">
+                                        <div class="col-md-3">
                                             <h4><i class="fa-solid fa-share-alt"></i> Blogposts:</h4>
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
                                                     {% if resource['type'] == 'blogpost' %}
                                                         <li>
-                                                            <a href="{{ resource['link'] }}" class="label label-danger">{{ resource['name'] }}</a>
+                                                            <a href="{{ resource['link'] }}" class="label label-caution">{{ resource['name'] }}</a>
+                                                            {% if resource.get('student') %}
+                                                                <span style="font-size: 0.7em; color: #999;">{{ resource['student'] }}</span>
+                                                            {% end %}
+                                                        </li>
+                                                    {% end %}
+                                                {% end %}
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <h4><i class="fa-brands fa-square-twitter"></i> Socials:</h4>
+                                            <ul>
+                                                {% for resource in day.get('resources', []) %}
+                                                    {% if resource['type'] == 'social' %}
+                                                        <li>
+                                                            <a href="{{ resource['link'] }}" class="label label-success">{{ resource['name'] }}</a>
                                                             {% if resource.get('student') %}
                                                                 <span style="font-size: 0.7em; color: #999;">{{ resource['student'] }}</span>
                                                             {% end %}
@@ -440,12 +461,12 @@ body:       |
                                             </ul>
                                         </div>
                                         <div class="col-md-2">
-                                            <h4><i class="fa-brands fa-square-twitter"></i> Socials:</h4>
+                                            <h4><i class="fa-solid fa-file-pdf"></i> Papers:</h4>
                                             <ul>
                                                 {% for resource in day.get('resources', []) %}
-                                                    {% if resource['type'] == 'social' %}
+                                                    {% if resource['type'] == 'paper' %}
                                                         <li>
-                                                            <a href="{{ resource['link'] }}" class="label label-danger">{{ resource['name'] }}</a>
+                                                            <a href="{{ resource['link'] }}" class="label label-primary">{{ resource['name'] }}</a>
                                                             {% if resource.get('student') %}
                                                                 <span style="font-size: 0.7em; color: #999;">{{ resource['student'] }}</span>
                                                             {% end %}
@@ -456,7 +477,7 @@ body:       |
                                         </div>
                                     </div>
                                 </td>
-                            </tr> 
+                            </tr>
                         {% end %}
                     {% end %}
                 {% end %}
