@@ -213,6 +213,15 @@
     - name: Information Theory (Olah)
       type: blogpost
       link: https://colah.github.io/posts/2015-09-Visual-Information/
+    - name: (1966) Experiments in Induction (Hunt et al.)
+      type: paper
+      link: https://www.sciencedirect.com/science/article/pii/S0020737369800283
+    - name: (1986) Induction of Decision Trees (Quinlan)
+      type: paper
+      link: https://link.springer.com/article/10.1007/BF00116251
+    - name: (1984) Classification and Regression Trees (Brieman et al.)
+      type: paper
+      link: https://www.taylorfrancis.com/books/mono/10.1201/9781315139470/classification-regression-trees-leo-breiman-jerome-friedman-olshen-charles-stone
   - date: Mon 02/10
     topics: Markov Models
     resources:
@@ -237,6 +246,15 @@
     - name: N-Gram Language Models
       type: blogpost
       link: https://web.stanford.edu/~jurafsky/slp3/3.pdf
+    - name: (1906) Extension of the Law of Large Numbers to Dependent Events (Markov)
+      type: paper
+      link: https://www.emis.de/journals/JEHPS/Novembre2006/Markov3pdf.pdf
+    - name: (1966) Statistical Inference for Probabilistic Functions of Finite State Markov Chains (Baum and Petrie)
+      type: paper
+      link: https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-37/issue-6/Statistical-Inference-for-Probabilistic-Functions-of-Finite-State-Markov-Chains/10.1214/aoms/1177699147.full
+    - name: (1989) A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition (Rabiner)
+      type: paper
+      link: https://ieeexplore.ieee.org/document/18626
   - date: Wed 02/12
     topics: Bayesian Reasoning
     resources:
@@ -303,9 +321,21 @@
     - name: Naive Bayes (Raschka)
       type: blogpost
       link: https://sebastianraschka.com/Articles/2014_naive_bayes_1.html
-    - name: Bayesian Networks - A Model of Self-Activated Memory for Evidential Reasoning (Pearl)
+    - name: (1763) An Essay towards Solving a Problem in the Doctrine of Chances (Bayes)
+      type: paper
+      link: https://royalsocietypublishing.org/doi/10.1098/rstl.1763.0053
+    - name: (1812) Théorie Analytique des Probabilités (Laplace)
+      type: paper
+      link: https://archive.org/details/thorieanalytiqu01laplgoog
+    - name: (1985) Bayesian Networks - A Model of Self-Activated Memory for Evidential Reasoning (Pearl)
       type: paper
       link: https://ftp.cs.ucla.edu/tech-report/198_-reports/850017.pdf
+    - name: (1988) Probabilistic Reasoning in Intelligent Systems - Networks of Plausible Inference (Pearl)
+      type: paper
+      link: https://www.sciencedirect.com/book/9780080514895/probabilistic-reasoning-in-intelligent-systems
+    - name: (1998) A Comparison of Event Models for Naive Bayes Text Classification (McCallum and Nigam)
+      type: paper
+      link: https://cdn.aaai.org/Workshops/1998/WS-98-05/WS98-05-007.pdf
   - date: Mon 02/17
     topics: Linear Regression
     resources:
@@ -375,6 +405,18 @@
     - name: Linear Regression (HdM)
       type: reading
       link: https://hannibunny.github.io/mlbook/machinelearning/LinReg.html
+    - name: (1805) Nouvelles Méthodes Pour la Détermination des Orbites des Comètes (Legendre)
+      type: paper
+      link: https://books.google.com/books/about/Nouvelles_m%C3%A9thodes_pour_la_d%C3%A9terminati.html?id=FRcOAAAAQAAJ
+    - name: (1809) Theoria Motus Corporum Coelestium in Sectionibus Conicis Solem Ambientium (Gauss)
+      type: paper
+      link: https://archive.org/details/bub_gb_ORUOAAAAQAAJ
+    - name: (1970) Ridge Regression - Biased Estimation for Nonorthogonal Problems (Hoerl and Kennard)
+      type: paper
+      link: https://homepages.math.uic.edu/~lreyzin/papers/ridge.pdf
+    - name: (1996) Regression Shrinkage and Selection via the Lasso (Tibshirani)
+      type: paper
+      link: https://www.jstor.org/stable/2346178?seq=1
 - name: Exam 01
   days:
   - date: Wed 02/19
