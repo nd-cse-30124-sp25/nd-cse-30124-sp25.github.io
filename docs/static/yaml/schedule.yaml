@@ -1046,6 +1046,48 @@
   - date: Mon 04/21
     topics: Cancelled (Easter Monday)
   - date: Wed 04/23
+    topics: Reinforcement Learning
+    resources:
+    - name: Slides
+      type: reading
+      link: 
+    - name: FCA - Chapter 13
+      type: reading
+      link: https://artint.info/3e/html/ArtInt3e.Ch13.html
+    - name: D2L - Chapter 17
+      type: reading
+      link: https://d2l.ai/chapter_reinforcement-learning/index.html
+    - name: Panopto
+      type: video
+      link: 
+    - name: Harvard CS50 (1:09:57 - 1:38:24)
+      type: video
+      link: https://www.youtube.com/watch?v=-g0iJjnO2_w&t=4197s
+    - name: Stanford CS221
+      type: video
+      link: https://www.youtube.com/watch?v=HpaHTfY52RQ&list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2&index=20
+    - name: RL Lunar Lander
+      type: notebook
+      link: https://colab.research.google.com/drive/1WtcWFv57EBsRTlk1_Zl0ammBHO1iG1LM?usp=sharing
+    - name: RL (rasbt)
+      type: notebook
+      link: https://github.com/rasbt/machine-learning-book/blob/main/ch19/ch19.ipynb
+    - name: RL (HdM)
+      type: reading
+      link: https://hannibunny.github.io/mlbook/rl/reinforcement.html
+    - name: Deep RL (HdM)
+      type: reading
+      link: https://hannibunny.github.io/mlbook/rl/DQN.html
+    - name: Multi-Armed Bandit (Lilian)
+      type: blogpost
+      link: https://lilianweng.github.io/posts/2018-01-23-multi-armed-bandit/
+    - name: RL (Lilian)
+      type: blogpost
+      link: https://lilianweng.github.io/posts/2018-02-19-rl-overview/
+    - name: Deep RL (Lilian)
+      type: blogpost
+      link: https://lilianweng.github.io/posts/2018-05-05-drl-implementation/
+  - date: Mon 04/28
     topics: LLMs and Agents
     resources:
     - name: Slides
@@ -1090,7 +1132,7 @@
     - name: LLM Agents (Lilian)
       type: blogpost
       link: https://lilianweng.github.io/posts/2023-06-23-agent/
-  - date: Mon 04/28
+  - date: Wed 04/30
     topics: Diffusion Models
     resources:
     - name: Slides
@@ -1111,48 +1153,6 @@
     - name: Video Diffusion (Lilian)
       type: blogpost
       link: https://lilianweng.github.io/posts/2024-04-12-diffusion-video/
-  - date: Wed 04/30
-    topics: Reinforcement Learning
-    resources:
-    - name: Slides
-      type: reading
-      link: 
-    - name: FCA - Chapter 13
-      type: reading
-      link: https://artint.info/3e/html/ArtInt3e.Ch13.html
-    - name: D2L - Chapter 17
-      type: reading
-      link: https://d2l.ai/chapter_reinforcement-learning/index.html
-    - name: Panopto
-      type: video
-      link: 
-    - name: Harvard CS50 (1:09:57 - 1:38:24)
-      type: video
-      link: https://www.youtube.com/watch?v=-g0iJjnO2_w&t=4197s
-    - name: Stanford CS221
-      type: video
-      link: https://www.youtube.com/watch?v=HpaHTfY52RQ&list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2&index=20
-    - name: RL Lunar Lander
-      type: notebook
-      link: https://colab.research.google.com/drive/1WtcWFv57EBsRTlk1_Zl0ammBHO1iG1LM?usp=sharing
-    - name: RL (rasbt)
-      type: notebook
-      link: https://github.com/rasbt/machine-learning-book/blob/main/ch19/ch19.ipynb
-    - name: RL (HdM)
-      type: reading
-      link: https://hannibunny.github.io/mlbook/rl/reinforcement.html
-    - name: Deep RL (HdM)
-      type: reading
-      link: https://hannibunny.github.io/mlbook/rl/DQN.html
-    - name: Multi-Armed Bandit (Lilian)
-      type: blogpost
-      link: https://lilianweng.github.io/posts/2018-01-23-multi-armed-bandit/
-    - name: RL (Lilian)
-      type: blogpost
-      link: https://lilianweng.github.io/posts/2018-02-19-rl-overview/
-    - name: Deep RL (Lilian)
-      type: blogpost
-      link: https://lilianweng.github.io/posts/2018-05-05-drl-implementation/
     assignments:
     - Final Practice Packet
     - Homework 05
