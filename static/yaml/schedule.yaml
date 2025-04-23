@@ -1050,7 +1050,7 @@
     resources:
     - name: Slides
       type: reading
-      link: 
+      link: https://docs.google.com/presentation/d/1Wu-3RVWvVEL5SGmO9R0uMOOQftCRU12f/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
     - name: FCA - Chapter 13
       type: reading
       link: https://artint.info/3e/html/ArtInt3e.Ch13.html
