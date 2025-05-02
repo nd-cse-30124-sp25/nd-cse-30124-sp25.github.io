@@ -836,6 +836,9 @@
     - name: Backprop (Olah)
       type: blogpost
       link: https://colah.github.io/posts/2015-08-Backprop/
+    - name: Backprop (Karpathy)
+      type: blogpost
+      link: https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b
 - name: Midterm 02
   days:
   - date: Wed 04/02
@@ -873,7 +876,7 @@
       link: https://d2l.ai/chapter_convolutional-neural-networks/index.html
     - name: Panopto
       type: video
-      link: 
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b966a9da-a5cb-47fd-9c37-b2ba015b45b5
     - name: Harvard CS50 (53:00 - 1:27:12)
       type: video
       link: https://www.youtube.com/watch?v=J1QD9hLDEDY
@@ -973,6 +976,12 @@
     - name: Neural Machine Translation by Jointly Learning to Align and Translate (Bahdanau et al.)
       type: paper
       link: https://arxiv.org/pdf/1409.0473
+    - name: RNNs (Karpathy)
+      type: blogpost
+      link: https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+    - name: Panopto
+      type: video
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cb9b155b-1306-414b-b059-b2bf0156d398
     assignments:
     - Homework 04
 - name: Modern Deep Learning
@@ -1059,7 +1068,7 @@
       link: https://d2l.ai/chapter_reinforcement-learning/index.html
     - name: Panopto
       type: video
-      link: 
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8f436438-4d36-4efd-a213-b2c8015975d5
     - name: Harvard CS50 (1:09:57 - 1:38:24)
       type: video
       link: https://www.youtube.com/watch?v=-g0iJjnO2_w&t=4197s
@@ -1087,8 +1096,11 @@
     - name: Deep RL (Lilian)
       type: blogpost
       link: https://lilianweng.github.io/posts/2018-05-05-drl-implementation/
+    - name: AlphaGo (Karpathy)
+      type: blogpost
+      link: https://karpathy.medium.com/alphago-in-context-c47718cb95a5
   - date: Mon 04/28
-    topics: LLMs and Agents
+    topics: LLMs and Agents (Guest Lecture)
     resources:
     - name: Slides
       type: reading
@@ -1153,6 +1165,9 @@
     - name: Video Diffusion (Lilian)
       type: blogpost
       link: https://lilianweng.github.io/posts/2024-04-12-diffusion-video/
+    - name: Panopto
+      type: video
+      link: https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=234a27fe-5c95-4d40-bffe-b2cf014e66a5
     assignments:
     - Final Practice Packet
     - Homework 05
