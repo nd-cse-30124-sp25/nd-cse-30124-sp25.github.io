@@ -853,6 +853,7 @@
     - Exam 02 Practice Packet
     - Exam 02 Practice Packet Solutions
     - Exam 02
+    - Exam 02 Solutions
 - name: 'Unit 03: Deep Learning'
 - name: Foundations of Deep Learning
   days:
@@ -1178,4 +1179,6 @@
   - date: Tue 05/06
     topics: Final Exam (10:30 AM - 12:30 PM) Fitz 356 (Normal Classroom)
     assignments:
+    - Old Final
+    - Old Final Solutions
     - Final Exam
