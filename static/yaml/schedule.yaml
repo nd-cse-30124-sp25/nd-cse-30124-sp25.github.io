@@ -861,7 +861,7 @@
     resources:
     - name: Slides
       type: reading
-      link: https://docs.google.com/presentation/d/1VwAqIQRYTw_fMUnEQesaB_Fyk44SJJqy/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
+      link: https://drive.google.com/file/d/1jdp1L69UHh7kv6z3KTz0FJbY6N_EIQYl/view?usp=sharing
     - name: FCA - Section 8.4
       type: reading
       link: https://artint.info/3e/html/ArtInt3e.Ch8.S4.html
@@ -918,7 +918,7 @@
     resources:
     - name: Slides
       type: reading
-      link: https://docs.google.com/presentation/d/1PTVKf1WqOO8i0ERlykTnSDb-NdkctqqY/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
+      link: https://drive.google.com/file/d/1h97cXLLKcva9gTkC3WL7-wVbh2OdJLJh/view?usp=sharing
     - name: FCA - Section 8.5 until 8.5.4
       type: reading
       link: https://artint.info/3e/html/ArtInt3e.Ch8.S5.html
@@ -991,7 +991,7 @@
     resources:
     - name: Slides
       type: reading
-      link: https://docs.google.com/presentation/d/1VV1kUnmtvqS_oNtW5t7TWA7s5Hn6hiqU/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
+      link: https://drive.google.com/file/d/16T6BnJRm5sTbzRGhEctIj7EF3o5ifHiq/view?usp=sharing
     - name: FCA - Section 8.5.4
       type: reading
       link: https://artint.info/3e/html/ArtInt3e.Ch8.S5.html
@@ -1001,7 +1001,7 @@
     - name: D2L - Sections 11.1 through 11.6
       type: reading
       link: https://d2l.ai/chapter_attention-mechanisms-and-transformers/index.html
-    - name: Panopto
+    - name: Panopto (forgot)
       type: video
       link: 
     - name: Harvard CS50 (35:40 - 54:15)
@@ -1059,7 +1059,7 @@
     resources:
     - name: Slides
       type: reading
-      link: https://docs.google.com/presentation/d/1Wu-3RVWvVEL5SGmO9R0uMOOQftCRU12f/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true
+      link: https://drive.google.com/file/d/15E0Wr6UGLq63xQIOQwinXEzToc4GXFF7/view?usp=sharing
     - name: FCA - Chapter 13
       type: reading
       link: https://artint.info/3e/html/ArtInt3e.Ch13.html
@@ -1149,7 +1149,7 @@
     resources:
     - name: Slides
       type: reading
-      link: 
+      link: https://drive.google.com/file/d/1dUoJHX22tbD1FUHrBDNzgBGqJDJUO4q4/view?usp=sharing
     - name: FCA - Section 8.6.3
       type: reading
       link: https://artint.info/3e/html/ArtInt3e.Ch8.S6.html
