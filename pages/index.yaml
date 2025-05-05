@@ -244,6 +244,11 @@ body:       |
     <div class="row">
         <div class="page-header">
             <h2 id="schedule"><i class="fa fa-calendar"></i> Schedule</h2>
+            <p>Click on the 
+                <i class="fa-solid fa-circle-info"></i>
+                <i class="fa-solid fa-caret-right"></i>
+                next to a topic for additional resources
+            </p>
         </div>
     </div>
 
